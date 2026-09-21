@@ -1,0 +1,5909 @@
+{
+  "schema": 1,
+  "method": "KiCad pcbnew 10 selected copper UUIDs; only their one-line legacy S-expression records were removed; the staged board was then reloaded with pcbnew before replacement.",
+  "kicad_version": "10.0.6",
+  "board": "GrandMarquis97_RevA.kicad_pcb",
+  "before_sha256": "fe54aa182b15f55491043512974150efe73a000f2408e4228e5f4f956b38c2f5",
+  "after_sha256": "636e2cf7407766c32a939e20df6b4a37c009f943f719e943898db200cba0b8f2",
+  "before": {
+    "tracks_and_vias": 45406,
+    "segments": 43176,
+    "vias": 2230,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190
+  },
+  "findings": {
+    "zero_length_segments": 102,
+    "exact_duplicate_groups_all": 207,
+    "exact_duplicate_extras_all": 208,
+    "nonzero_duplicate_groups_selected": 206,
+    "nonzero_duplicate_extras_selected": 207
+  },
+  "removed_unique_objects": 309,
+  "removed_locked_objects": 0,
+  "after": {
+    "tracks_and_vias": 45097,
+    "segments": 42867,
+    "vias": 2230,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190
+  },
+  "after_zero_length_segments": 0,
+  "after_exact_duplicate_groups": 0,
+  "after_exact_duplicate_extras": 0,
+  "removed": [
+    {
+      "uuid": "1f7ef100-4628-41a2-9efe-85c4f07e8674",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.9,
+        120.3
+      ],
+      "end_mm": [
+        31.8,
+        120.4
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0368822a-62c3-4d13-ac86-62aaf7f1615d"
+    },
+    {
+      "uuid": "2311cc1e-9d81-48ac-9192-2ceed62e18eb",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        66.5,
+        15.9
+      ],
+      "end_mm": [
+        67.9,
+        15.9
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0d959c0e-99db-4995-aa1f-ed8c23a6faf4"
+    },
+    {
+      "uuid": "26165238-2588-44a8-b551-e20628e37ee5",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.8,
+        106.9
+      ],
+      "end_mm": [
+        76.9,
+        107.0
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1166b008-c12c-4da4-ae38-27a50df2648d"
+    },
+    {
+      "uuid": "2a1a9b8a-d3c2-493e-aefe-58a18838e0dd",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.6,
+        65.8
+      ],
+      "end_mm": [
+        49.7,
+        65.7
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "24c7b8d1-beaf-4c34-b62d-d553809832f8"
+    },
+    {
+      "uuid": "2a20b707-bfde-4955-aeae-b2354257dfa2",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        24.1,
+        148.5
+      ],
+      "end_mm": [
+        24.0,
+        148.4
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2374bfed-2782-450d-88b1-8833cfbb8d3e"
+    },
+    {
+      "uuid": "2d944e40-e1ff-4a45-be3d-16b9ca92b5ac",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.9,
+        38.3
+      ],
+      "end_mm": [
+        38.0,
+        38.3
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1135dda9-a384-4641-8cc6-be3c088fd12b"
+    },
+    {
+      "uuid": "34829662-dede-4694-b6ef-6ac7a77c8399",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        99.1,
+        24.7
+      ],
+      "end_mm": [
+        100.7,
+        24.7
+      ],
+      "width_mm": 4.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1a176261-797e-4b86-b7e7-3d63a9b8ecef"
+    },
+    {
+      "uuid": "36b08051-635a-432a-bafb-1e5be1c566c8",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        41.9,
+        79.8
+      ],
+      "end_mm": [
+        42.0,
+        79.7
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "08c7f660-383c-4ae0-9fe8-d5d32e3f71ce"
+    },
+    {
+      "uuid": "37dfa1ac-71c2-4b35-90e4-b0babe869472",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        108.5,
+        27.1
+      ],
+      "end_mm": [
+        108.5,
+        27.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1bf37862-f97f-4b5e-8917-7d522669970e"
+    },
+    {
+      "uuid": "3cd92f87-0ee8-4f33-9516-8c3bbc14dd47",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.1,
+        128.0
+      ],
+      "end_mm": [
+        32.1,
+        127.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "163d80df-830e-4637-84e7-e3905e6acb95"
+    },
+    {
+      "uuid": "3f5d1ca4-b887-4419-b35e-f0a361ebf1ae",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        88.7,
+        39.0
+      ],
+      "end_mm": [
+        88.7,
+        39.1
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "07df2e7b-3d96-4a50-a2ca-6e004988ccba"
+    },
+    {
+      "uuid": "401dcaca-04ec-4c5c-8beb-e4ee64e4c439",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.0,
+        40.9
+      ],
+      "end_mm": [
+        76.9,
+        40.9
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "27582c96-108e-447a-b5b8-2906f9712937"
+    },
+    {
+      "uuid": "40542f7b-c160-41d7-bc0a-7a2ff21a9760",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.6,
+        15.6
+      ],
+      "end_mm": [
+        68.7,
+        15.6
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0705420e-77d0-485c-9796-d659ac1f98fb"
+    },
+    {
+      "uuid": "4343f313-afff-4dc3-9498-85bf8bb2fbdf",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.3,
+        15.7
+      ],
+      "end_mm": [
+        68.5,
+        15.7
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "37bc74c6-8b07-45cf-878f-255cebcfaa73"
+    },
+    {
+      "uuid": "43c90c0f-9e80-481a-bef6-72e44d49c759",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        39.1,
+        37.1
+      ],
+      "end_mm": [
+        39.1,
+        37.0
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0aad28ff-31a2-4098-85b9-d56efb4a6f1d"
+    },
+    {
+      "uuid": "43dd9e8a-a98f-451c-a745-1490e3249770",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        33.0,
+        129.0
+      ],
+      "end_mm": [
+        33.1,
+        129.0
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "424873e3-47ae-4fce-9fac-ab812c885d74"
+    },
+    {
+      "uuid": "45d95ec4-9b9b-4f5a-a030-dcc0bf1706bc",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        76.7,
+        41.0
+      ],
+      "end_mm": [
+        76.6,
+        41.1
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "402c8eed-fac4-4308-ae1a-2a62eb8454db"
+    },
+    {
+      "uuid": "467b7a4b-cbe9-4f82-b249-a4d10f46f996",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.2,
+        40.8
+      ],
+      "end_mm": [
+        77.1,
+        40.8
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2ca5fbf7-e7d4-4d0e-a894-ece076441dbb"
+    },
+    {
+      "uuid": "471f4e4f-1ba0-42f8-a413-51732a49053b",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        108.6,
+        27.0
+      ],
+      "end_mm": [
+        108.5,
+        27.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "05bf7ecc-6de1-4283-97d7-0622780429b9"
+    },
+    {
+      "uuid": "4a4cc959-9c83-4e9b-b6b4-302456499765",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.6,
+        105.6
+      ],
+      "end_mm": [
+        76.6,
+        106.4
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1aa82542-0c5f-488f-8e71-f27c364ad738"
+    },
+    {
+      "uuid": "5165ff68-407d-4a7f-89bc-5619b885a86a",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        36.8,
+        114.8
+      ],
+      "end_mm": [
+        36.8,
+        114.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "30747bc9-535d-4572-b8b3-218542bda60a"
+    },
+    {
+      "uuid": "518a917b-2a61-4e13-8efe-e021ca58f996",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        94.9,
+        43.1
+      ],
+      "end_mm": [
+        94.5,
+        43.1
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5144c8af-0039-4caa-8ae3-f86236d0e241"
+    },
+    {
+      "uuid": "53656655-1746-4284-9d14-872e38847b02",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.8,
+        65.4
+      ],
+      "end_mm": [
+        49.9,
+        65.3
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "30199310-ca31-4147-bb7d-ba8bac016856"
+    },
+    {
+      "uuid": "55c5f00c-a942-42fe-bbd5-69855c90ecd0",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        108.5,
+        27.2
+      ],
+      "end_mm": [
+        108.4,
+        27.3
+      ],
+      "width_mm": 2.0,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4de76868-0225-4f53-af90-746b515b394b"
+    },
+    {
+      "uuid": "560c1375-16f9-4df5-a97b-d014c63ac3bd",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.7,
+        69.8
+      ],
+      "end_mm": [
+        49.7,
+        68.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "06f05409-5b79-4c6f-9ca9-79d47a2673d1"
+    },
+    {
+      "uuid": "561136ba-c245-4324-a5d0-575472d6bd94",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.9,
+        128.9
+      ],
+      "end_mm": [
+        32.8,
+        128.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0048e5d7-4263-4554-b307-51eeaf828f33"
+    },
+    {
+      "uuid": "5c4d7273-94a6-46de-9727-5a3945bac254",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        27.3,
+        148.6
+      ],
+      "end_mm": [
+        27.4,
+        148.5
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2e7ca124-8e06-42c2-8f1e-c83beff616cf"
+    },
+    {
+      "uuid": "5dd158a2-2be6-4447-b9a1-9e222262e2fd",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.9,
+        107.1
+      ],
+      "end_mm": [
+        77.1,
+        107.3
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4c203272-133e-4703-9558-b70aa36ec974"
+    },
+    {
+      "uuid": "5e93f167-27f8-4ff7-a62e-a417f2fd6cf0",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.9,
+        120.2
+      ],
+      "end_mm": [
+        31.9,
+        120.3
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0d02b805-eb11-437f-b9cd-84a6fb66fc88"
+    },
+    {
+      "uuid": "5e9503ac-e126-43dc-8805-fe6cb908bb10",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.0,
+        40.9
+      ],
+      "end_mm": [
+        77.1,
+        40.8
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "05998eed-cf44-4b78-a1f9-784e28eb044c"
+    },
+    {
+      "uuid": "609a7991-3f90-4897-89a9-d3c02b7fe387",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.8,
+        54.1
+      ],
+      "end_mm": [
+        84.8,
+        54.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3a9727a2-6f50-414f-9cd2-5cd2323365cf"
+    },
+    {
+      "uuid": "62f3ef01-8d3d-4028-af21-4d98f9b4303f",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.8,
+        120.5
+      ],
+      "end_mm": [
+        31.8,
+        120.4
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2aa8a00c-05f9-4c87-979c-d6346c4be758"
+    },
+    {
+      "uuid": "638923c1-f665-4ed7-9536-6c0baad02ae4",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.9,
+        65.3
+      ],
+      "end_mm": [
+        49.9,
+        65.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3676592f-90b0-432f-963d-7988c1ebb3c6"
+    },
+    {
+      "uuid": "646cf0a2-1d9e-460f-9778-1afc2a20a41c",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        62.6,
+        15.2
+      ],
+      "end_mm": [
+        62.7,
+        15.3
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "599c1e76-74a3-4591-9eb2-7c26c830f889"
+    },
+    {
+      "uuid": "6473cfc8-d5e1-4684-bdf4-6f4e5ce196b0",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.6,
+        54.5
+      ],
+      "end_mm": [
+        84.6,
+        54.9
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "26e98276-30c4-408d-99b4-f5376b7b8957"
+    },
+    {
+      "uuid": "66bbd129-6d29-4815-ba39-dab4c9aaefb1",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        97.4,
+        26.4
+      ],
+      "end_mm": [
+        99.1,
+        24.7
+      ],
+      "width_mm": 4.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4561c876-ace0-4cb0-96cd-6c417063e85a"
+    },
+    {
+      "uuid": "671323e2-f0dd-475f-8aa0-571a84bd36cf",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        38.2,
+        38.1
+      ],
+      "end_mm": [
+        38.3,
+        38.1
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "31c26420-7b08-439e-9ecf-43aa823b93c8"
+    },
+    {
+      "uuid": "68e05b65-86a5-4594-9028-67c0e36be538",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        42.1,
+        79.5
+      ],
+      "end_mm": [
+        42.1,
+        79.4
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4b512093-2eb5-4e02-8c01-1c2294a80991"
+    },
+    {
+      "uuid": "6b806edd-912a-4119-84d6-e79719c247b1",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.5,
+        38.6
+      ],
+      "end_mm": [
+        37.6,
+        38.5
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "494e6fd2-fcdb-4e5a-bba3-e26c8924354b"
+    },
+    {
+      "uuid": "6e78506b-7dd3-4d79-a6b3-2af9218698fb",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        110.6,
+        32.4
+      ],
+      "end_mm": [
+        110.6075,
+        32.45
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "22af850f-c97e-433b-a77b-971856424596"
+    },
+    {
+      "uuid": "6f051818-6b8c-41d6-899a-0b57cefbce56",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        33.2,
+        129.1
+      ],
+      "end_mm": [
+        33.3,
+        129.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "335de33c-2a8b-41b4-9432-826a48c95b56"
+    },
+    {
+      "uuid": "6f679bef-5d9a-42ce-9315-aafaaa4d0317",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.7,
+        68.2
+      ],
+      "end_mm": [
+        49.6,
+        68.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0b6d5f75-61e4-448d-aadd-7202c1ee9673"
+    },
+    {
+      "uuid": "6fb6c8a8-0b10-43b6-9b7e-ee4ad36a6451",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.5,
+        43.6
+      ],
+      "end_mm": [
+        95.5,
+        43.5
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "40e23090-5e7b-45ba-b8c1-e5924a8fa5e1"
+    },
+    {
+      "uuid": "711a9256-4002-44c0-b03d-dd0f6971a86a",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.6,
+        38.5
+      ],
+      "end_mm": [
+        37.7,
+        38.5
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "680a7f92-9c29-4ab2-bba3-d041741e9fc7"
+    },
+    {
+      "uuid": "7156d2aa-47b7-4f57-a9d5-a783bde8015d",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.1,
+        43.2
+      ],
+      "end_mm": [
+        95.0,
+        43.2
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "005f2d3a-f516-45be-be98-a2a1ef87a32c"
+    },
+    {
+      "uuid": "71b0aacb-aeb4-4b67-89cf-eb24e907a58f",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        65.4,
+        15.4
+      ],
+      "end_mm": [
+        65.5,
+        15.4
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "48ff6096-46a7-4922-9bc1-f06dc81a157c"
+    },
+    {
+      "uuid": "71b13cc2-7e91-462d-9618-b5ecc863318c",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.9,
+        147.9
+      ],
+      "end_mm": [
+        22.8,
+        147.9
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "47d1e8af-7a59-4dfb-8aed-17dc88bad864"
+    },
+    {
+      "uuid": "722a0916-0b4b-4241-8cc2-06af1de2fc2f",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        77.1,
+        104.7
+      ],
+      "end_mm": [
+        76.9,
+        104.9
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1a7efb6a-d476-46c4-8ddb-b5a6228086f2"
+    },
+    {
+      "uuid": "72435676-7422-4442-8506-72c1b3fb4155",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.5,
+        43.5
+      ],
+      "end_mm": [
+        95.3,
+        43.3
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "08fa3169-811c-4f06-80f0-20bec98daa96"
+    },
+    {
+      "uuid": "72d36b23-d755-4dee-aef7-d74fb2405bf9",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        24.4,
+        148.5
+      ],
+      "end_mm": [
+        24.5,
+        148.6
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "40dce6c8-824a-47d1-97d6-cc7721767375"
+    },
+    {
+      "uuid": "73eeea6a-f0b3-47d4-ab0d-ddfd67f41fc6",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        36.9,
+        114.6
+      ],
+      "end_mm": [
+        37.2,
+        114.3
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4d37b248-0a8f-4474-9483-b19b1a78e19f"
+    },
+    {
+      "uuid": "77a5872b-a564-4da8-aa10-93a5dba45521",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        24.4,
+        148.5
+      ],
+      "end_mm": [
+        24.1,
+        148.5
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "163b927a-cbd3-47b6-8aad-18d784e201ea"
+    },
+    {
+      "uuid": "78fd3e89-0b25-4efb-bea1-5f8838c580b5",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.8,
+        65.5
+      ],
+      "end_mm": [
+        49.8,
+        65.4
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "03495f5c-6d52-45c3-968b-4bb6ff80f813"
+    },
+    {
+      "uuid": "7b7ac767-6d38-4a12-b2b9-19ec35ffb26b",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.0,
+        127.8
+      ],
+      "end_mm": [
+        32.0,
+        126.6
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "35577616-28d2-4249-b483-224dbe4847fa"
+    },
+    {
+      "uuid": "7b8ca455-23fa-47dd-afed-601f84fc444f",
+      "kind": "segment",
+      "net_code": 44,
+      "net": "CASE_GND",
+      "locked": false,
+      "start_mm": [
+        114.7,
+        31.7
+      ],
+      "end_mm": [
+        114.8,
+        31.8
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2cb6c883-9c7c-4eb3-8012-0492bd9ac25f"
+    },
+    {
+      "uuid": "7be8b2e9-1515-43b4-ba8b-174c7d9316d7",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        36.7,
+        38.9
+      ],
+      "end_mm": [
+        36.8,
+        38.8
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3e45ab65-fc7d-4613-b05f-f1c861c71c25"
+    },
+    {
+      "uuid": "7ce73bab-164c-4dd6-9747-9910eada63fa",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.3,
+        128.4
+      ],
+      "end_mm": [
+        32.8,
+        128.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4b9925df-be6e-442a-8c12-23840d79cd1f"
+    },
+    {
+      "uuid": "7cf6c918-648e-4f09-aabd-a2a5e427c47b",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.7,
+        105.3
+      ],
+      "end_mm": [
+        76.7,
+        105.5
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "6471fe42-e6d5-4c7b-93ad-17913cbe0aed"
+    },
+    {
+      "uuid": "7d6776cf-0f90-40e9-9281-82a350f8f8c6",
+      "kind": "segment",
+      "net_code": 91,
+      "net": "INJECTOR_5",
+      "locked": false,
+      "start_mm": [
+        106.0,
+        18.0
+      ],
+      "end_mm": [
+        106.0,
+        16.0
+      ],
+      "width_mm": 2.0,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0712cfe8-4cbf-4847-8971-661089562f93"
+    },
+    {
+      "uuid": "7eba1680-8cd5-4716-a682-a0585efe4fdd",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        38.0,
+        38.3
+      ],
+      "end_mm": [
+        38.2,
+        38.1
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "08e2bec9-1b29-43aa-aacb-eafe660bd97c"
+    },
+    {
+      "uuid": "7f6e57c8-84c0-426f-9765-3efc0d9a6f95",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.3,
+        40.7
+      ],
+      "end_mm": [
+        77.4,
+        40.7
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "625ee081-4dd5-4e83-916c-c1fd43e8ea86"
+    },
+    {
+      "uuid": "81689804-726e-4ef2-94f5-c487f074d9d2",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        27.3,
+        148.6
+      ],
+      "end_mm": [
+        24.5,
+        148.6
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4d050538-9212-468c-8c20-c53ace8ec260"
+    },
+    {
+      "uuid": "82a97c7a-a05c-4fa5-81fc-c53ef35e9090",
+      "kind": "segment",
+      "net_code": 44,
+      "net": "CASE_GND",
+      "locked": false,
+      "start_mm": [
+        114.8,
+        31.9
+      ],
+      "end_mm": [
+        114.8,
+        31.8
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "307803b3-0842-4dab-9014-f1ae27a5e76d"
+    },
+    {
+      "uuid": "8532b0fb-47b0-4d26-9b8f-4eaa426643c4",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.6,
+        43.7
+      ],
+      "end_mm": [
+        95.5,
+        43.6
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4f0656e8-87af-4cc4-999d-6bc3d9cef355"
+    },
+    {
+      "uuid": "85933572-4a23-4fb8-b23e-daeb8a8a8898",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.7,
+        65.6
+      ],
+      "end_mm": [
+        49.8,
+        65.5
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "177679a9-1bae-4bdb-88cb-ac71a948477a"
+    },
+    {
+      "uuid": "8667405c-befb-437e-9ed7-2bc48a5e3138",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.7,
+        126.0
+      ],
+      "end_mm": [
+        31.6,
+        125.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "53c5bae3-604f-427e-a550-d09c0f0532cc"
+    },
+    {
+      "uuid": "874d8c00-02ca-4ad3-bd16-e800ef2f5bf9",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.7,
+        54.4
+      ],
+      "end_mm": [
+        84.6,
+        54.5
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0bbfc4d9-544c-4838-b006-a01c39c30fe2"
+    },
+    {
+      "uuid": "876f7bc0-deef-442f-bdcf-fdf576780428",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.7,
+        120.6
+      ],
+      "end_mm": [
+        31.8,
+        120.5
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "080710bd-3e45-4174-a84a-fe285de04347"
+    },
+    {
+      "uuid": "899e0fcd-c7e2-4757-b356-1c33468824f5",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        38.9,
+        37.3
+      ],
+      "end_mm": [
+        39.1,
+        37.1
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "814acade-c85f-4d86-b718-2e52ebee57a0"
+    },
+    {
+      "uuid": "8c17010e-9272-4b75-b300-2f71e205d9ee",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.9,
+        30.8
+      ],
+      "end_mm": [
+        22.8,
+        30.7
+      ],
+      "width_mm": 1.2,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "577207d3-3bff-4796-b024-059fa45f48f1"
+    },
+    {
+      "uuid": "8d75df34-ba9c-41e6-8437-7001c94fc241",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        87.3,
+        35.8
+      ],
+      "end_mm": [
+        89.2,
+        33.9
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "22f42232-5968-48f0-8944-bf5d2e4e5d8c"
+    },
+    {
+      "uuid": "8d8bb579-5eef-44e8-a11d-be8a3b6aff54",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.1,
+        38.8
+      ],
+      "end_mm": [
+        37.2,
+        38.7
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "706edfb3-24f6-43c5-a119-14cfc0692a59"
+    },
+    {
+      "uuid": "8ea29c14-3e90-4243-a4a4-bbab5b4e0817",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.7,
+        105.5
+      ],
+      "end_mm": [
+        76.6,
+        105.6
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3ba32c8f-3818-4815-9250-ca891a37bf40"
+    },
+    {
+      "uuid": "8ee9b65f-e2b5-47b4-abb6-86773e8f6bd4",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        42.1,
+        79.4
+      ],
+      "end_mm": [
+        42.2,
+        79.3
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "714d8a0a-4d15-4a38-b3f2-dcf91e8a47df"
+    },
+    {
+      "uuid": "8fa78d19-f8d5-4576-9053-d9c3d42c7ab0",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        38.3,
+        38.1
+      ],
+      "end_mm": [
+        38.8,
+        37.6
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "56c8cf81-59e5-401a-99ae-b4329a566ea0"
+    },
+    {
+      "uuid": "9039d8c9-d78f-46dd-9267-3901c527fcfa",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        42.0,
+        79.6
+      ],
+      "end_mm": [
+        42.1,
+        79.5
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4902dc4f-334c-4ae5-a9f4-79e0d4316b5c"
+    },
+    {
+      "uuid": "905bf47c-d62c-4299-83f0-aad44b5da10d",
+      "kind": "segment",
+      "net_code": 79,
+      "net": "FUEL_PUMP_CONTROL",
+      "locked": false,
+      "start_mm": [
+        35.8,
+        31.7
+      ],
+      "end_mm": [
+        35.5,
+        31.7
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "81ef4444-dc43-4fbf-bada-e08fe72bd33d"
+    },
+    {
+      "uuid": "971c7d3b-000d-4f8a-8b36-539decadb2c5",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        39.1,
+        37.0
+      ],
+      "end_mm": [
+        40.2,
+        35.9
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5bc9a490-90ef-43af-bc3e-bdbba15668d0"
+    },
+    {
+      "uuid": "97fd21e6-221c-4c0e-88dc-c9dbb72c021b",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        66.1,
+        15.7
+      ],
+      "end_mm": [
+        66.2,
+        15.8
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "78569354-431c-464e-b27a-7a81e725fd15"
+    },
+    {
+      "uuid": "9d566989-d9c3-42c5-854e-f62660c9bb51",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.9,
+        107.0
+      ],
+      "end_mm": [
+        76.9,
+        107.1
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1334ede1-fa32-4ec0-9b18-95b43ff6a8fc"
+    },
+    {
+      "uuid": "9e315a82-ce91-459b-83e1-fa146aeb1c80",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        23.3,
+        148.2
+      ],
+      "end_mm": [
+        23.2,
+        148.1
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "7e01f665-d35b-4e2c-903f-63fb3e8bb1c6"
+    },
+    {
+      "uuid": "9e785da2-b5de-42f9-ad15-f56f8faf8895",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.7,
+        40.5
+      ],
+      "end_mm": [
+        77.6,
+        40.5
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "6377639c-ba78-4f6d-98d6-54712f5693c5"
+    },
+    {
+      "uuid": "9edde57e-a73b-4ed6-967e-a4a2eecc407a",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        38.9,
+        37.4
+      ],
+      "end_mm": [
+        38.9,
+        37.3
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "21a91ab2-88b2-4939-8554-1573a0fa76c4"
+    },
+    {
+      "uuid": "9f7f4413-07d3-4545-a3fb-98430f030792",
+      "kind": "segment",
+      "net_code": 179,
+      "net": "VREF_5",
+      "locked": false,
+      "start_mm": [
+        84.6,
+        22.0
+      ],
+      "end_mm": [
+        84.7,
+        22.1
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "81195484-d4d5-4ba9-afbf-acd6f24f5e54"
+    },
+    {
+      "uuid": "a23b8828-e7ff-489d-92e5-b961bbfd80ab",
+      "kind": "segment",
+      "net_code": 172,
+      "net": "TRANS_SS1",
+      "locked": false,
+      "start_mm": [
+        48.3,
+        129.8
+      ],
+      "end_mm": [
+        48.4,
+        129.9
+      ],
+      "width_mm": 1.2,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "a0cd20db-deb8-4e4d-a176-4f5f4ff6518b"
+    },
+    {
+      "uuid": "a3aef54a-3a52-4e74-a16f-df280704596b",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.3,
+        128.3
+      ],
+      "end_mm": [
+        32.3,
+        128.4
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "7f33ff99-9a12-4f7f-ba7c-241e0b049da2"
+    },
+    {
+      "uuid": "a3e964a9-5011-40f8-a2e8-d21dfbe398b2",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.2,
+        128.2
+      ],
+      "end_mm": [
+        32.3,
+        128.3
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "8f78161c-ee5d-4fd4-a411-de3ab08517bb"
+    },
+    {
+      "uuid": "a42ad3e8-d286-4789-ba1f-12c4b5ac18bc",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        67.9,
+        15.9
+      ],
+      "end_mm": [
+        68.0,
+        15.8
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "398859e0-3fa0-41f1-bc67-3985bdaf3e5a"
+    },
+    {
+      "uuid": "a4ca4780-b437-4b50-a9e1-762cf90ed483",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.5,
+        15.7
+      ],
+      "end_mm": [
+        68.6,
+        15.6
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4be00ecc-da72-4390-a032-d93c0700b02c"
+    },
+    {
+      "uuid": "a6fdec56-688f-453e-aed4-ed31d07bb8a2",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.8,
+        30.1
+      ],
+      "end_mm": [
+        22.9,
+        30.0
+      ],
+      "width_mm": 1.2,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "a4f6a522-ae5a-4366-94ca-7ae66f283e9d"
+    },
+    {
+      "uuid": "a79bde9c-9e92-4107-a60a-dc82e063fd85",
+      "kind": "segment",
+      "net_code": 172,
+      "net": "TRANS_SS1",
+      "locked": false,
+      "start_mm": [
+        48.4,
+        129.9
+      ],
+      "end_mm": [
+        48.4,
+        130.1
+      ],
+      "width_mm": 1.2,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "16e51aad-9096-47e0-a40f-47a7eddc2db4"
+    },
+    {
+      "uuid": "a8ca1ca6-74c5-48e7-908a-cc18833cb8cd",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.8,
+        126.2
+      ],
+      "end_mm": [
+        31.8,
+        126.3
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "032b8661-cc3f-4d3c-b388-fae7c720a0e8"
+    },
+    {
+      "uuid": "ac46d3f4-683d-4021-9174-1620833f35ee",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        34.4,
+        129.1
+      ],
+      "end_mm": [
+        34.5,
+        129.0
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2e7ca1b2-fbdc-4a1a-bcd0-ee0e0f996f24"
+    },
+    {
+      "uuid": "aeef178a-2eea-41b4-a703-e860fab19c12",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.8,
+        106.8
+      ],
+      "end_mm": [
+        76.8,
+        106.9
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "30e0f703-690c-42f3-8568-01290b356adf"
+    },
+    {
+      "uuid": "b1bdfbe3-a682-42c9-a1a3-5d1dabfced06",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        65.8,
+        15.6
+      ],
+      "end_mm": [
+        65.9,
+        15.6
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2ef99b36-8420-4c83-9776-ff82c8372da0"
+    },
+    {
+      "uuid": "b1bfc20f-83bd-4f8d-b3bf-12c312a0d61c",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        65.5,
+        15.4
+      ],
+      "end_mm": [
+        65.6,
+        15.5
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "9c20412c-b9f1-456a-b468-1240f08138d9"
+    },
+    {
+      "uuid": "b2858374-3be7-41a3-b07c-239f80395ee9",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.3,
+        38.7
+      ],
+      "end_mm": [
+        37.4,
+        38.6
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "65aedfc9-a792-44d5-bbdb-f76d71b1e9dc"
+    },
+    {
+      "uuid": "b2edc435-68f2-49f0-8c01-15095d1a7318",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.6,
+        43.8
+      ],
+      "end_mm": [
+        95.6,
+        43.7
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "96b4ba5d-af32-49e7-8073-0574ff91d772"
+    },
+    {
+      "uuid": "b321091b-fb46-4ec2-9504-31555887d73d",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        78.0,
+        40.2
+      ],
+      "end_mm": [
+        79.0,
+        40.2
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "775b0ff2-091e-4c08-9e22-f5778227efad"
+    },
+    {
+      "uuid": "b5fa8507-1a12-4fc5-9367-19d9b5dd2184",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.9,
+        31.0
+      ],
+      "end_mm": [
+        22.9,
+        30.8
+      ],
+      "width_mm": 1.2,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "268c6bb5-2c8b-409f-9aa3-afc4b559f0b7"
+    },
+    {
+      "uuid": "b70acfab-5ada-4d7e-afa8-772f6ffee15a",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        62.7,
+        15.3
+      ],
+      "end_mm": [
+        65.3,
+        15.3
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "abeef2a8-1e43-424c-a7b3-6fba6460b562"
+    },
+    {
+      "uuid": "b771d613-7b0a-4555-be4d-9185c22540b8",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        36.9,
+        114.7
+      ],
+      "end_mm": [
+        36.9,
+        114.6
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "6bbdfce7-2b2f-4d5a-ab03-7496bf2b6df8"
+    },
+    {
+      "uuid": "b7ffc68c-8cbb-424d-9f3e-7428de23c26f",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        76.9,
+        40.9
+      ],
+      "end_mm": [
+        76.8,
+        41.0
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0a348833-7c41-4278-b968-ba8b879ca1f7"
+    },
+    {
+      "uuid": "b89bc531-f629-4ba3-87c3-3c32521da606",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        108.4,
+        27.4
+      ],
+      "end_mm": [
+        108.3,
+        27.5
+      ],
+      "width_mm": 2.0,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5e437631-edee-4ed6-83b6-9637b2331894"
+    },
+    {
+      "uuid": "b8c67415-85cc-431e-8648-66f8db355fca",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.7,
+        43.9
+      ],
+      "end_mm": [
+        95.6,
+        43.8
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "88681735-a27e-4789-8904-e1d14b8406bf"
+    },
+    {
+      "uuid": "b94b1365-9226-45ce-b1cd-75b5962ec907",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        79.1,
+        40.1
+      ],
+      "end_mm": [
+        79.0,
+        40.2
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "7a38af44-dfd7-4d05-972a-c16d049a6307"
+    },
+    {
+      "uuid": "b9743202-8e6b-4101-818b-c1e63c67c125",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        34.2,
+        129.2
+      ],
+      "end_mm": [
+        33.4,
+        129.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "04f6da53-5d10-4cc7-9f86-dc6b77d81ef7"
+    },
+    {
+      "uuid": "ba1ccda5-081b-4fcd-ba12-6686a20c0770",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.8,
+        15.5
+      ],
+      "end_mm": [
+        68.9,
+        15.5
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4f4088c6-cae0-4cca-9280-9cfcb1eefaef"
+    },
+    {
+      "uuid": "bb7ad4e9-186d-4a37-bc06-0e3b50b5e152",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.0,
+        120.1
+      ],
+      "end_mm": [
+        31.9,
+        120.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "225ab8bb-8b64-4d7b-a08f-2b6575ea7499"
+    },
+    {
+      "uuid": "bc3ab43c-4c38-4765-8227-9148c4dc1d46",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        23.8,
+        148.4
+      ],
+      "end_mm": [
+        24.0,
+        148.4
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "241b2d4e-e7d3-4db4-a6ba-61795a2f81b2"
+    },
+    {
+      "uuid": "bcd01cab-0e92-4645-ac63-618544f64ea6",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        65.6,
+        15.5
+      ],
+      "end_mm": [
+        65.7,
+        15.5
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "786ecf1c-f25d-4331-b467-0539689d92e2"
+    },
+    {
+      "uuid": "bd1e332d-2df0-48fe-b25b-0ee77fa6cb6b",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        70.0,
+        14.5
+      ],
+      "end_mm": [
+        70.0,
+        14.4
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "85a4d9a4-3fbc-4b8d-a8ce-62e6bb6bc716"
+    },
+    {
+      "uuid": "bdc59288-7aeb-4e59-8a72-5f878070a487",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.9,
+        15.5
+      ],
+      "end_mm": [
+        69.0,
+        15.4
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1358c642-0f32-4a50-98a9-5573058ad7c8"
+    },
+    {
+      "uuid": "bff41160-7f0c-4594-bb68-446a10cdba56",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        89.17,
+        33.948
+      ],
+      "end_mm": [
+        89.2,
+        33.9
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "264b6bf9-648d-4bed-ae22-8c6b2816204c"
+    },
+    {
+      "uuid": "c22454d8-a9c5-4f2e-ad6e-f67a19dbbe09",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.7,
+        54.3
+      ],
+      "end_mm": [
+        84.7,
+        54.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "98a43934-80ec-4cc8-8ef4-862fd82067bf"
+    },
+    {
+      "uuid": "c23d4811-2703-46a4-b859-ed08c181451b",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        75.5,
+        41.2
+      ],
+      "end_mm": [
+        76.3,
+        41.2
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "b0f7cadb-5f6e-4aa6-9f18-3b820527e3a4"
+    },
+    {
+      "uuid": "c29f53b2-66f3-4d57-9db0-4785f8f7ece4",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        42.0,
+        79.7
+      ],
+      "end_mm": [
+        42.0,
+        79.6
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "8f3f839c-0cdf-4bca-80b2-ccfeeb7e6217"
+    },
+    {
+      "uuid": "c2cf2edd-29c2-410a-80fe-4ac58b08fbe7",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.2,
+        38.7
+      ],
+      "end_mm": [
+        37.3,
+        38.7
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1723bfc7-a37c-4104-ab90-458e465d80fc"
+    },
+    {
+      "uuid": "c383f9ac-2a6a-47a7-8310-34958f480181",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        36.9,
+        114.7
+      ],
+      "end_mm": [
+        36.8,
+        114.8
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "722deae7-1694-4c54-9e45-f57f6fb7affa"
+    },
+    {
+      "uuid": "c4381e18-4cbd-4d21-b5f4-37ac2f0dfef2",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        87.3,
+        35.8
+      ],
+      "end_mm": [
+        83.6,
+        35.8
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "aaace776-60e8-47dd-b37b-fb661c5e596d"
+    },
+    {
+      "uuid": "c641e9ca-6f8a-4977-834e-8fb57aac42ac",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        76.4,
+        41.1
+      ],
+      "end_mm": [
+        76.3,
+        41.2
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "21a87c6c-1238-42b0-bf72-ff38a46fade6"
+    },
+    {
+      "uuid": "c7f29872-2032-49a1-a29e-352a0d5247f3",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.1,
+        127.9
+      ],
+      "end_mm": [
+        32.0,
+        127.8
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "6369dd55-4054-4636-9950-6ec6843c0487"
+    },
+    {
+      "uuid": "c8fc81db-cb7b-4091-9c23-7a7462edc1be",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.2,
+        43.3
+      ],
+      "end_mm": [
+        95.1,
+        43.2
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "bbb90876-1d9f-400d-95ce-9df70b95bad0"
+    },
+    {
+      "uuid": "c9153103-81a7-423c-b87d-f3326dd23454",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        94.3,
+        43.2
+      ],
+      "end_mm": [
+        94.2,
+        43.3
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3d3085f2-6098-485f-bf42-0dd376d1a535"
+    },
+    {
+      "uuid": "c95143a6-44d7-4f05-99be-9931f3cc1986",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.5,
+        147.7
+      ],
+      "end_mm": [
+        22.6,
+        147.7
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "14daa8a6-6a4b-4641-8fed-dffe44086b79"
+    },
+    {
+      "uuid": "c9bb9322-76ef-4e49-b413-68c51c9a6728",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        79.3,
+        40.1
+      ],
+      "end_mm": [
+        79.1,
+        40.1
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5752f31f-c71a-4bcb-9eae-a1304da9e8c9"
+    },
+    {
+      "uuid": "c9d6b903-da33-47a7-8372-737ea30119ce",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        34.3,
+        129.1
+      ],
+      "end_mm": [
+        34.2,
+        129.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "7584b98f-329b-41fa-b27c-4d3dde37384b"
+    },
+    {
+      "uuid": "cbb6cb1f-d727-49b4-8bba-1849b3c3b1b7",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.7,
+        55.0
+      ],
+      "end_mm": [
+        84.7,
+        55.1
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "577f2f9f-eb0e-4393-b0d9-629f81315eb1"
+    },
+    {
+      "uuid": "cc44fb48-69e1-4dc1-997c-0b142fb8b9f6",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        94.5,
+        43.1
+      ],
+      "end_mm": [
+        94.4,
+        43.2
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "075c8774-284a-4954-a6fc-59e99e006049"
+    },
+    {
+      "uuid": "cc780aab-b173-4c98-9bed-4c8765ec1dff",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        94.4,
+        43.2
+      ],
+      "end_mm": [
+        94.3,
+        43.2
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "696c87c7-cc24-48b4-aad9-5818c4f9060b"
+    },
+    {
+      "uuid": "cd757584-196d-4105-bbba-57023f26e993",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.7,
+        126.0
+      ],
+      "end_mm": [
+        31.7,
+        126.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "89303f01-f09d-4132-b001-d94647e14172"
+    },
+    {
+      "uuid": "cd8c06e9-6c41-4c67-9740-843722ac5e68",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.7,
+        40.5
+      ],
+      "end_mm": [
+        78.0,
+        40.2
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "b43df8b4-9cf3-4de8-bdf4-328e22dc3339"
+    },
+    {
+      "uuid": "cdafdfb0-afc5-4170-8c23-8a69d7cab167",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        110.6075,
+        32.45
+      ],
+      "end_mm": [
+        110.6,
+        32.4
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "22af850f-c97e-433b-a77b-971856424596"
+    },
+    {
+      "uuid": "ce05bd54-9195-4fca-833c-f3c66a5a9ccf",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.8,
+        54.2
+      ],
+      "end_mm": [
+        84.7,
+        54.3
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "50d28e7f-bbcb-4cdf-a8da-4bdc9e11dfa2"
+    },
+    {
+      "uuid": "cf1ac50f-e833-4209-9b6e-6a1fd4679d70",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.7,
+        123.8
+      ],
+      "end_mm": [
+        31.6,
+        123.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3fbbd95a-f72c-4d17-8474-dbc8e23478fc"
+    },
+    {
+      "uuid": "d023a70f-4c5a-4207-b317-161da3992b64",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.9,
+        128.9
+      ],
+      "end_mm": [
+        33.0,
+        129.0
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "14fcf2fb-baa0-4700-976f-a5e5c0b813d2"
+    },
+    {
+      "uuid": "d033b8bc-1fdc-4f5e-9443-5c1d44effcec",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.8,
+        126.3
+      ],
+      "end_mm": [
+        31.9,
+        126.4
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "c9a031a4-8eb2-4f51-9d28-c076908b39f0"
+    },
+    {
+      "uuid": "d0d4ee75-240d-4d29-967d-16d117859c01",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.7,
+        55.1
+      ],
+      "end_mm": [
+        84.8,
+        55.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "30f21501-4abb-408a-9257-ed048ec30203"
+    },
+    {
+      "uuid": "d106c523-350c-42b7-91e1-14d200318d77",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.7,
+        38.5
+      ],
+      "end_mm": [
+        37.9,
+        38.3
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3cec1306-5c72-4ac8-824f-86438a2e9ee6"
+    },
+    {
+      "uuid": "d117fac1-6deb-4f23-b040-dc298203b5a2",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.8,
+        71.6
+      ],
+      "end_mm": [
+        49.8,
+        69.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1a07f855-7d35-4e6c-83dd-33aa58e2909e"
+    },
+    {
+      "uuid": "d1ec509b-fe82-4780-be73-2df5ae042c8f",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        44.5,
+        121.2
+      ],
+      "end_mm": [
+        44.5,
+        119.7
+      ],
+      "width_mm": 4.0,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "a6a923f1-a698-4577-aded-0e2ac06b55bc"
+    },
+    {
+      "uuid": "d46c0337-8160-4496-94e0-b3f3885de536",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.9,
+        126.4
+      ],
+      "end_mm": [
+        31.9,
+        126.5
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "99e34bab-14b9-41cd-8bcd-464ca4f10ede"
+    },
+    {
+      "uuid": "d6d15eb6-d8d8-4814-88f3-93f835c7e7b6",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        33.2,
+        129.1
+      ],
+      "end_mm": [
+        33.1,
+        129.0
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "d4478c48-7c20-40cf-be37-b5e3e8366d46"
+    },
+    {
+      "uuid": "d6e4a680-ac1d-45b6-81b9-37e7867990c8",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.4,
+        40.7
+      ],
+      "end_mm": [
+        77.6,
+        40.5
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "b0db4a8b-5f84-40d9-b572-a2de089c2c08"
+    },
+    {
+      "uuid": "d7bde6a0-c01f-44c5-abb8-d0b5a0744f17",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        65.3,
+        15.3
+      ],
+      "end_mm": [
+        65.4,
+        15.4
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "386def47-0cc7-460a-b658-b226db6efdd4"
+    },
+    {
+      "uuid": "d7f9bf6a-854e-4b23-847e-020ee2a90c55",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.9,
+        105.0
+      ],
+      "end_mm": [
+        76.8,
+        105.1
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "93aab421-18ea-431e-b467-2291d43701c6"
+    },
+    {
+      "uuid": "d8a51657-9cc7-4f29-a954-c9fb7570ffe0",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.3,
+        43.3
+      ],
+      "end_mm": [
+        95.2,
+        43.3
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "999122c3-ddcd-4b15-a85a-a5599cef6923"
+    },
+    {
+      "uuid": "d8bb65cf-5ea2-4c52-92a9-60ffe4274b8b",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.7,
+        65.7
+      ],
+      "end_mm": [
+        49.7,
+        65.6
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "85d04a3c-b569-4bd2-a989-0cf557b6f604"
+    },
+    {
+      "uuid": "d927b391-53f6-4c29-b688-c29b55b2b844",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        37.4,
+        38.6
+      ],
+      "end_mm": [
+        37.5,
+        38.6
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3d815414-1047-4776-aa2b-66f20cf1f656"
+    },
+    {
+      "uuid": "d9e859ce-4498-4003-af15-f0fd47683403",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        77.2,
+        40.8
+      ],
+      "end_mm": [
+        77.3,
+        40.7
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "39408e5a-672e-4559-8a4e-f6a35f3d40ab"
+    },
+    {
+      "uuid": "dadf0315-c05f-4352-a3fc-8ce55cbca6cf",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.7,
+        106.7
+      ],
+      "end_mm": [
+        76.8,
+        106.8
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "6fd87b11-7936-4401-8f00-774a662f1b48"
+    },
+    {
+      "uuid": "daea9a44-baf2-49fd-a62e-d76919f14203",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        33.3,
+        129.1
+      ],
+      "end_mm": [
+        33.4,
+        129.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5c360311-ef36-45d0-940d-629617ce9457"
+    },
+    {
+      "uuid": "dbbddd28-8ef9-4226-8cb5-5cd3fd837ad6",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        23.8,
+        148.4
+      ],
+      "end_mm": [
+        23.7,
+        148.3
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "7c612840-6f67-4923-a709-c3ec1a6be8f2"
+    },
+    {
+      "uuid": "dc069ac4-5faa-4259-ab7d-8cbc3e768f79",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.8,
+        30.7
+      ],
+      "end_mm": [
+        22.8,
+        30.1
+      ],
+      "width_mm": 1.2,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "b640b9c6-49d1-4343-9dfa-e5b7fad13076"
+    },
+    {
+      "uuid": "dcab76be-e8ae-44b8-830c-d58ef17d2a30",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        44.5,
+        121.2
+      ],
+      "end_mm": [
+        44.4,
+        121.3
+      ],
+      "width_mm": 4.0,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2bf40187-d6f6-4e63-a8e0-92e78ff04a70"
+    },
+    {
+      "uuid": "dcf682f9-41c9-4d52-aaa5-ea7b4d79934d",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        84.6,
+        54.9
+      ],
+      "end_mm": [
+        84.7,
+        55.0
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "24e397f7-1342-489b-a5fa-2ed562c684e4"
+    },
+    {
+      "uuid": "ddfe80a0-0254-4d36-beca-35adfc4be5b0",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        23.3,
+        148.2
+      ],
+      "end_mm": [
+        23.4,
+        148.2
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "42026682-efbd-46ea-bceb-939cb2e10c1e"
+    },
+    {
+      "uuid": "de89a1b1-0bf1-42a6-b488-ba234552d391",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        23.1,
+        148.1
+      ],
+      "end_mm": [
+        23.2,
+        148.1
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "d9883d6c-33d5-4d37-9950-295cebb3c273"
+    },
+    {
+      "uuid": "dee98b0c-093b-40d8-9ef6-1082fb5c10d1",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        66.2,
+        15.8
+      ],
+      "end_mm": [
+        66.4,
+        15.8
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "74712352-3f71-4c7b-9731-9e949164710d"
+    },
+    {
+      "uuid": "def09820-43f0-4f4d-b227-9c288db02d90",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.8,
+        69.9
+      ],
+      "end_mm": [
+        49.7,
+        69.8
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2153afbe-ba8d-4c14-8ad1-8657dfd6cd2b"
+    },
+    {
+      "uuid": "df1e75a9-6794-4bc2-9659-3d4c73d256a3",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.7,
+        15.6
+      ],
+      "end_mm": [
+        68.8,
+        15.5
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "c8ed1382-3fe9-43b5-89f1-012f9383e632"
+    },
+    {
+      "uuid": "e1bfc14f-0a9b-4446-b7aa-29f6ee22ca4f",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        41.2,
+        57.8
+      ],
+      "end_mm": [
+        41.2,
+        57.3
+      ],
+      "width_mm": 4.0,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "dc666e2c-638d-4e64-abc3-c044fa2352ad"
+    },
+    {
+      "uuid": "e1ff6648-2d25-4b35-9bb7-433e753f79c7",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.6,
+        125.9
+      ],
+      "end_mm": [
+        31.6,
+        123.9
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3b6a757c-9fe1-462e-a096-6685746225a1"
+    },
+    {
+      "uuid": "e21a3261-f005-4690-9916-fad3b88ffff0",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.7,
+        106.5
+      ],
+      "end_mm": [
+        76.7,
+        106.7
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "494f260a-4464-4665-be08-bb0f4dad2973"
+    },
+    {
+      "uuid": "e2688460-519e-489b-a595-c12e83e92051",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        77.1,
+        107.3
+      ],
+      "end_mm": [
+        77.1,
+        107.4
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "4395e919-c12d-4c94-a1a3-32ac08cf4849"
+    },
+    {
+      "uuid": "e280d69f-d64c-45f5-8fb4-57235299f68a",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        108.4,
+        27.3
+      ],
+      "end_mm": [
+        108.4,
+        27.4
+      ],
+      "width_mm": 2.0,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "459380ea-5268-4e9b-a8bd-2448d20e855b"
+    },
+    {
+      "uuid": "e3588cc1-c678-45d4-bc6b-a9cf78fd9a08",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        65.7,
+        15.5
+      ],
+      "end_mm": [
+        65.8,
+        15.6
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "cce17344-8081-41a3-93b7-9c7426cb8cc4"
+    },
+    {
+      "uuid": "e3dbf0cb-5e62-4793-972f-e59bfc54312e",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        62.4,
+        15.2
+      ],
+      "end_mm": [
+        62.6,
+        15.2
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "79910cb9-e657-43dd-a592-62bcd67de317"
+    },
+    {
+      "uuid": "e3fa0da3-b73a-4ee7-9c6f-8277f4d12300",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.8,
+        105.1
+      ],
+      "end_mm": [
+        76.8,
+        105.2
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "11b17bdb-4b19-4e93-9899-75652d92a74f"
+    },
+    {
+      "uuid": "e504e425-d63a-4a30-bb37-c0176ad84c15",
+      "kind": "segment",
+      "net_code": 89,
+      "net": "INJECTOR_3",
+      "locked": false,
+      "start_mm": [
+        117.4,
+        24.7
+      ],
+      "end_mm": [
+        117.4,
+        24.8
+      ],
+      "width_mm": 2.0,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "9ae74930-2d22-42b6-a4a9-f30d3d9eb307"
+    },
+    {
+      "uuid": "e5a2e7ae-e834-4d8a-850d-fdeb00f59a28",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        76.8,
+        41.0
+      ],
+      "end_mm": [
+        76.7,
+        41.0
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "c76a76e1-6df0-4e60-ad70-1d17c5c5570f"
+    },
+    {
+      "uuid": "e680446b-57cb-471d-a262-5b48778d146e",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.0,
+        15.8
+      ],
+      "end_mm": [
+        68.2,
+        15.8
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2ea78064-16e7-452e-bd6e-32651843d956"
+    },
+    {
+      "uuid": "e6bf05c8-dc7d-40b8-9f31-b8042c9fa793",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        23.7,
+        148.3
+      ],
+      "end_mm": [
+        23.5,
+        148.3
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "b947b928-a544-4a59-b6c3-4ef07f376113"
+    },
+    {
+      "uuid": "e74b4212-fd55-440e-9809-af2d4c92f25e",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.9,
+        104.9
+      ],
+      "end_mm": [
+        76.9,
+        105.0
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "e5bec49b-6c36-4ae3-a0e2-5dd6277da697"
+    },
+    {
+      "uuid": "e77fdc1b-2186-4078-a804-7e71697fae69",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        36.8,
+        38.8
+      ],
+      "end_mm": [
+        37.1,
+        38.8
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "285ebe47-669d-4182-8b9d-9a2f2e78c822"
+    },
+    {
+      "uuid": "e7ba6216-ce9c-4983-a3de-c07c8acc6520",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        77.1,
+        104.6
+      ],
+      "end_mm": [
+        77.1,
+        104.7
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "06499e10-a2f1-4772-85bf-f20f98c8da35"
+    },
+    {
+      "uuid": "e9086dbe-424c-48eb-95d3-84378becccac",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        91.6,
+        41.1
+      ],
+      "end_mm": [
+        91.5,
+        41.0
+      ],
+      "width_mm": 3.0,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "0e3cd5bd-74ff-4075-9a99-4ef48061569e"
+    },
+    {
+      "uuid": "e95827e5-2926-4775-b385-d0cae16ebc80",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.9,
+        126.5
+      ],
+      "end_mm": [
+        32.0,
+        126.6
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "49c0847e-494b-4dd3-94ca-d06707530dd1"
+    },
+    {
+      "uuid": "e9f5bb9b-e2c0-4ace-9824-e6fab968505b",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.6,
+        106.4
+      ],
+      "end_mm": [
+        76.7,
+        106.5
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "393a34fe-e1eb-42ee-b3d7-eb161475e3df"
+    },
+    {
+      "uuid": "ea1cfde7-88e6-4319-9f34-6a9a190eea2c",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        31.8,
+        126.2
+      ],
+      "end_mm": [
+        31.7,
+        126.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "e088db24-0b4d-4736-bd1d-cfd295fa5303"
+    },
+    {
+      "uuid": "ea47f03e-f1ae-48d9-a48f-6e8549712de3",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        66.0,
+        15.7
+      ],
+      "end_mm": [
+        66.1,
+        15.7
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "535734fc-9306-455e-9a8a-50725bcda4aa"
+    },
+    {
+      "uuid": "ea6ff43b-edb3-4401-a948-e6ab406842a2",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        108.3,
+        27.5
+      ],
+      "end_mm": [
+        108.3,
+        27.6
+      ],
+      "width_mm": 2.0,
+      "layer": "In4.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5c4741ad-5557-4756-be09-952f62ee103d"
+    },
+    {
+      "uuid": "eb952078-04b6-4482-a47f-7f137eaca9f1",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        34.3,
+        129.1
+      ],
+      "end_mm": [
+        34.4,
+        129.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5758f2bb-e9ec-4cee-bc50-dcbf6e1929ac"
+    },
+    {
+      "uuid": "eba502a8-f2b2-4715-9d35-7fec113479a2",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        83.6,
+        35.8
+      ],
+      "end_mm": [
+        79.3,
+        40.1
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "5531092a-8e94-4e97-aa44-5e6c0485c6cf"
+    },
+    {
+      "uuid": "ecb9f9f9-7145-49e5-b155-b9bed22c3573",
+      "kind": "segment",
+      "net_code": 25,
+      "net": "AUX_TACH",
+      "locked": false,
+      "start_mm": [
+        57.8,
+        117.0
+      ],
+      "end_mm": [
+        57.6,
+        117.0
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "d4e63ab0-7ea7-453d-acd6-c076bbfa9be2"
+    },
+    {
+      "uuid": "eccea565-3676-4df7-bab7-ca7b3d21226e",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        65.9,
+        15.6
+      ],
+      "end_mm": [
+        66.0,
+        15.7
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "81bb879f-05a8-4301-9031-48850bf2ffac"
+    },
+    {
+      "uuid": "ed675680-7a07-43d4-ae45-3daa8cf01d4a",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        42.2,
+        79.3
+      ],
+      "end_mm": [
+        42.2,
+        79.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "986d2836-03bf-4330-8399-836109178cf2"
+    },
+    {
+      "uuid": "ede064e2-d10b-4ec7-87fc-0e9ff17ce487",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.1,
+        128.0
+      ],
+      "end_mm": [
+        32.2,
+        128.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "34ff43a3-cfab-4a97-b65c-becb74b3e311"
+    },
+    {
+      "uuid": "ef6e9078-ac76-46c4-ae9f-77687fbc4e54",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        76.8,
+        105.2
+      ],
+      "end_mm": [
+        76.7,
+        105.3
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "c986b92a-5a77-43d8-8815-b9619d60cbc0"
+    },
+    {
+      "uuid": "f01ea5f1-ca29-4fc6-85ff-34ea2615af54",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        68.2,
+        15.8
+      ],
+      "end_mm": [
+        68.3,
+        15.7
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "2bab11d3-7577-4c6d-b7e7-ac84c73615d3"
+    },
+    {
+      "uuid": "f07b5823-7265-4dcf-8e9b-bf72eb5df183",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        23.5,
+        148.3
+      ],
+      "end_mm": [
+        23.4,
+        148.2
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "db28e8c7-3147-4912-acfa-f4db44799158"
+    },
+    {
+      "uuid": "f0b470f2-7763-45ee-b6bb-d3080824985b",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.0,
+        120.0
+      ],
+      "end_mm": [
+        32.0,
+        120.1
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "bfd21006-dfa8-44ce-9a00-77afaa6fa22b"
+    },
+    {
+      "uuid": "f0cea68e-36f9-4e4d-8b00-b7f92481e5e8",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        32.2,
+        128.1
+      ],
+      "end_mm": [
+        32.2,
+        128.2
+      ],
+      "width_mm": 2.0,
+      "layer": "In1.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "7930ffd5-a343-4f34-ab40-f6081cbd0d2f"
+    },
+    {
+      "uuid": "f10dc235-6753-42c9-b982-53812cb52665",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        40.2,
+        35.9
+      ],
+      "end_mm": [
+        40.17,
+        35.948
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "c9db6fb1-7eab-45fc-8137-b48c7a8b3d40"
+    },
+    {
+      "uuid": "f37020f6-2ebc-432a-a1b4-7b6852e15fb1",
+      "kind": "segment",
+      "net_code": 179,
+      "net": "VREF_5",
+      "locked": false,
+      "start_mm": [
+        84.6,
+        22.0
+      ],
+      "end_mm": [
+        84.6,
+        21.9
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "21fbbdde-cc34-4fce-b48a-8e189383bd54"
+    },
+    {
+      "uuid": "f57f3a6d-4e71-4b11-a711-4e82b5bd5d20",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        69.0,
+        15.4
+      ],
+      "end_mm": [
+        69.1,
+        15.4
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "c17bd677-e669-4515-a3a4-da68d677dfe9"
+    },
+    {
+      "uuid": "f5c92f6e-8630-424f-a224-163201ae2dcf",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        56.5,
+        30.7
+      ],
+      "end_mm": [
+        56.7,
+        30.9
+      ],
+      "width_mm": 3.0,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "3a3fc6fe-135d-4359-af5a-b2d20e1d6f79"
+    },
+    {
+      "uuid": "f71c0cd5-9718-4025-bd2f-35cbf996d3c5",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        42.2,
+        79.2
+      ],
+      "end_mm": [
+        49.8,
+        71.6
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "47055ad8-b348-48fe-9dca-891ac7489e78"
+    },
+    {
+      "uuid": "f81fe586-3416-4227-b6ee-28a4e3bd8b71",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        95.0,
+        43.2
+      ],
+      "end_mm": [
+        94.9,
+        43.1
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "26f76629-3248-4a42-ab1f-f8eabf5d7f2e"
+    },
+    {
+      "uuid": "f9bd4790-0976-462c-b2eb-8118b5f7db6a",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        38.8,
+        37.6
+      ],
+      "end_mm": [
+        38.8,
+        37.5
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "01c52107-1b77-4302-86fb-54117054bace"
+    },
+    {
+      "uuid": "f9c1f47a-7430-4f06-bb0e-6f25fb8fc4e1",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        66.4,
+        15.8
+      ],
+      "end_mm": [
+        66.5,
+        15.9
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "1dc3fa34-93d9-4a6b-ac58-60ddb078afae"
+    },
+    {
+      "uuid": "fad57545-d780-478d-8ec2-5c6e7bc096dc",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        79.5,
+        30.3
+      ],
+      "end_mm": [
+        79.4,
+        30.3
+      ],
+      "width_mm": 2.0,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "c42c1573-c86c-40f0-ab4b-1a4579407d7b"
+    },
+    {
+      "uuid": "fb80baaf-5058-41c9-a0c0-580936428bfa",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        38.8,
+        37.5
+      ],
+      "end_mm": [
+        38.9,
+        37.4
+      ],
+      "width_mm": 1.2,
+      "layer": "F.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "74508725-fbe0-4047-81af-1714e9096000"
+    },
+    {
+      "uuid": "fcf98f0d-7e99-4fa1-9c58-5d3ce6844a55",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        76.6,
+        41.1
+      ],
+      "end_mm": [
+        76.4,
+        41.1
+      ],
+      "width_mm": 1.2,
+      "layer": "B.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "ead1ed88-d5cc-4acb-ae14-f9fba286906e"
+    },
+    {
+      "uuid": "fde45eb8-9411-481e-95d5-66ed1ffcde12",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        49.6,
+        68.1
+      ],
+      "end_mm": [
+        49.6,
+        65.8
+      ],
+      "width_mm": 2.0,
+      "layer": "In3.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "b83d8755-86f8-4e34-944e-6f7e9fe5d8a3"
+    },
+    {
+      "uuid": "ff975f46-57db-4ee8-92c4-fab75cac0575",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.8,
+        147.9
+      ],
+      "end_mm": [
+        22.6,
+        147.7
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "d5a875bb-9415-4bfb-a7dd-38d1937ea85d"
+    },
+    {
+      "uuid": "ffdf2943-60b2-4019-9e9e-02190198b34b",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.9,
+        147.9
+      ],
+      "end_mm": [
+        23.1,
+        148.1
+      ],
+      "width_mm": 1.2,
+      "layer": "In2.Cu",
+      "reason": "exact_duplicate",
+      "survivor_uuid": "219dfe4f-bb07-4966-a2a4-90b2656ac95f"
+    },
+    {
+      "uuid": "0323e890-f92f-41ad-b234-169079e07051",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        111.4,
+        22.9
+      ],
+      "end_mm": [
+        111.4,
+        22.9
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "0328fcc9-3c8b-42d6-931b-e901ac55cc53",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        32.7,
+        60.4
+      ],
+      "end_mm": [
+        32.7,
+        60.4
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "057887b0-0380-4abd-8a1e-42538317aef0",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        99.1,
+        24.7
+      ],
+      "end_mm": [
+        99.1,
+        24.7
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "0599fa41-db39-4bd7-9a5e-723888fcda46",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        97.4,
+        26.4
+      ],
+      "end_mm": [
+        97.4,
+        26.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "067ccd40-a920-4adc-88e7-ebef725458f4",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        61.4,
+        137.8
+      ],
+      "end_mm": [
+        61.4,
+        137.8
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "0a07241e-f5a3-455f-9755-55f21af6b8ad",
+      "kind": "segment",
+      "net_code": 170,
+      "net": "TRANS_EPC",
+      "locked": false,
+      "start_mm": [
+        72.9,
+        149.7
+      ],
+      "end_mm": [
+        72.9,
+        149.7
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "0ef32453-8e45-4ee1-9114-cfc841871b21",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        38.4,
+        91.5
+      ],
+      "end_mm": [
+        38.4,
+        91.5
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "0ffc199e-1e26-430a-8bb8-7fd92f124cda",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        99.1,
+        16.0
+      ],
+      "end_mm": [
+        99.1,
+        16.0
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "12f54b31-4c4d-4cc1-ba88-4d29a4510959",
+      "kind": "segment",
+      "net_code": 94,
+      "net": "INJECTOR_8",
+      "locked": false,
+      "start_mm": [
+        81.1,
+        20.6
+      ],
+      "end_mm": [
+        81.1,
+        20.6
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "159ec333-5e8a-44f1-8ad9-6fe87f59931b",
+      "kind": "segment",
+      "net_code": 179,
+      "net": "VREF_5",
+      "locked": false,
+      "start_mm": [
+        111.3,
+        154.0
+      ],
+      "end_mm": [
+        111.3,
+        154.0
+      ],
+      "width_mm": 0.25,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "1616dd50-c081-4009-b536-3b63a318faef",
+      "kind": "segment",
+      "net_code": 126,
+      "net": "RAW_12",
+      "locked": false,
+      "start_mm": [
+        29.9,
+        89.4
+      ],
+      "end_mm": [
+        29.9,
+        89.4
+      ],
+      "width_mm": 0.8,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "179bbc85-0bf0-4091-bfc1-69c5cf89f6a2",
+      "kind": "segment",
+      "net_code": 25,
+      "net": "AUX_TACH",
+      "locked": false,
+      "start_mm": [
+        76.6,
+        160.3
+      ],
+      "end_mm": [
+        76.6,
+        160.3
+      ],
+      "width_mm": 0.8,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "18348fb6-bb94-4d3d-a684-18288838a148",
+      "kind": "segment",
+      "net_code": 126,
+      "net": "RAW_12",
+      "locked": false,
+      "start_mm": [
+        75.4,
+        71.6
+      ],
+      "end_mm": [
+        75.4,
+        71.6
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "1e76c918-82f2-4fe3-8a66-034af4085981",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        90.6,
+        16.6
+      ],
+      "end_mm": [
+        90.6,
+        16.6
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "1f9534b2-8d65-44f8-b2f5-410e5d9fb786",
+      "kind": "segment",
+      "net_code": 7,
+      "net": "AC_WOT_CUTOUT",
+      "locked": false,
+      "start_mm": [
+        47.8,
+        122.4
+      ],
+      "end_mm": [
+        47.8,
+        122.4
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "21705362-fe84-4c36-a1d3-746cfb25edaf",
+      "kind": "segment",
+      "net_code": 7,
+      "net": "AC_WOT_CUTOUT",
+      "locked": false,
+      "start_mm": [
+        39.2,
+        122.6
+      ],
+      "end_mm": [
+        39.2,
+        122.6
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "26a8042e-cce4-4df9-9f6a-c29adf09804e",
+      "kind": "segment",
+      "net_code": 126,
+      "net": "RAW_12",
+      "locked": false,
+      "start_mm": [
+        33.1,
+        112.8
+      ],
+      "end_mm": [
+        33.1,
+        112.8
+      ],
+      "width_mm": 0.8,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "281a21ab-ace5-450a-a35d-ea432e1318c4",
+      "kind": "segment",
+      "net_code": 79,
+      "net": "FUEL_PUMP_CONTROL",
+      "locked": false,
+      "start_mm": [
+        35.8,
+        31.7
+      ],
+      "end_mm": [
+        35.8,
+        31.7
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "2fab6044-176e-4be7-af33-9526c14f6bb7",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        44.3,
+        94.4
+      ],
+      "end_mm": [
+        44.3,
+        94.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "319057a2-5a38-4e73-ba8d-473313137313",
+      "kind": "segment",
+      "net_code": 93,
+      "net": "INJECTOR_7",
+      "locked": false,
+      "start_mm": [
+        113.5,
+        35.8
+      ],
+      "end_mm": [
+        113.5,
+        35.8
+      ],
+      "width_mm": 0.6,
+      "layer": "In5.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "33ca371a-7b5d-4270-9424-5afff69c721f",
+      "kind": "segment",
+      "net_code": 93,
+      "net": "INJECTOR_7",
+      "locked": false,
+      "start_mm": [
+        57.7,
+        61.3
+      ],
+      "end_mm": [
+        57.7,
+        61.3
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "35abfcd0-d277-4086-8356-65cec065284f",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        42.4,
+        112.8
+      ],
+      "end_mm": [
+        42.4,
+        112.8
+      ],
+      "width_mm": 0.8,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "3826f6bf-3988-4bda-8a68-bf3438e3297f",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        85.3,
+        40.2
+      ],
+      "end_mm": [
+        85.3,
+        40.2
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "39b6fe91-28b3-44dd-a2c7-629c438d9364",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        34.6,
+        39.8
+      ],
+      "end_mm": [
+        34.6,
+        39.8
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "3a4bb520-0b76-4e1c-81ff-761b3d461a29",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        21.9,
+        20.3
+      ],
+      "end_mm": [
+        21.9,
+        20.3
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "3cd0479e-1005-45d0-9a9a-30bbee391dba",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        85.8,
+        39.7
+      ],
+      "end_mm": [
+        85.8,
+        39.7
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "3e7bc951-8cc5-439d-83a6-0146f808698d",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        60.9,
+        15.0
+      ],
+      "end_mm": [
+        60.9,
+        15.0
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "46fec1ff-d8b2-4f4e-8715-cfe33f66a766",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        37.2,
+        114.3
+      ],
+      "end_mm": [
+        37.2,
+        114.3
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "4772cca2-5f89-4d92-b871-ff323ad9f8d1",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        109.7,
+        29.7
+      ],
+      "end_mm": [
+        109.7,
+        29.7
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "49c152a3-f77d-4edb-af7f-26ccaa21d2e2",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        25.4,
+        33.4
+      ],
+      "end_mm": [
+        25.4,
+        33.4
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "4c1fdf4d-97af-4762-b2eb-7cf8272e440b",
+      "kind": "segment",
+      "net_code": 172,
+      "net": "TRANS_SS1",
+      "locked": false,
+      "start_mm": [
+        9.2,
+        18.2
+      ],
+      "end_mm": [
+        9.2,
+        18.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "4e2a27c0-d5b3-4342-b3b5-a7efc2e40da5",
+      "kind": "segment",
+      "net_code": 179,
+      "net": "VREF_5",
+      "locked": false,
+      "start_mm": [
+        58.9,
+        20.0
+      ],
+      "end_mm": [
+        58.9,
+        20.0
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "4e5d4e00-6ec6-4fbf-b75e-15055a9ca9a2",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        56.5,
+        30.7
+      ],
+      "end_mm": [
+        56.5,
+        30.7
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "4f385d73-7756-4150-adf1-fd9502089e62",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        129.3,
+        97.6
+      ],
+      "end_mm": [
+        129.3,
+        97.6
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "4f5afdb6-81cc-4a7a-8587-df9ee1de3433",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        14.7,
+        22.9
+      ],
+      "end_mm": [
+        14.7,
+        22.9
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "50adbe94-28f8-4a6c-8314-340ca7cddcb2",
+      "kind": "segment",
+      "net_code": 25,
+      "net": "AUX_TACH",
+      "locked": false,
+      "start_mm": [
+        53.0,
+        112.3
+      ],
+      "end_mm": [
+        53.0,
+        112.3
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "50c86704-bc25-4642-8a58-9c0ba4970fe7",
+      "kind": "segment",
+      "net_code": 25,
+      "net": "AUX_TACH",
+      "locked": false,
+      "start_mm": [
+        56.4,
+        115.8
+      ],
+      "end_mm": [
+        56.4,
+        115.8
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "513b108d-23bb-4990-9ff3-bcd8dcaadad5",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        108.7,
+        24.2
+      ],
+      "end_mm": [
+        108.7,
+        24.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "5172c7ca-c55e-40ca-9f57-22b35a00ea88",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        85.6,
+        46.8
+      ],
+      "end_mm": [
+        85.6,
+        46.8
+      ],
+      "width_mm": 0.25,
+      "layer": "In3.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "5825e8d1-f46f-4844-a2f2-4cb06226ffc3",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        86.6,
+        29.5
+      ],
+      "end_mm": [
+        86.6,
+        29.5
+      ],
+      "width_mm": 0.25,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "58b9a5d7-081a-4423-bc62-ba33ac62e676",
+      "kind": "segment",
+      "net_code": 90,
+      "net": "INJECTOR_4",
+      "locked": false,
+      "start_mm": [
+        21.3,
+        58.4
+      ],
+      "end_mm": [
+        21.3,
+        58.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "604e0c2b-4e50-4f08-8c75-c8d22ad33115",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        81.1,
+        26.2
+      ],
+      "end_mm": [
+        81.1,
+        26.2
+      ],
+      "width_mm": 0.25,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "61381b92-01b4-4efc-88ee-8cac8ad14a63",
+      "kind": "segment",
+      "net_code": 127,
+      "net": "REG_5",
+      "locked": false,
+      "start_mm": [
+        20.8,
+        97.8
+      ],
+      "end_mm": [
+        20.8,
+        97.8
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "61d00bab-59bd-4e00-b78b-cd8e5e4bcb12",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        29.7,
+        80.8
+      ],
+      "end_mm": [
+        29.7,
+        80.8
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "62867cc9-f37e-435b-baf8-b47445371f08",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        115.3,
+        145.0
+      ],
+      "end_mm": [
+        115.3,
+        145.0
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "65d1cd79-c254-49e1-b513-74471751b62f",
+      "kind": "segment",
+      "net_code": 180,
+      "net": "VREF_FILTER",
+      "locked": false,
+      "start_mm": [
+        85.3,
+        53.0
+      ],
+      "end_mm": [
+        85.3,
+        53.0
+      ],
+      "width_mm": 0.25,
+      "layer": "In3.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "681a696a-4495-4a14-bf45-2bb27a4be925",
+      "kind": "segment",
+      "net_code": 79,
+      "net": "FUEL_PUMP_CONTROL",
+      "locked": false,
+      "start_mm": [
+        24.9,
+        16.0
+      ],
+      "end_mm": [
+        24.9,
+        16.0
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "68267b49-15d6-46e0-9413-7ed6af43030d",
+      "kind": "segment",
+      "net_code": 126,
+      "net": "RAW_12",
+      "locked": false,
+      "start_mm": [
+        31.2,
+        89.4
+      ],
+      "end_mm": [
+        31.2,
+        89.4
+      ],
+      "width_mm": 0.8,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "6c95d66f-7bc4-40be-9fb3-789cf1a13835",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        82.6,
+        35.9
+      ],
+      "end_mm": [
+        82.6,
+        35.9
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "6cc41bd1-920e-4c20-9e87-836e0e593bf8",
+      "kind": "segment",
+      "net_code": 93,
+      "net": "INJECTOR_7",
+      "locked": false,
+      "start_mm": [
+        42.8,
+        46.3
+      ],
+      "end_mm": [
+        42.8,
+        46.3
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "6d5dba37-b4c5-4ca3-be12-f1d227d207c9",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        22.9,
+        30.0
+      ],
+      "end_mm": [
+        22.9,
+        30.0
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "6dff7077-88da-4c1f-9a71-f92296d1e258",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        115.0,
+        20.9
+      ],
+      "end_mm": [
+        115.0,
+        20.9
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "71e06238-cf36-4415-98f8-4585ed7fbc83",
+      "kind": "segment",
+      "net_code": 184,
+      "net": "WB1_RELAY_LOW",
+      "locked": false,
+      "start_mm": [
+        25.2,
+        23.2
+      ],
+      "end_mm": [
+        25.2,
+        23.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "757ee8f5-b21e-418c-9b7a-9fccaedfddd8",
+      "kind": "segment",
+      "net_code": 83,
+      "net": "IAC",
+      "locked": false,
+      "start_mm": [
+        27.2,
+        14.4
+      ],
+      "end_mm": [
+        27.2,
+        14.4
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "7ae1744f-032c-40cf-8a1a-df2a2734516b",
+      "kind": "segment",
+      "net_code": 88,
+      "net": "INJECTOR_2",
+      "locked": false,
+      "start_mm": [
+        103.3,
+        26.4
+      ],
+      "end_mm": [
+        103.3,
+        26.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "7cbed28b-b4ea-4704-9752-5486216cc109",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        110.6,
+        77.1
+      ],
+      "end_mm": [
+        110.6,
+        77.1
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "7dfcd31f-70f2-42f4-8944-aa677d58a42d",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        84.6,
+        35.0
+      ],
+      "end_mm": [
+        84.6,
+        35.0
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "7e52a905-903d-4472-a330-19a9b390786e",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        60.4,
+        26.8
+      ],
+      "end_mm": [
+        60.4,
+        26.8
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "81268deb-3425-48d3-98f9-aac5c716e930",
+      "kind": "segment",
+      "net_code": 177,
+      "net": "VDDA_5",
+      "locked": false,
+      "start_mm": [
+        92.3,
+        44.8
+      ],
+      "end_mm": [
+        92.3,
+        44.8
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "8971b6b5-a93b-4f27-9c83-8e13de5b61a4",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        50.3,
+        128.9
+      ],
+      "end_mm": [
+        50.3,
+        128.9
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "8d1b0574-03af-4d31-8a01-632b2b1821eb",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        87.6,
+        32.6
+      ],
+      "end_mm": [
+        87.6,
+        32.6
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "90c1453d-43af-44b3-a852-f6ab3c7732ba",
+      "kind": "segment",
+      "net_code": 72,
+      "net": "FAN_CONTROL",
+      "locked": false,
+      "start_mm": [
+        56.4,
+        19.6
+      ],
+      "end_mm": [
+        56.4,
+        19.6
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "97e3958e-afdb-41c2-8c7c-27ec7bddf153",
+      "kind": "segment",
+      "net_code": 60,
+      "net": "COIL_3",
+      "locked": false,
+      "start_mm": [
+        114.8,
+        24.2
+      ],
+      "end_mm": [
+        114.8,
+        24.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "97f8d81f-8650-46a6-97de-311b26dabbea",
+      "kind": "segment",
+      "net_code": 59,
+      "net": "COIL_2",
+      "locked": false,
+      "start_mm": [
+        46.1,
+        63.9
+      ],
+      "end_mm": [
+        46.1,
+        63.9
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "98bee70b-dd32-4224-b0c3-ce615bd13b42",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        85.6,
+        32.6
+      ],
+      "end_mm": [
+        85.6,
+        32.6
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "9c39f8cd-73ae-424f-8a5a-01d4cc70fa75",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        49.6,
+        22.9
+      ],
+      "end_mm": [
+        49.6,
+        22.9
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "9cd3f381-9c82-42b2-9f6a-f584af3d02b2",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        59.3,
+        141.5
+      ],
+      "end_mm": [
+        59.3,
+        141.5
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "9ea09a33-0916-41f1-bd7f-f69a43f8c07c",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        104.7,
+        24.7
+      ],
+      "end_mm": [
+        104.7,
+        24.7
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "9fff18d4-d04a-4f9f-bf8a-e5f1e36b31bb",
+      "kind": "segment",
+      "net_code": 87,
+      "net": "INJECTOR_1",
+      "locked": false,
+      "start_mm": [
+        81.3,
+        103.8
+      ],
+      "end_mm": [
+        81.3,
+        103.8
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "a045481c-2dd8-40fd-bbbb-4923906c4107",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        41.2,
+        57.8
+      ],
+      "end_mm": [
+        41.2,
+        57.8
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "a0984111-8bea-466e-ac9f-5a0c120ec8d5",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        33.8,
+        127.4
+      ],
+      "end_mm": [
+        33.8,
+        127.4
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "a1940be0-8698-4f06-8203-c093570d7197",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        82.2,
+        27.9
+      ],
+      "end_mm": [
+        82.2,
+        27.9
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "a1ecdd57-beb7-415e-9a83-41c910f5468f",
+      "kind": "segment",
+      "net_code": 125,
+      "net": "PWR_FUSED",
+      "locked": false,
+      "start_mm": [
+        17.6,
+        28.4
+      ],
+      "end_mm": [
+        17.6,
+        28.4
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "a2b9d2e5-a2e0-4423-8ae0-74d27f7ad57a",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        27.4,
+        148.5
+      ],
+      "end_mm": [
+        27.4,
+        148.5
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "a89caa39-e220-4450-99fa-777e121b8a0e",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        107.1,
+        79.9
+      ],
+      "end_mm": [
+        107.1,
+        79.9
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "aa72b117-8787-4c53-bb68-1a75d7b1e567",
+      "kind": "segment",
+      "net_code": 92,
+      "net": "INJECTOR_6",
+      "locked": false,
+      "start_mm": [
+        108.5,
+        16.9
+      ],
+      "end_mm": [
+        108.5,
+        16.9
+      ],
+      "width_mm": 0.6,
+      "layer": "In6.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "ac551980-6755-42bf-8e37-8261adad7a27",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        87.6,
+        32.6
+      ],
+      "end_mm": [
+        87.6,
+        32.6
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "b408d689-9ca5-4579-8a55-38d680886954",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        99.1,
+        16.0
+      ],
+      "end_mm": [
+        99.1,
+        16.0
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "b62e50d4-3f90-45ee-875a-ea6eb39ccc31",
+      "kind": "segment",
+      "net_code": 59,
+      "net": "COIL_2",
+      "locked": false,
+      "start_mm": [
+        43.4,
+        84.2
+      ],
+      "end_mm": [
+        43.4,
+        84.2
+      ],
+      "width_mm": 0.8,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "b8ffb29e-72f4-49d6-8169-affb0f5be2a1",
+      "kind": "segment",
+      "net_code": 178,
+      "net": "VPWR",
+      "locked": false,
+      "start_mm": [
+        100.9,
+        19.2
+      ],
+      "end_mm": [
+        100.9,
+        19.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "ba676200-3046-4b79-aef5-2777732fe422",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        63.0,
+        6.3
+      ],
+      "end_mm": [
+        63.0,
+        6.3
+      ],
+      "width_mm": 0.25,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "bc68989f-8dbd-4d84-bcf7-f93acfeefc09",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        79.6,
+        32.6
+      ],
+      "end_mm": [
+        79.6,
+        32.6
+      ],
+      "width_mm": 0.6,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "bea53e95-582d-412f-a33b-e834bafafe67",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        102.2,
+        39.4
+      ],
+      "end_mm": [
+        102.2,
+        39.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "c46a8fb7-c7ca-43c7-88b8-0b7feb6d6b07",
+      "kind": "segment",
+      "net_code": 7,
+      "net": "AC_WOT_CUTOUT",
+      "locked": false,
+      "start_mm": [
+        47.8,
+        122.4
+      ],
+      "end_mm": [
+        47.8,
+        122.4
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "c7041d60-4b94-4d20-8faa-3a142dd8366c",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        48.8,
+        23.1
+      ],
+      "end_mm": [
+        48.8,
+        23.1
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "cf70b7df-4129-43f2-9a68-f1ea951416b7",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        18.9,
+        44.4
+      ],
+      "end_mm": [
+        18.9,
+        44.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In3.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d02af943-839a-4c40-be27-d7cca22cf8e9",
+      "kind": "segment",
+      "net_code": 61,
+      "net": "COIL_4",
+      "locked": false,
+      "start_mm": [
+        56.5,
+        30.7
+      ],
+      "end_mm": [
+        56.5,
+        30.7
+      ],
+      "width_mm": 0.8,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d0a71274-402f-43c2-aade-af7d9e886e34",
+      "kind": "segment",
+      "net_code": 125,
+      "net": "PWR_FUSED",
+      "locked": false,
+      "start_mm": [
+        17.9,
+        70.2
+      ],
+      "end_mm": [
+        17.9,
+        70.2
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d0c20622-9ae1-4d82-8338-8b5c5b0606a9",
+      "kind": "segment",
+      "net_code": 25,
+      "net": "AUX_TACH",
+      "locked": false,
+      "start_mm": [
+        51.8,
+        111.1
+      ],
+      "end_mm": [
+        51.8,
+        111.1
+      ],
+      "width_mm": 0.8,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d0e88e8b-ca7a-49a5-873e-2f160db131fe",
+      "kind": "segment",
+      "net_code": 72,
+      "net": "FAN_CONTROL",
+      "locked": false,
+      "start_mm": [
+        61.5,
+        19.9
+      ],
+      "end_mm": [
+        61.5,
+        19.9
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d18aacc5-35f1-42bb-9678-6926b46f4a31",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        71.1,
+        12.3
+      ],
+      "end_mm": [
+        71.1,
+        12.3
+      ],
+      "width_mm": 0.25,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d3f8cd0e-c906-4201-8f3a-403f6567c13c",
+      "kind": "segment",
+      "net_code": 126,
+      "net": "RAW_12",
+      "locked": false,
+      "start_mm": [
+        63.0,
+        91.1
+      ],
+      "end_mm": [
+        63.0,
+        91.1
+      ],
+      "width_mm": 0.8,
+      "layer": "In1.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d6ec86a0-0d3a-4338-9621-1451be9f8455",
+      "kind": "segment",
+      "net_code": 130,
+      "net": "SGND",
+      "locked": false,
+      "start_mm": [
+        65.9,
+        14.1
+      ],
+      "end_mm": [
+        65.9,
+        14.1
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "d746a9a0-5d64-4013-9dfb-b221887091be",
+      "kind": "segment",
+      "net_code": 1,
+      "net": "ACTUATOR_12",
+      "locked": false,
+      "start_mm": [
+        60.3,
+        126.6
+      ],
+      "end_mm": [
+        60.3,
+        126.6
+      ],
+      "width_mm": 0.6,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "db32ba11-f0f8-45f5-9ccd-93bd3ccb9cb8",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        94.8,
+        92.2
+      ],
+      "end_mm": [
+        94.8,
+        92.2
+      ],
+      "width_mm": 0.6,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "e28bf68f-5bff-4654-a508-6b7ee3bf093f",
+      "kind": "segment",
+      "net_code": 176,
+      "net": "VCC_5",
+      "locked": false,
+      "start_mm": [
+        51.8,
+        94.2
+      ],
+      "end_mm": [
+        51.8,
+        94.2
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "e2aceff7-20fd-4c41-aeda-e3c1c91c9462",
+      "kind": "segment",
+      "net_code": 66,
+      "net": "DGND",
+      "locked": false,
+      "start_mm": [
+        36.4,
+        88.6
+      ],
+      "end_mm": [
+        36.4,
+        88.6
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "e40d3222-3acf-4f8c-98f4-098aa073bb76",
+      "kind": "segment",
+      "net_code": 25,
+      "net": "AUX_TACH",
+      "locked": false,
+      "start_mm": [
+        56.9,
+        122.6
+      ],
+      "end_mm": [
+        56.9,
+        122.6
+      ],
+      "width_mm": 0.6,
+      "layer": "F.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "f3b8de0e-628b-4c8d-92ae-8e2a782334bd",
+      "kind": "segment",
+      "net_code": 126,
+      "net": "RAW_12",
+      "locked": false,
+      "start_mm": [
+        63.0,
+        91.1
+      ],
+      "end_mm": [
+        63.0,
+        91.1
+      ],
+      "width_mm": 0.8,
+      "layer": "In2.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "f55eb871-83f3-4679-aa4f-252949c8a037",
+      "kind": "segment",
+      "net_code": 125,
+      "net": "PWR_FUSED",
+      "locked": false,
+      "start_mm": [
+        16.2,
+        62.9
+      ],
+      "end_mm": [
+        16.2,
+        62.9
+      ],
+      "width_mm": 0.25,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "fcf97dad-c0b1-4ef5-92a2-93180d015446",
+      "kind": "segment",
+      "net_code": 172,
+      "net": "TRANS_SS1",
+      "locked": false,
+      "start_mm": [
+        48.3,
+        129.8
+      ],
+      "end_mm": [
+        48.3,
+        129.8
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    },
+    {
+      "uuid": "ff962e4d-a2c8-4af4-88e3-aa54c542977c",
+      "kind": "segment",
+      "net_code": 116,
+      "net": "MIL",
+      "locked": false,
+      "start_mm": [
+        12.6,
+        20.4
+      ],
+      "end_mm": [
+        12.6,
+        20.4
+      ],
+      "width_mm": 0.6,
+      "layer": "In4.Cu",
+      "reason": "zero_length",
+      "survivor_uuid": ""
+    }
+  ]
+}
