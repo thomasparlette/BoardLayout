@@ -17,7 +17,7 @@
 - Retain factory IAC: Ford F6AZ-9F715-EB, 1.0–1.2 A, commanded near 300 Hz.
 - Use Bosch OE 62395 high-impedance injectors, 11–18 ohm.
 - Initial ignition is dual waste-spark factory coil packs; COP/D585 coils are excluded from this revision.
-- User clarification dated 2026-09-21: previously supplied injector and ignition current figures are aggregate budgets for all eight cylinders, not per-channel ratings. Per-injector and per-coil branch RMS/peak currents and simultaneous-channel cases remain to be established before trace widths are reduced.
+- User clarification dated 2026-09-21: only one injector and one ignition channel are active at a time. Each injector is 0.7 A maximum RMS and 1.0–1.2 A peak; use 1.2 A as the branch design peak. Each ignition channel is 1.2–1.5 A peak; use 1.5 A as both the branch peak and a conservative continuous-current sizing case until a measured dwell waveform is available. The hypothetical eight-injector simultaneous load is 5.6 A RMS and is covered by the stated 6 A aggregate budget.
 - Do not include EGR, EVAP, purge or other emissions controls.
 - Replace factory narrowband O2 operation with external wideband controllers for Bosch LSU 4.2 or 4.9 sensors.
 - Factory O2 heater circuits may provide the external controller supply; narrowband-related wiring may be used as a switched ground/enable only, subject to final schematic verification.
@@ -39,7 +39,7 @@
 - Use factory coil driver strategy initially. Requested ignition driver is FGD3245G2-F085C.
 - Provide future compatibility for TO-220 and DPAK ignition-driver options, pending pinout, thermal and footprint verification.
 - Separate power, digital, sensor and case-ground strategy must be retained and verified with the net-tie implementation.
-- Preserve the existing power copper until revised targets are calculated: 4.0 mm shared VPWR/ACTUATOR_12/PGND; 3.0 mm coil; 2.0 mm injector; 1.2 mm auxiliary/transmission; 0.6 mm rail; 0.25 mm signal. The coil and injector widths are conservative legacy targets, not required final widths or certified current ratings. Smaller widths require per-branch peak/RMS, concurrency, stackup, temperature-rise, via, neckdown, connector and fault-current review.
+- Preserve the existing power copper until complete paths are qualified: 4.0 mm shared VPWR/ACTUATOR_12/PGND; 3.0 mm coil; 2.0 mm injector; 1.2 mm auxiliary/transmission; 0.6 mm rail; 0.25 mm signal. The coil and injector widths are conservative legacy targets, not required final widths or certified current ratings. The branch-current and nominal copper-weight inputs are now known, but smaller widths still require temperature-rise, route-length, via, neckdown, connector, fault-current and complete-path review.
 
 ## Mechanical and layout requirements
 
@@ -49,7 +49,7 @@
 - J120, J130, J131 and J140 are located at the bottom/rear of the board.
 - Rear cover clearance from the board: 6.35 mm (1/4 in). Components may be mounted on both sides; clearance must be checked.
 - Place heat-producing FETs/driver hardware adjacent to the case cooling edges with a defined thermal interface before production.
-- Current R10 routing candidate uses eight copper layers: F.Cu, In1–In6.Cu and B.Cu, with through vias only. The final copper weights and dielectric stackup remain to be selected with the fabricator.
+- Current R10 routing candidate uses eight copper layers: F.Cu, In1–In6.Cu and B.Cu, with through vias only. User-selected nominal copper weights are 1 oz (about 35 µm) on F.Cu/B.Cu and 0.5 oz (about 17.5 µm) on In1–In6.Cu. The fabricator-specific dielectric stackup, finished-copper tolerances and via capability remain to be selected and checked.
 - Current underside component moves: D26 (89,120), D27 (80,126), D28 (80,117), D30 (90,131), D33 (78,133), all coordinates in mm.
 
 ## Manufacturing and documentation requirements
@@ -67,6 +67,6 @@
 - Run a fresh ERC after the schematic is finalized.
 - Independently verify the Ford connector pin map and every MS3/MS3X/MicroSquirt connection against authoritative documents and the actual hardware.
 - Select and verify every BOM item, especially Q13–Q16 ignition driver footprints/pinouts, pass-through connector, fusing/protection, high-current parts and thermal hardware.
-- Select final stackup/copper weights, then verify ampacity, via current sharing, neckdowns and heat dissipation for coils, injectors, IAC, EPC and other loads.
+- Select the fabricator-specific stackup using the nominal 1 oz outer/0.5 oz inner copper requirement, then verify ampacity, via current sharing, neckdowns and heat dissipation for coils, injectors, IAC, EPC and other loads.
 - Complete bench testing with JimStim, dummy loads and the actual MS3/MicroSquirt hardware, followed by automotive transient and engine/transmission validation.
 - Confirm the printed mechanical fit in the factory PCM case, including connector engagement, shell pass-through, daughtercard height, MapDaddy/hose clearance, solder/lead protrusion and thermal clips/insulators.

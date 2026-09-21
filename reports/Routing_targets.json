@@ -1,10 +1,25 @@
 {
   "status": "UNQUALIFIED ENGINEERING TARGETS; not current ratings",
-  "copper_assumption_um": 70,
+  "copper_assumption_um_by_layer": {
+    "F.Cu": 35,
+    "In1.Cu-In6.Cu": 17.5,
+    "B.Cu": 35
+  },
+  "branch_current_basis": {
+    "maximum_simultaneous_injector_channels": 1,
+    "injector_rms_A_each": 0.7,
+    "injector_peak_A_each_design": 1.2,
+    "injector_all_eight_hypothetical_rms_A": 5.6,
+    "injector_aggregate_budget_A": 6.0,
+    "maximum_simultaneous_ignition_channels": 1,
+    "ignition_peak_A_each_design": 1.5,
+    "ignition_continuous_sizing_A_each": 1.5,
+    "source": "User-supplied design basis, 2026-09-21; bench verification pending"
+  },
   "widths": {
     "Injector_5A_target": {
       "width_mm": 2.0,
-      "basis": "Conservative legacy geometry only. User clarified 2026-09-21 that supplied injector current is an aggregate eight-cylinder budget, not 5 A per channel. Revised branch width is pending single-injector peak/RMS and concurrency analysis.",
+      "basis": "Conservative legacy geometry retained pending complete-path review. Branch basis is 0.7 A maximum RMS and 1.2 A design peak with one injector active. Key name is retained for compatibility and does not mean 5 A per branch.",
       "nets": [
         "INJECTOR_1",
         "INJECTOR_2",
@@ -35,7 +50,7 @@
     },
     "Coil_peak_unverified": {
       "width_mm": 3.0,
-      "basis": "Conservative legacy geometry only. User clarified 2026-09-21 that supplied ignition current is an aggregate eight-cylinder budget. Revised branch width is pending per-coil dwell peak/RMS and simultaneous-channel analysis.",
+      "basis": "Conservative legacy geometry retained pending complete-path review. Branch design peak is 1.5 A with one ignition channel active; 1.5 A is also used as a conservative continuous sizing case until dwell is measured.",
       "nets": [
         "COIL_1",
         "COIL_2",
