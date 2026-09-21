@@ -1,0 +1,104 @@
+net,layer_or_span,object_type,count
+AC_WOT_CUTOUT,B.Cu,segment,65
+AC_WOT_CUTOUT,F.Cu -> B.Cu,via,4
+AC_WOT_CUTOUT,In3.Cu,segment,65
+AC_WOT_CUTOUT,In4.Cu,segment,65
+CASE_GND,B.Cu,segment,25
+CASE_GND,F.Cu -> B.Cu,via,4
+CASE_GND,In3.Cu,segment,25
+CASE_GND,In4.Cu,segment,25
+COIL_1,F.Cu,segment,4
+COIL_1,In1.Cu,segment,4
+COIL_1,In2.Cu,segment,4
+COIL_2,F.Cu,segment,29
+COIL_2,F.Cu -> B.Cu,via,3
+COIL_2,In1.Cu,segment,29
+COIL_2,In2.Cu,segment,29
+COIL_3,B.Cu,segment,66
+COIL_3,F.Cu -> B.Cu,via,4
+COIL_3,In3.Cu,segment,66
+COIL_3,In4.Cu,segment,66
+COIL_4,B.Cu,segment,65
+COIL_4,F.Cu -> B.Cu,via,4
+COIL_4,In3.Cu,segment,65
+COIL_4,In4.Cu,segment,65
+FAN_CONTROL,B.Cu,segment,53
+FAN_CONTROL,F.Cu -> B.Cu,via,4
+FAN_CONTROL,In3.Cu,segment,53
+FAN_CONTROL,In4.Cu,segment,53
+FUEL_PUMP_CONTROL,F.Cu,segment,30
+FUEL_PUMP_CONTROL,F.Cu -> B.Cu,via,4
+FUEL_PUMP_CONTROL,In1.Cu,segment,30
+FUEL_PUMP_CONTROL,In2.Cu,segment,30
+IAC,F.Cu,segment,30
+IAC,F.Cu -> B.Cu,via,4
+IAC,In1.Cu,segment,30
+IAC,In2.Cu,segment,30
+INJECTOR_1,B.Cu,segment,66
+INJECTOR_1,F.Cu -> B.Cu,via,4
+INJECTOR_1,In3.Cu,segment,66
+INJECTOR_1,In4.Cu,segment,66
+INJECTOR_2,F.Cu,segment,69
+INJECTOR_2,F.Cu -> B.Cu,via,3
+INJECTOR_2,In1.Cu,segment,69
+INJECTOR_2,In2.Cu,segment,69
+INJECTOR_3,B.Cu,segment,53
+INJECTOR_3,F.Cu -> B.Cu,via,4
+INJECTOR_3,In3.Cu,segment,53
+INJECTOR_3,In4.Cu,segment,53
+INJECTOR_4,B.Cu,segment,67
+INJECTOR_4,F.Cu -> B.Cu,via,4
+INJECTOR_4,In3.Cu,segment,67
+INJECTOR_4,In4.Cu,segment,67
+INJECTOR_5,F.Cu,segment,43
+INJECTOR_5,F.Cu -> B.Cu,via,4
+INJECTOR_5,In1.Cu,segment,43
+INJECTOR_5,In2.Cu,segment,43
+INJECTOR_6,F.Cu,segment,53
+INJECTOR_6,F.Cu -> B.Cu,via,1
+INJECTOR_6,In1.Cu,segment,53
+INJECTOR_6,In2.Cu,segment,53
+INJECTOR_7,B.Cu,segment,56
+INJECTOR_7,F.Cu -> B.Cu,via,4
+INJECTOR_7,In3.Cu,segment,56
+INJECTOR_7,In4.Cu,segment,56
+INJECTOR_8,B.Cu,segment,30
+INJECTOR_8,F.Cu -> B.Cu,via,4
+INJECTOR_8,In3.Cu,segment,30
+INJECTOR_8,In4.Cu,segment,30
+MIL,F.Cu,segment,14
+MIL,F.Cu -> B.Cu,via,1
+MIL,In1.Cu,segment,14
+MIL,In2.Cu,segment,14
+TRANS_EPC,B.Cu,segment,30
+TRANS_EPC,F.Cu -> B.Cu,via,4
+TRANS_EPC,In3.Cu,segment,30
+TRANS_EPC,In4.Cu,segment,30
+TRANS_SS1,F.Cu,segment,46
+TRANS_SS1,F.Cu -> B.Cu,via,3
+TRANS_SS1,In1.Cu,segment,46
+TRANS_SS1,In2.Cu,segment,46
+TRANS_SS2,B.Cu,segment,24
+TRANS_SS2,F.Cu -> B.Cu,via,4
+TRANS_SS2,In3.Cu,segment,24
+TRANS_SS2,In4.Cu,segment,24
+TRANS_TCC,F.Cu,segment,43
+TRANS_TCC,F.Cu -> B.Cu,via,4
+TRANS_TCC,In1.Cu,segment,43
+TRANS_TCC,In2.Cu,segment,43
+VPWR,F.Cu,segment,62
+VPWR,F.Cu -> B.Cu,via,2
+VPWR,In1.Cu,segment,62
+VPWR,In2.Cu,segment,62
+VREF_5,B.Cu,segment,30
+VREF_5,F.Cu -> B.Cu,via,4
+VREF_5,In3.Cu,segment,30
+VREF_5,In4.Cu,segment,30
+WB1_RELAY_LOW,F.Cu,segment,30
+WB1_RELAY_LOW,F.Cu -> B.Cu,via,4
+WB1_RELAY_LOW,In1.Cu,segment,30
+WB1_RELAY_LOW,In2.Cu,segment,30
+WB2_RELAY_LOW,B.Cu,segment,30
+WB2_RELAY_LOW,F.Cu -> B.Cu,via,4
+WB2_RELAY_LOW,In3.Cu,segment,30
+WB2_RELAY_LOW,In4.Cu,segment,30
