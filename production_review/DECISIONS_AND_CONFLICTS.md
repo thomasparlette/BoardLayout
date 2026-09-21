@@ -12,6 +12,14 @@ The native board text controls object inventory over `reports/Routing_validation
 
 KiCad 10.0.6 identified 102 zero-length segments and 208 exact duplicate extras. One duplicate extra was itself zero-length, so 309 unique UUID-tagged records were removed. The legacy S-expression serialization was preserved to avoid unrelated board-format churn. No locked object was removed, all vias were retained, and native configured/strict DRC totals plus the 42-open per-net distribution remain unchanged. See `EXACT_COPPER_CLEANUP_VALIDATION.md` and `TRACK_CLEANUP_AUDIT.json`.
 
+## Ground-island repair boundary
+
+The 12 baseline DGND rows represented a connectivity tree over live islands and obsolete floating copper, not 12 literal point-to-point routes. The reviewed repair therefore removes 95 padless DGND remnants and 13 dead tails, then connects the seven safely reachable live DGND/PGND targets. Native configured and strict DRC reduce from 42 to 30 unconnected-item findings while their rule-category totals remain unchanged. The board now contains 42,770 segments and 2,235 vias.
+
+D27.1 and the R80 PGND island remain open. D27 has no legal standard through-via escape without rerouting adjacent signals; R80 has no legal through-via site or F.Cu escape without rerouting coil/control copper. Blind or buried vias were rejected because the current project is through-via-only and lacks an approved fabricator stackup. See `GROUND_ISLAND_REPAIR_VALIDATION.md` and `GROUND_ISLAND_REPAIR_AUDIT.json`.
+
+The complete D30, C42/C43, and D31/NT1 DGND repairs use the assigned 0.60 mm trace and 0.80/0.40 mm via preferences. D28, D26, and D29/D32 require documented 0.25 mm neckdowns, and the NT1 PGND stitch requires a 0.60/0.30 mm via, because preferred sizes collide with adjacent copper or leave inadequate unqualified fabrication margin. These exceptions are routing progress, not current-path qualification, and remain release-held.
+
 ## Signal-width conflict
 
 `REQUIREMENTS_CURRENT.md` and `reports/Routing_targets.json` specify a 0.25 mm signal target. The project Default net class remains 0.20 mm and has no dedicated Signal-class assignment. The 0.25 mm requirement controls unless an engineering decision explicitly changes it. No mass width change is authorized before native DRC and route-by-route review.
