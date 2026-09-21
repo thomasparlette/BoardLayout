@@ -22,6 +22,8 @@ Run `py source/production_baseline_audit.py` to regenerate `production_review/BA
 
 `reports/Routing_validation.json` is behind the current board by 280 segments and four vias. `reports/After_routing_DRC.txt` is also a saved checkpoint, not a current native run. Its 24 unconnected-item findings and other category counts must be regenerated before routing work begins.
 
+KiCad 10.0.6 has now regenerated the baseline under both the configured and isolated strict profiles. The current board has 42 unconnected-item errors. Strict DRC reports 287 rule violations and 286 schematic-parity warnings; strict ERC passes with zero violations and zero ignored checks. See `production_review/BASELINE_AUDIT.md` and `production_review/STRICT_PROFILE.md`.
+
 ## Release blockers
 
 - Native DRC and ERC must be rerun on the current files.

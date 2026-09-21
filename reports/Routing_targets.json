@@ -4,6 +4,7 @@
   "widths": {
     "Injector_5A_target": {
       "width_mm": 2.0,
+      "basis": "Conservative legacy geometry only. User clarified 2026-09-21 that supplied injector current is an aggregate eight-cylinder budget, not 5 A per channel. Revised branch width is pending single-injector peak/RMS and concurrency analysis.",
       "nets": [
         "INJECTOR_1",
         "INJECTOR_2",
@@ -34,6 +35,7 @@
     },
     "Coil_peak_unverified": {
       "width_mm": 3.0,
+      "basis": "Conservative legacy geometry only. User clarified 2026-09-21 that supplied ignition current is an aggregate eight-cylinder budget. Revised branch width is pending per-coil dwell peak/RMS and simultaneous-channel analysis.",
       "nets": [
         "COIL_1",
         "COIL_2",

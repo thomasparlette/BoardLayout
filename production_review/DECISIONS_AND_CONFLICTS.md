@@ -15,3 +15,9 @@ The native board text controls object inventory over `reports/Routing_validation
 ## Static versus native validation
 
 The standard-library audit is accepted only for file inventory, exact-geometry checks, saved-report comparison, and stored-netlist mapping. Native KiCad remains controlling for connectivity, zone fill, DRC, ERC, library comparison, and manufacturing plots.
+
+## Injector and ignition current basis
+
+On 2026-09-21 the user clarified that previously supplied injector and ignition amperage figures are aggregate budgets for all eight cylinders, not per-channel ratings. This conflicts with `LOAD_BUDGET_R9.md`, which treated 4 A RMS as per coil pack, 6 A peak as per primary, and the published 5 A injector-channel rating as a routing reference.
+
+The current 2.0 mm injector and 3.0 mm coil widths are retained as conservative legacy geometry until the aggregate RMS/peak values, individual branch peaks, simultaneous-channel cases and final stackup are known. No divide-by-eight rule is accepted: high-impedance injector resistance still constrains single-branch peak current, and each coil branch still carries its own dwell pulse. Revised widths may be smaller after those cases are calculated and verified.

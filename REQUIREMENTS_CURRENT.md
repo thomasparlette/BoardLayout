@@ -17,7 +17,7 @@
 - Retain factory IAC: Ford F6AZ-9F715-EB, 1.0–1.2 A, commanded near 300 Hz.
 - Use Bosch OE 62395 high-impedance injectors, 11–18 ohm.
 - Initial ignition is dual waste-spark factory coil packs; COP/D585 coils are excluded from this revision.
-- Coil primary design target: 4 A RMS per pack, 6 A nominal peak/dwell limit to be verified on the engine.
+- User clarification dated 2026-09-21: previously supplied injector and ignition current figures are aggregate budgets for all eight cylinders, not per-channel ratings. Per-injector and per-coil branch RMS/peak currents and simultaneous-channel cases remain to be established before trace widths are reduced.
 - Do not include EGR, EVAP, purge or other emissions controls.
 - Replace factory narrowband O2 operation with external wideband controllers for Bosch LSU 4.2 or 4.9 sensors.
 - Factory O2 heater circuits may provide the external controller supply; narrowband-related wiring may be used as a switched ground/enable only, subject to final schematic verification.
@@ -39,7 +39,7 @@
 - Use factory coil driver strategy initially. Requested ignition driver is FGD3245G2-F085C.
 - Provide future compatibility for TO-220 and DPAK ignition-driver options, pending pinout, thermal and footprint verification.
 - Separate power, digital, sensor and case-ground strategy must be retained and verified with the net-tie implementation.
-- Preserve power-path target geometries: 4.0 mm shared VPWR/ACTUATOR_12/PGND target; 3.0 mm coil target; 2.0 mm injector target; 1.2 mm auxiliary/transmission target; 0.6 mm rail target; 0.25 mm signal target. These are design targets, not certified current ratings.
+- Preserve the existing power copper until revised targets are calculated: 4.0 mm shared VPWR/ACTUATOR_12/PGND; 3.0 mm coil; 2.0 mm injector; 1.2 mm auxiliary/transmission; 0.6 mm rail; 0.25 mm signal. The coil and injector widths are conservative legacy targets, not required final widths or certified current ratings. Smaller widths require per-branch peak/RMS, concurrency, stackup, temperature-rise, via, neckdown, connector and fault-current review.
 
 ## Mechanical and layout requirements
 

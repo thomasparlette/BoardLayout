@@ -1,0 +1,150 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-21T16:11:09",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64",
+            "violations": []
+        },
+        {
+            "path": "/01 | Switched power and 5 V regulation/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/108ce562-e310-54d4-ba4f-26d2adf4152e",
+            "violations": []
+        },
+        {
+            "path": "/02 | Ground topology, reference rails and CAN/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/f584cef3-5fb1-5403-9fcc-920107767f2a",
+            "violations": []
+        },
+        {
+            "path": "/03 | Genuine MS3 daughtercard - 40-pin base socket/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/fd6f3eaf-1ef6-5ed4-ab1e-3462704ce700",
+            "violations": []
+        },
+        {
+            "path": "/04 | Genuine MS3 expansion interfaces/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/f7f5eabc-5f88-5a81-81aa-c43a4413768b",
+            "violations": []
+        },
+        {
+            "path": "/05 | Factory Ford connector - cavities 1 to 52/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/db7e0fdb-c2be-5c81-8483-9671dfd19af8",
+            "violations": []
+        },
+        {
+            "path": "/06 | Factory Ford connector - cavities 53 to 104/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/c44ea529-e8c6-5f47-b6fe-03b362ed421e",
+            "violations": []
+        },
+        {
+            "path": "/07 | Engine temperature, throttle and oxygen inputs/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/413505f4-c907-50df-a1cb-1e74574bd41b",
+            "violations": []
+        },
+        {
+            "path": "/08 | MS3X analogue inputs/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/6ce69457-c9aa-5780-bcb5-1511cea48646",
+            "violations": []
+        },
+        {
+            "path": "/09 | MAP sensor, battery measurement and spare ADC/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/20f8df97-a83a-5222-8dd7-fae198a8a487",
+            "violations": []
+        },
+        {
+            "path": "/10 | Factory crank VR conditioner/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/a54fc0ba-5168-5d92-b76d-73bb54fe1841",
+            "violations": []
+        },
+        {
+            "path": "/11 | Crank adjustment, phase selection and cam front end/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/cd02e3ce-dc2f-55a8-b37b-e39716460648",
+            "violations": []
+        },
+        {
+            "path": "/12 | Cam zero-crossing comparator/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/3aab9f6b-095a-5029-826e-e7ad5e5282b2",
+            "violations": []
+        },
+        {
+            "path": "/13 | Sequential injectors A-D/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/1ba04cc8-ca0b-52ae-bd65-bd991c858a21",
+            "violations": []
+        },
+        {
+            "path": "/14 | Sequential injectors E-H/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/fee02cb7-44e8-57ef-9398-3affc0d07b23",
+            "violations": []
+        },
+        {
+            "path": "/15 | Eight buffered smart-coil signals/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/e7a03ec5-cdb9-505f-b555-2802a0c8d664",
+            "violations": []
+        },
+        {
+            "path": "/16 | Optional factory wasted-spark power stages/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/b7f927b2-b64f-591b-9f1a-6357a6dc3a0f",
+            "violations": []
+        },
+        {
+            "path": "/17 | Low-side auxiliary drivers - group 1/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/917e0342-ecd0-5ac9-8fc8-212428a9b7eb",
+            "violations": []
+        },
+        {
+            "path": "/18 | Low-side auxiliary drivers - group 2/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/55c870f2-8877-5e43-9b85-790a7633fc5c",
+            "violations": []
+        },
+        {
+            "path": "/19 | Low-side auxiliary drivers - group 3/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/4cf0393b-3ff4-5bfd-9435-d0725824c248",
+            "violations": []
+        },
+        {
+            "path": "/20 | Oxygen-sensor heater low-side stages/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/adc47af8-def2-5821-8e25-1a877da6c66f",
+            "violations": []
+        },
+        {
+            "path": "/21 | Protected switch inputs/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/f2e0302d-c50c-5ccd-927b-05b7869dfbeb",
+            "violations": []
+        },
+        {
+            "path": "/22 | Brake, A/C request and flex-fuel input/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/673decbe-ad61-5f2c-9f58-89fcb2579d19",
+            "violations": []
+        },
+        {
+            "path": "/23 | External MicroSquirt transmission interface/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/0b7f881c-d9cf-5e66-bad3-0afc96dc3bc6",
+            "violations": []
+        },
+        {
+            "path": "/24 | Service and spare feature headers/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/ba1a70b5-87a3-5a44-9aff-e3597559a47d",
+            "violations": []
+        },
+        {
+            "path": "/25 | Factory functions outside the implemented control scope/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/585471a1-7efd-50ac-81dd-f8b8bcaf00fe",
+            "violations": []
+        },
+        {
+            "path": "/26 | ECM-shell pass-through to cabin MicroSquirt/",
+            "uuid_path": "/61478f39-4814-50d5-93e9-22b31da7cb64/37484b39-ffdc-505c-8f34-7ac891290eef",
+            "violations": []
+        }
+    ],
+    "source": "GrandMarquis97_RevA.kicad_sch"
+}

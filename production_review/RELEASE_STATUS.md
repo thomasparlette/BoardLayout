@@ -15,11 +15,13 @@ The current static baseline confirms that the saved validation reports are stale
 
 ## Evidence still required
 
-- Fresh native KiCad board load, zone refill, DRC, and schematic ERC.
+- Repair and rerun native KiCad DRC after the baseline's 42 opens and 287 strict-profile rule violations are dispositioned.
 - Reviewed routing repairs and copper cleanup with before/after evidence.
 - Independent Ford/MS3/MS3X/MicroSquirt functional mapping.
 - Selected and verified footprints, BOM, stackup, copper weights, current paths, vias, and thermal interfaces.
 - Complete mechanical fit evidence and prototype fabrication outputs.
 - Prototype assembly, bench, automotive-transient, thermal, and vehicle testing as applicable to each higher release state.
+
+KiCad 10.0.6 strict-profile ERC currently passes with zero violations and zero ignored checks. That result does not close PCB, component-selection, mapping, stackup, mechanical, or physical-test holds.
 
 The state must not advance until the applicable evidence exists in the repository and has been reviewed.
