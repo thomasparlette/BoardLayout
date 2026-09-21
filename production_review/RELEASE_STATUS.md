@@ -4,19 +4,20 @@
 
 `ROUTING_INCOMPLETE`
 
-The current static baseline confirms that the saved validation reports are stale and that copper cleanup and true electrical connections remain unresolved. No fabrication package is authorized.
+Exact zero-length and duplicate copper cleanup is complete, but true electrical connections and the remaining DRC findings are unresolved. No fabrication package is authorized.
 
 ## Evidence available
 
 - Native-board static inventory in `BASELINE_AUDIT.md` and `BASELINE_AUDIT.json`.
+- UUID-level exact-copper cleanup and native regression evidence in `EXACT_COPPER_CLEANUP_VALIDATION.md`, `TRACK_CLEANUP_AUDIT.json`, and the post-cleanup DRC reports.
 - 737 assigned PCB pad/net pairs match the stored source netlist, excluding J121.
 - Checked-in saved DRC from 2026-09-14, retained only as a checkpoint.
 - Existing mechanical envelope models retained as fit aids, not physical qualification.
 
 ## Evidence still required
 
-- Repair and rerun native KiCad DRC after the baseline's 42 opens and 287 strict-profile rule violations are dispositioned.
-- Reviewed routing repairs and copper cleanup with before/after evidence.
+- Repair and rerun native KiCad DRC after the 42 opens and 287 strict-profile rule violations are dispositioned.
+- Reviewed routing repairs with before/after evidence.
 - Independent Ford/MS3/MS3X/MicroSquirt functional mapping.
 - Selected and verified footprints, BOM, stackup, copper weights, current paths, vias, and thermal interfaces.
 - Complete mechanical fit evidence and prototype fabrication outputs.
