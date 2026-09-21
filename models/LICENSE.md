@@ -1,0 +1,1 @@
+Generic package WRL models are redistributed from KiCad kicad-packages3D. See Model_sources.json for exact source URLs and original comments in each model. KiCad library assets use CC BY-SA 4.0 with the KiCad design exception: https://www.kicad.org/libraries/license/ . Files ending ENVELOPE.wrl are generated approximate fit envelopes for this project, not manufacturer CAD.

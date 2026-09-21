@@ -1,0 +1,18 @@
+{
+  "ACTUATOR_12": 3,
+  "VCC_5": 3,
+  "VPWR": 3,
+  "FUEL_PUMP_CONTROL": 2,
+  "PGND": 2,
+  "AC_WOT_CUTOUT": 1,
+  "COIL_1": 1,
+  "COIL_2": 1,
+  "COIL_3": 1,
+  "COIL_4": 1,
+  "FAN_CONTROL": 1,
+  "IAC": 1,
+  "TRANS_EPC": 1,
+  "TRANS_TCC": 1,
+  "WB1_RELAY_LOW": 1,
+  "WB2_RELAY_LOW": 1
+}

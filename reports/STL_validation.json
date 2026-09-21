@@ -1,0 +1,39 @@
+{
+  "bare_watertight": true,
+  "envelopes_watertight": true,
+  "bare_bounds_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      140.93,
+      163.36,
+      1.6
+    ]
+  ],
+  "envelopes_bounds_mm": [
+    [
+      0.0,
+      0.0,
+      -2.2199599742889404
+    ],
+    [
+      140.92999267578125,
+      163.36000061035156,
+      20.374969482421875
+    ]
+  ],
+  "units": "millimetres",
+  "print_scale": "100%; do not scale to fit",
+  "hole_count": 297,
+  "body_envelopes": 236,
+  "NOT_INCLUDED": [
+    "MS3 daughtercard and its connectors above the socket",
+    "MapDaddy module and hose fittings",
+    "MicroSquirt cable mate, latch travel, wire bends",
+    "Factory case, thermal clips and insulating pads",
+    "Factory connector body and bent-pin envelope not verified; holes included."
+  ]
+}

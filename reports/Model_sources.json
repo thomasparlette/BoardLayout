@@ -1,0 +1,114 @@
+[
+  {
+    "footprint": "CP_Elec_8x10",
+    "model": "CP_Elec_8x10.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/CP_Elec_8x10.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "C_0805_2012Metric",
+    "model": "C_0805_2012Metric.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "R_1812_4532Metric",
+    "model": "R_1812_4532Metric.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "TSSOP-20_4.4x6.5mm_P0.65mm",
+    "model": "TSSOP-20_4.4x6.5mm_P0.65mm.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_SO.3dshapes/TSSOP-20_4.4x6.5mm_P0.65mm.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "D_SMB",
+    "model": "D_SMB.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_SMD.3dshapes/D_SMB.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "Potentiometer_Bourns_3224W_Vertical",
+    "status": "missing",
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "footprint": "TO-92_Inline",
+    "model": "TO-92_Inline.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "D_SMA",
+    "model": "D_SMA.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_SMD.3dshapes/D_SMA.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "TO-252-2",
+    "model": "TO-252-2.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "DIP-40_W15.24mm_Socket",
+    "model": "DIP-40_W15.24mm_Socket.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "R_0805_2012Metric",
+    "model": "R_0805_2012Metric.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "TO-263-3_TabPin2",
+    "model": "TO-263-3_TabPin2.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_SMD.3dshapes/TO-263-3_TabPin2.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "D_SOD-123",
+    "model": "D_SOD-123.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_SMD.3dshapes/D_SOD-123.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "L_0805_2012Metric",
+    "model": "L_0805_2012Metric.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "D_DO-41_SOD81_P10.16mm_Horizontal",
+    "model": "D_DO-41_SOD81_P10.16mm_Horizontal.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "SOT-23",
+    "model": "SOT-23.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl",
+    "status": "generic package model"
+  },
+  {
+    "footprint": "Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal",
+    "status": "missing",
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "footprint": "TO-220-3_Vertical",
+    "model": "TO-220-3_Vertical.wrl",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl",
+    "status": "generic package model"
+  }
+]

@@ -1,0 +1,244 @@
+(kicad_sch (version 20230121) (generator eeschema) (uuid e7a03ec5-cdb9-505f-b555-2802a0c8d664) (paper "A3")
+(title_block (title "15 | Eight buffered smart-coil signals") (date "2026-09-12") (rev "R4 CURRENT-TARGET REVIEW") (company "1997 Grand Marquis / genuine MS3") (comment 1 "NOT FOR FABRICATION OR VEHICLE CONNECTION"))
+(lib_symbols
+(symbol "GM97:74AHCT541" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 28.86 0) (effects (font (size 1.27 1.27))))
+(property "Value" "74AHCT541" (at 0 25.86 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "74AHCT541_0_1" (rectangle (start -15 25.86) (end 15 -25.86) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "74AHCT541_1_1" (pin input line (at -20.32 22.86 0) (length 5.08) (name "A1" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 17.78 0) (length 5.08) (name "A2" (effects (font (size 1.0 1.0)))) (number "3" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 12.7 0) (length 5.08) (name "A3" (effects (font (size 1.0 1.0)))) (number "4" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 7.62 0) (length 5.08) (name "A4" (effects (font (size 1.0 1.0)))) (number "5" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 2.54 0) (length 5.08) (name "A5" (effects (font (size 1.0 1.0)))) (number "6" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 -2.54 0) (length 5.08) (name "A6" (effects (font (size 1.0 1.0)))) (number "7" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 -7.62 0) (length 5.08) (name "A7" (effects (font (size 1.0 1.0)))) (number "8" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 -12.7 0) (length 5.08) (name "A8" (effects (font (size 1.0 1.0)))) (number "9" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 -17.78 0) (length 5.08) (name "OE1_N" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin input line (at -20.32 -22.86 0) (length 5.08) (name "OE2_N" (effects (font (size 1.0 1.0)))) (number "19" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 22.86 180) (length 5.08) (name "Y1" (effects (font (size 1.0 1.0)))) (number "18" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 17.78 180) (length 5.08) (name "Y2" (effects (font (size 1.0 1.0)))) (number "17" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 12.7 180) (length 5.08) (name "Y3" (effects (font (size 1.0 1.0)))) (number "16" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 7.62 180) (length 5.08) (name "Y4" (effects (font (size 1.0 1.0)))) (number "15" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 2.54 180) (length 5.08) (name "Y5" (effects (font (size 1.0 1.0)))) (number "14" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 -2.54 180) (length 5.08) (name "Y6" (effects (font (size 1.0 1.0)))) (number "13" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 -7.62 180) (length 5.08) (name "Y7" (effects (font (size 1.0 1.0)))) (number "12" (effects (font (size 1.0 1.0)))))
+(pin output line (at 20.32 -12.7 180) (length 5.08) (name "Y8" (effects (font (size 1.0 1.0)))) (number "11" (effects (font (size 1.0 1.0)))))
+(pin power_in line (at 20.32 -17.78 180) (length 5.08) (name "VCC" (effects (font (size 1.0 1.0)))) (number "20" (effects (font (size 1.0 1.0)))))
+(pin power_in line (at 20.32 -22.86 180) (length 5.08) (name "GND" (effects (font (size 1.0 1.0)))) (number "10" (effects (font (size 1.0 1.0)))))
+))
+(symbol "GM97:C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "C" (at 0 9 0) (effects (font (size 1.27 1.27))))
+(property "Value" "C" (at 0 6 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "C_0_1" (polyline (pts (xy -0.8 -2.54)(xy -0.8 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0.8 -2.54)(xy 0.8 2.54)) (stroke (width 0.254) (type default)) (fill (type none))))
+(symbol "C_1_1" (pin passive line (at -5.08 0 0) (length 4.28) (name "~" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin passive line (at 5.08 0 180) (length 4.28) (name "~" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+))
+(symbol "GM97:R" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "R" (at 0 9 0) (effects (font (size 1.27 1.27))))
+(property "Value" "R" (at 0 6 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "R_0_1" (rectangle (start -2.54 1.016) (end 2.54 -1.016) (stroke (width 0.254) (type default)) (fill (type none))))
+(symbol "R_1_1" (pin passive line (at -5.08 0 0) (length 2.54) (name "~" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin passive line (at 5.08 0 180) (length 2.54) (name "~" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+))
+(symbol "GM97:SMART_COIL_10" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "J" (at 0 28.86 0) (effects (font (size 1.27 1.27))))
+(property "Value" "SMART_COIL_10" (at 0 25.86 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "SMART_COIL_10_0_1" (rectangle (start -20 25.86) (end 20 -25.86) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "SMART_COIL_10_1_1" (pin passive line (at -25.4 22.86 0) (length 5.08) (name "SIGNAL_A" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 17.78 0) (length 5.08) (name "SIGNAL_B" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 12.7 0) (length 5.08) (name "SIGNAL_C" (effects (font (size 1.0 1.0)))) (number "3" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 7.62 0) (length 5.08) (name "SIGNAL_D" (effects (font (size 1.0 1.0)))) (number "4" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 2.54 0) (length 5.08) (name "SIGNAL_E" (effects (font (size 1.0 1.0)))) (number "5" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 -2.54 0) (length 5.08) (name "SIGNAL_F" (effects (font (size 1.0 1.0)))) (number "6" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 -7.62 0) (length 5.08) (name "SIGNAL_G" (effects (font (size 1.0 1.0)))) (number "7" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 -12.7 0) (length 5.08) (name "SIGNAL_H" (effects (font (size 1.0 1.0)))) (number "8" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 -17.78 0) (length 5.08) (name "SIGNAL_GND" (effects (font (size 1.0 1.0)))) (number "9" (effects (font (size 1.0 1.0)))))
+(pin passive line (at -25.4 -22.86 0) (length 5.08) (name "SIGNAL_GND" (effects (font (size 1.0 1.0)))) (number "10" (effects (font (size 1.0 1.0)))))
+)))
+(text "15 | Eight buffered smart-coil signals" (at 15 15 0) (effects (font (size 2.54 2.54)) (justify left top)) (uuid b5085911-459e-555f-bc20-c887b6112561))
+(text "Non-inverting 5 V buffer as on MS3X. D585 coils require a new external coil harness; the stock connector has four ignition channels." (at 15 22 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid 25b34873-42cc-50f4-8ca8-c08c86291303))
+(symbol (lib_id "GM97:74AHCT541") (at 110.49 80.01 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid adfa0c6f-e207-5b1d-9d10-377e545419f1)
+(property "Reference" "U5" (at 110 50.14 0) (effects (font (size 1.0 1.0))))
+(property "Value" "SN74AHCT541PWR" (at 110 52.64 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:TSSOP-20_4.4x6.5mm_P0.65mm" (at 110 80 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 110 80 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 110 80 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/e7a03ec5-cdb9-505f-b555-2802a0c8d664" (reference "U5") (unit 1)))))
+(wire (pts (xy 90.17 57.15) (xy 82.55 57.15)) (stroke (width 0) (type default)) (uuid ce313173-6153-4269-ac7b-e6e68ef0e8db))
+(global_label "SPK_A" (shape bidirectional) (at 82.55 57.15 180) (effects (font (size 1 1)) (justify right)) (uuid e363d97b-0cd4-40eb-b105-963d712ae714))
+(wire (pts (xy 90.17 62.23) (xy 82.55 62.23)) (stroke (width 0) (type default)) (uuid 84728a3e-bb8e-4f16-b943-c0df82e6a6b5))
+(global_label "SPK_B" (shape bidirectional) (at 82.55 62.23 180) (effects (font (size 1 1)) (justify right)) (uuid cb7446b8-59c0-4fbd-b96c-b0369f53aa9c))
+(wire (pts (xy 90.17 67.31) (xy 82.55 67.31)) (stroke (width 0) (type default)) (uuid 41eb5869-9aab-444a-a595-ff5a24cd2ada))
+(global_label "SPK_C" (shape bidirectional) (at 82.55 67.31 180) (effects (font (size 1 1)) (justify right)) (uuid 5f8faaa7-b969-41e5-9c03-c243e5ad0818))
+(wire (pts (xy 90.17 72.39) (xy 82.55 72.39)) (stroke (width 0) (type default)) (uuid f86ec7c9-f43c-45c3-932a-c1a273416da2))
+(global_label "SPK_D" (shape bidirectional) (at 82.55 72.39 180) (effects (font (size 1 1)) (justify right)) (uuid e12e51e4-6af2-4fa7-83be-718ac955f24a))
+(wire (pts (xy 90.17 77.47) (xy 82.55 77.47)) (stroke (width 0) (type default)) (uuid 83b6b561-6914-400f-a1c1-fe669d5c110a))
+(global_label "DGND" (shape bidirectional) (at 82.55 77.47 180) (effects (font (size 1 1)) (justify right)) (uuid d72fd26a-a25c-47b4-b9ac-6a5e0599e7e4))
+(wire (pts (xy 90.17 82.55) (xy 82.55 82.55)) (stroke (width 0) (type default)) (uuid 5d58398b-1d4b-4719-8c3e-7d163ed3c2c4))
+(global_label "DGND" (shape bidirectional) (at 82.55 82.55 180) (effects (font (size 1 1)) (justify right)) (uuid 8c0588ef-e238-425c-9cae-a2a369ffbbb3))
+(wire (pts (xy 90.17 87.63) (xy 82.55 87.63)) (stroke (width 0) (type default)) (uuid f61da7f4-6e4c-402a-bdda-05c0879b6c39))
+(global_label "DGND" (shape bidirectional) (at 82.55 87.63 180) (effects (font (size 1 1)) (justify right)) (uuid dd2c12b4-310d-4b73-9098-775b04c529bc))
+(wire (pts (xy 90.17 92.71) (xy 82.55 92.71)) (stroke (width 0) (type default)) (uuid e716fad6-47e4-48ea-90b9-5e451fd20d66))
+(global_label "DGND" (shape bidirectional) (at 82.55 92.71 180) (effects (font (size 1 1)) (justify right)) (uuid 2fdc126b-99dc-47d7-ab14-e04166184491))
+(wire (pts (xy 90.17 97.79) (xy 82.55 97.79)) (stroke (width 0) (type default)) (uuid d8296f1a-93f5-4bce-8523-8328236e77a5))
+(global_label "DGND" (shape bidirectional) (at 82.55 97.79 180) (effects (font (size 1 1)) (justify right)) (uuid 12fbb283-588a-4086-b8dd-b85002900893))
+(wire (pts (xy 90.17 102.87) (xy 82.55 102.87)) (stroke (width 0) (type default)) (uuid b8e2be67-72d2-48ce-a037-486e868ec0c4))
+(global_label "DGND" (shape bidirectional) (at 82.55 102.87 180) (effects (font (size 1 1)) (justify right)) (uuid 60c85077-0dcc-4322-98ae-c898d4234433))
+(wire (pts (xy 130.81 57.15) (xy 138.43 57.15)) (stroke (width 0) (type default)) (uuid 29a52620-43a0-4de2-a9e7-6240fdf8487c))
+(global_label "BUF_A" (shape bidirectional) (at 138.43 57.15 0) (effects (font (size 1 1)) (justify left)) (uuid 00ff495b-691d-462d-a15d-250493682144))
+(wire (pts (xy 130.81 62.23) (xy 138.43 62.23)) (stroke (width 0) (type default)) (uuid f5c71fe2-8bb6-4b61-ab8e-c1908eebd07b))
+(global_label "BUF_B" (shape bidirectional) (at 138.43 62.23 0) (effects (font (size 1 1)) (justify left)) (uuid 43e0b571-b63e-4941-8723-ce9945c4875b))
+(wire (pts (xy 130.81 67.31) (xy 138.43 67.31)) (stroke (width 0) (type default)) (uuid 33f4f778-ca3a-4c2b-af08-4a15bb7f29d4))
+(global_label "BUF_C" (shape bidirectional) (at 138.43 67.31 0) (effects (font (size 1 1)) (justify left)) (uuid 3fb41f29-3f58-43f9-a44f-a1d550e8ac46))
+(wire (pts (xy 130.81 72.39) (xy 138.43 72.39)) (stroke (width 0) (type default)) (uuid 51d132e9-2719-418c-abfe-9b7b25d78495))
+(global_label "BUF_D" (shape bidirectional) (at 138.43 72.39 0) (effects (font (size 1 1)) (justify left)) (uuid f912c301-529c-431c-8f99-f400931c6668))
+(no_connect (at 130.81 77.47) (uuid 8c3076d1-b0e4-4c68-9ab2-e795d297e733))
+(no_connect (at 130.81 82.55) (uuid 7c365ba8-ca84-4c65-b3b4-2f5e92f48c3a))
+(no_connect (at 130.81 87.63) (uuid c7d8073b-dbd8-4215-89b2-cb23db1b7a5c))
+(no_connect (at 130.81 92.71) (uuid 67d65599-bd9d-48b5-8636-b76ff614aed5))
+(wire (pts (xy 130.81 97.79) (xy 138.43 97.79)) (stroke (width 0) (type default)) (uuid e7c9bf71-5f95-4269-993e-2a1983ab077c))
+(global_label "VCC_5" (shape bidirectional) (at 138.43 97.79 0) (effects (font (size 1 1)) (justify left)) (uuid 9c57517f-5aac-4c44-b680-84c6c6c177b5))
+(wire (pts (xy 130.81 102.87) (xy 138.43 102.87)) (stroke (width 0) (type default)) (uuid c4f3ab67-9972-4ede-9849-79c544326d60))
+(global_label "DGND" (shape bidirectional) (at 138.43 102.87 0) (effects (font (size 1 1)) (justify left)) (uuid 520c5af8-26c0-4422-a17a-652c26cd0d21))
+(symbol (lib_id "GM97:R") (at 234.95 43.18 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid d61980ff-3c7d-5441-be00-3aba11fd4d75)
+(property "Reference" "R62" (at 235 37 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100k" (at 235 39.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 235 43 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 235 43 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 235 43 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/e7a03ec5-cdb9-505f-b555-2802a0c8d664" (reference "R62") (unit 1)))))
+(wire (pts (xy 229.87 43.18) (xy 222.25 43.18)) (stroke (width 0) (type default)) (uuid 17776a58-75b2-45b5-85ab-b3906da1b0a1))
+(global_label "SPK_A" (shape bidirectional) (at 222.25 43.18 180) (effects (font (size 1 1)) (justify right)) (uuid 2090a177-1857-4b4d-9ec9-c424b9bf9343))
+(wire (pts (xy 240.03 43.18) (xy 247.65 43.18)) (stroke (width 0) (type default)) (uuid 5da8f9ac-8bb7-43b9-a8fa-61b9dd839f5c))
+(global_label "DGND" (shape bidirectional) (at 247.65 43.18 0) (effects (font (size 1 1)) (justify left)) (uuid e281c4f9-9cce-470e-a8f4-d626bf6ceec6))
+
+
+
+
+
+(symbol (lib_id "GM97:R") (at 234.95 66.04 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 2c77864e-229a-5fc7-8110-f143ee8ee08b)
+(property "Reference" "R64" (at 235 60 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100k" (at 235 62.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 235 66 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 235 66 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 235 66 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/e7a03ec5-cdb9-505f-b555-2802a0c8d664" (reference "R64") (unit 1)))))
+(wire (pts (xy 229.87 66.04) (xy 222.25 66.04)) (stroke (width 0) (type default)) (uuid d5a60bd4-4111-454b-958e-7d7bc3e4a962))
+(global_label "SPK_B" (shape bidirectional) (at 222.25 66.04 180) (effects (font (size 1 1)) (justify right)) (uuid 647614a3-b24d-4953-a681-35f52abff187))
+(wire (pts (xy 240.03 66.04) (xy 247.65 66.04)) (stroke (width 0) (type default)) (uuid 5e7ff66e-b0c8-464e-a935-b753b60e19fb))
+(global_label "DGND" (shape bidirectional) (at 247.65 66.04 0) (effects (font (size 1 1)) (justify left)) (uuid 4328c20f-66eb-40a1-a882-15d536231c1e))
+
+
+
+
+
+(symbol (lib_id "GM97:R") (at 234.95 88.9 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 0f52a4c8-5949-5a4f-8ba8-051add7601a7)
+(property "Reference" "R66" (at 235 83 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100k" (at 235 85.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 235 89 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 235 89 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 235 89 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/e7a03ec5-cdb9-505f-b555-2802a0c8d664" (reference "R66") (unit 1)))))
+(wire (pts (xy 229.87 88.9) (xy 222.25 88.9)) (stroke (width 0) (type default)) (uuid 835aea87-9686-48d5-b8f1-5485cc34c637))
+(global_label "SPK_C" (shape bidirectional) (at 222.25 88.9 180) (effects (font (size 1 1)) (justify right)) (uuid f57b83d3-47f5-4c3c-89fc-ed73d5c3f500))
+(wire (pts (xy 240.03 88.9) (xy 247.65 88.9)) (stroke (width 0) (type default)) (uuid 08617216-7831-4459-850d-667553c96a60))
+(global_label "DGND" (shape bidirectional) (at 247.65 88.9 0) (effects (font (size 1 1)) (justify left)) (uuid 5ff12882-d76f-4b19-868f-14c07e852ebf))
+
+
+
+
+
+(symbol (lib_id "GM97:R") (at 234.95 111.76 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 48c5c797-23ff-5952-acbe-8a57a688c1ea)
+(property "Reference" "R68" (at 235 106 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100k" (at 235 108.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 235 112 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 235 112 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 235 112 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/e7a03ec5-cdb9-505f-b555-2802a0c8d664" (reference "R68") (unit 1)))))
+(wire (pts (xy 229.87 111.76) (xy 222.25 111.76)) (stroke (width 0) (type default)) (uuid 91d000df-c03f-4e78-bcac-f447c6a70f62))
+(global_label "SPK_D" (shape bidirectional) (at 222.25 111.76 180) (effects (font (size 1 1)) (justify right)) (uuid 81d51ac3-b769-44fa-b485-fa4b795ffffb))
+(wire (pts (xy 240.03 111.76) (xy 247.65 111.76)) (stroke (width 0) (type default)) (uuid 7ee0c348-57cf-4958-886f-754e09f50e45))
+(global_label "DGND" (shape bidirectional) (at 247.65 111.76 0) (effects (font (size 1 1)) (justify left)) (uuid b14d1b08-cd4d-4d3d-848e-5253703866f7))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(symbol (lib_id "GM97:C") (at 90.17 158.75 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid df56c638-d1ad-591c-a792-fcb728e53caa)
+(property "Reference" "C37" (at 90 153 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100 nF" (at 90 155.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:C_0805_2012Metric" (at 90 159 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 90 159 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 90 159 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/e7a03ec5-cdb9-505f-b555-2802a0c8d664" (reference "C37") (unit 1)))))
+(wire (pts (xy 85.09 158.75) (xy 77.47 158.75)) (stroke (width 0) (type default)) (uuid 04e19efa-101b-49f4-8b1f-31e215a88c1a))
+(global_label "VCC_5" (shape bidirectional) (at 77.47 158.75 180) (effects (font (size 1 1)) (justify right)) (uuid 5cf759fb-9312-4d9a-9885-0ca545c71bbd))
+(wire (pts (xy 95.25 158.75) (xy 102.87 158.75)) (stroke (width 0) (type default)) (uuid 948531f2-e3e7-447c-8fb6-ddf0d1ad3513))
+(global_label "DGND" (shape bidirectional) (at 102.87 158.75 0) (effects (font (size 1 1)) (justify left)) (uuid 1142a955-09a2-4b59-b926-55f562c5d639))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(text "D585 mode: factory power-IGBT inputs disconnected; J110 feeds logic inputs only.\nCoil +12 and power grounds are external, fused and returned to the engine.\nSelect documented spark polarity and measure safe dwell for the exact coils.\nOver-dwell self-firing behavior must be checked; no tune is supplied." (at 170 235 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid 80337f60-5b77-5b13-8b1f-82940090d4c2))
+)

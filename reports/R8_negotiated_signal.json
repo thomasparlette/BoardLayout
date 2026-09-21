@@ -1,0 +1,205 @@
+{
+  "added": [
+    "BUF_A",
+    "INJ_G_G",
+    "SPK_C",
+    "SPK_C",
+    "SPK_D",
+    "SPK_D",
+    "STOCK_C_IN",
+    "STOCK_C_IN"
+  ],
+  "failed": [],
+  "displaced_items": [
+    {
+      "for": "BUF_A",
+      "net": "FAN_CMD",
+      "uuid": "795efdde-5b45-4e70-94b4-4a74ac554f49"
+    },
+    {
+      "for": "BUF_A",
+      "net": "FAN_CMD",
+      "uuid": "94df59ab-aa69-4777-8499-e97edb6f9213"
+    },
+    {
+      "for": "BUF_A",
+      "net": "FAN_CMD",
+      "uuid": "ea036a7d-11bf-447d-a078-777205db778d"
+    },
+    {
+      "for": "BUF_A",
+      "net": "FAN_CMD",
+      "uuid": "74077b84-699b-462e-ab5a-e95b649dba8a"
+    },
+    {
+      "for": "INJ_G_G",
+      "net": "SPARE_PM2",
+      "uuid": "aa0379c4-d59e-412b-b98d-606defcfc5f5"
+    },
+    {
+      "for": "INJ_G_G",
+      "net": "SPARE_PM2",
+      "uuid": "b9703764-64a7-424e-8c66-60eb41c06c76"
+    },
+    {
+      "for": "INJ_G_G",
+      "net": "INJ_F_G",
+      "uuid": "66a146bd-db7e-4034-acfa-dfbc628237e8"
+    },
+    {
+      "for": "INJ_G_G",
+      "net": "INJ_F_G",
+      "uuid": "9500f002-c24d-406f-9214-e81ec5135e3f"
+    },
+    {
+      "for": "INJ_G_G",
+      "net": "INJ_F_G",
+      "uuid": "a70a135c-ca67-4c2f-9368-c0f16d87f2c7"
+    },
+    {
+      "for": "INJ_G_G",
+      "net": "INJ_H",
+      "uuid": "33a82bea-35f1-49e1-877b-e6a655ee2f3e"
+    },
+    {
+      "for": "SPK_C",
+      "net": "CKP_PLUS",
+      "uuid": "2e2b65e5-a83f-4678-bd9f-5c4558003abe"
+    },
+    {
+      "for": "SPK_C",
+      "net": "CKP_PLUS",
+      "uuid": "363c35df-120e-43f6-9a3e-d9828b081d21"
+    },
+    {
+      "for": "SPK_C",
+      "net": "CKP_PLUS",
+      "uuid": "80d9bbbe-05fd-40e4-90e7-8c741b5ff50f"
+    },
+    {
+      "for": "SPK_C",
+      "net": "NITROUS_LOGIC",
+      "uuid": "03441893-4ce1-4bc8-a0b2-e688974b01bf"
+    },
+    {
+      "for": "SPK_C",
+      "net": "NITROUS_LOGIC",
+      "uuid": "0e95c7c1-d39a-41a2-b5ae-f88b09b5ab77"
+    },
+    {
+      "for": "SPK_C",
+      "net": "SPK_B",
+      "uuid": "c4e4a4f1-5f33-4fd8-8435-800f071c38a2"
+    },
+    {
+      "for": "SPK_C",
+      "net": "SPK_A",
+      "uuid": "6bf9016a-97bd-4ee7-9384-bf9b3c46a448"
+    },
+    {
+      "for": "SPK_C",
+      "net": "TABLE_LOGIC",
+      "uuid": "13790075-4554-42e8-9bf0-f3487de01622"
+    },
+    {
+      "for": "SPK_C",
+      "net": "TABLE_LOGIC",
+      "uuid": "3b2e4609-49cf-4cdf-a2d0-03c2bf701427"
+    },
+    {
+      "for": "SPK_C",
+      "net": "TRANS_TEMP",
+      "uuid": "c526c9e3-aa12-4320-9044-2d2830ff16dd"
+    },
+    {
+      "for": "SPK_D",
+      "net": "TCU_VSS_PLUS",
+      "uuid": "4c10ffac-043b-4ca7-9749-b463ae9fa957"
+    },
+    {
+      "for": "SPK_D",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "73ad7db7-c805-40e1-a286-a41338471655"
+    },
+    {
+      "for": "SPK_D",
+      "net": "SPK_B",
+      "uuid": "3f166272-dd58-4384-8ec4-40226084d580"
+    },
+    {
+      "for": "SPK_D",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "b7e57060-3d37-4233-96bb-3883966d2348"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "IDLE_CMD_G",
+      "uuid": "1775ca6a-2ae3-4f8d-836c-780f77a8d8d4"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "IDLE_CMD_G",
+      "uuid": "6bbfff44-cb42-4ded-a863-2dc9b3b878a4"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "IDLE_CMD_G",
+      "uuid": "a0c9ccf5-bf46-4fb4-83cc-661fc8f69cba"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "IDLE_CMD_G",
+      "uuid": "b5f6091a-478e-40c8-9de2-102b8d19fd66"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "IDLE_CMD_G",
+      "uuid": "deb94627-d79f-497a-ab78-806cbed4f1cc"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "SPARE_FIDLE",
+      "uuid": "0ff076d0-fae4-46ab-906c-a0ffe972f2ce"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "SPARE_FIDLE",
+      "uuid": "59ebbf58-40d8-4c28-a2ba-3b5bdaaea309"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "SPARE_FIDLE",
+      "uuid": "72429924-5688-448d-bb19-26b542799d52"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "SPARE_FIDLE",
+      "uuid": "9a2d7e44-71f3-40ff-bde1-31f8dfae0c50"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "SPARE_FIDLE",
+      "uuid": "aa0dd943-fd06-441e-8559-790a21bef2b5"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "SPARE_FIDLE",
+      "uuid": "b6072915-f51d-4505-975c-9cbd946f4543"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "6575d3ed-a49c-45f3-b010-ecdc7c38b452"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "HEATER_G2",
+      "uuid": "b5d4f929-daeb-48a7-8865-3e2066899138"
+    },
+    {
+      "for": "STOCK_C_IN",
+      "net": "NITROUS_LOGIC",
+      "uuid": "1a113b30-d81f-4c37-a72a-47fc1db51d0d"
+    }
+  ]
+}

@@ -1,0 +1,3725 @@
+{
+  "added": [
+    "ACTUATOR_12",
+    "ACTUATOR_12",
+    "AUX_TACH",
+    "FUEL_PUMP_CONTROL",
+    "INJECTOR_1",
+    "INJECTOR_5",
+    "INJECTOR_7",
+    "MIL"
+  ],
+  "failed": [
+    [
+      "ACTUATOR_12",
+      "hard search"
+    ],
+    [
+      "AC_WOT_CUTOUT",
+      "hard search"
+    ],
+    [
+      "COIL_3",
+      "hard search"
+    ],
+    [
+      "FAN_CONTROL",
+      "hard search"
+    ],
+    [
+      "FUEL_PUMP_CONTROL",
+      "hard search"
+    ],
+    [
+      "IAC",
+      "hard search"
+    ]
+  ],
+  "displaced_items": [
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "06397925-c19b-44ec-b4f6-25ed036fb55d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "0b82579d-f46c-49b6-a2be-f82dbb668aff"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "192c1436-7817-4a26-9309-a5e7b18bd3be"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "2c95be71-5f8d-4e96-9735-d6a6e2b8787e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "2e92b52c-7f19-4e21-b32e-a8d42c7aa4a7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "5f4a3328-dbe2-4114-aa50-408f38e51890"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "6e6985e4-03c4-4a6c-b7bc-f91cadc02731"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "7c645764-a75f-4f84-95c5-8d40c1321c39"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "c52506a3-4b5b-4d3e-9474-248c5ebe8bcb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "c9497d20-70ff-4c88-9e38-f9fb5caae99e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "ef2f9495-c294-47de-b344-032918be9843"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "1ef42502-d242-42b7-a9ab-3db1373bbd39"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "3108555c-1fdb-4096-830b-4a5e3a0699d2"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "4557ae7e-e2eb-4b10-85ca-46d6dc1fcc9b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "8e990d73-c046-4daa-9eaf-c996e21691f4"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "e50123bf-e668-41dd-9dd7-5133cd12228d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "ebffa8b5-5445-4758-8a33-8694d366a84a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "6fb7c3c8-544b-45f6-819a-224fa57d43ae"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "fdd7304d-fba5-43ad-a398-848a54d6c720"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VREF_FILTER",
+      "uuid": "0e69f36f-d97f-48b6-aec4-76b35f95bf1f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VREF_FILTER",
+      "uuid": "a6b8a834-1b6e-4c9e-96db-e2c4cfac5d3b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VREF_FILTER",
+      "uuid": "ea8c3a6f-7e86-4069-86cb-10e9caf222bb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "591d8671-be73-4d3a-b7be-ff5ee588035d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "68b09cb4-8fd3-443b-b478-930eec4f0054"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "d7fbda25-8f20-486a-94ba-28170754e68b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "78c0cbe7-ae26-428a-9eda-0bf35ab91dd7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FLEX_LOGIC",
+      "uuid": "18ec9395-71b1-49ac-9772-f15465402869"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "1cd1d14b-6955-4556-8e85-28f8d9848bab"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "63965832-5cf8-4f7f-be67-bead541396f6"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "90a924f6-c52f-47d9-b222-e86dd7d5380f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SGND",
+      "uuid": "b09ac209-6cbc-4e27-83da-2fba2d58a3f4"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VCC_5",
+      "uuid": "d90fadc4-cefc-4c48-8a91-faa8afead467"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "45baf44a-7ba9-4314-a3b4-bfd575e89ca9"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "f601de12-f5b2-4e41-817a-18c48bb8cde8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "1c4c3207-63d9-4d50-87a5-49227ed1c6f6"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "3a2c3496-a1c7-47ad-a1ed-f23581d1db26"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "4515c6ed-16ac-4ae3-ab5c-0f8540d6caed"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "a548879f-d0e2-44f9-8e80-0cfabaf6ef70"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "e1fc766d-ff25-4c31-8e73-870c36a08a00"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "fdc9fbad-b2aa-4073-a13c-576f198cb65c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "fe3440e0-8fb7-4be5-9170-e96c78e0ca82"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_DRIVE",
+      "uuid": "be223862-c12f-4085-89f1-e95c5b184146"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "b12f60eb-6c11-403b-a430-9b2b887bc57d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_G",
+      "uuid": "a386ae23-3400-4e99-95c1-44eea1b13e3c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "17996bc0-4e32-4049-854e-35589ea0ba33"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "1cef819c-0871-4bf4-b1c0-9cfd9237131e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "24bc012a-0862-4e05-855e-b9f29cf141b0"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "3a6ced27-ffb6-48e9-a86e-85198ba19e2e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "56f7d81d-58f3-4539-9cfb-70568d730b48"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "30450e13-ae6f-4466-913e-216b165c717b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "83d624c9-1ff3-4754-bf99-f429afae4e79"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "b12185a2-5f05-4a2f-8e68-c4a36181d0d6"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "b6d7e00b-877f-4541-ba0c-539369604927"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "847cb2da-2eb2-4639-a4e6-0b65d23210ed"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "af004d69-f871-4b8c-90c2-61412664862b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "15524907-4eb9-426d-9840-caf170e6e485"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "2952226b-62ea-4ef7-9c12-37221789daec"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "392240ac-d6bd-4217-bd2d-414b226ce9b1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "68ec5b13-a942-479c-85c1-438515e2ee92"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "84af491c-b258-41fa-853b-6f11b38b731f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "9af9b975-14dd-44b0-8e39-c944427f1871"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "a042cda7-e1d7-4a85-9f47-ac74eef40abd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "acd029b9-1a9f-4b18-8a86-d8d4c677a53f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "c34f5c03-305d-4471-abf4-e9b77d7f2437"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "c9ca2555-59e2-4eba-95b1-7fb1beb3a6d3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "cfd0ac49-868c-4bfc-8ea6-fb2d3cf59c02"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "d5a1bf00-8636-4ead-a90a-bfad86a99101"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "e2308c85-cd6b-434a-9880-c99e407b31f4"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "ecbc9ba0-f25d-412d-b707-74ee7cff23ce"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "122dc703-c17e-4914-9721-179eb720af3e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "20ed0f8c-f378-4aed-8a41-79fa770f02fd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "2c2110dd-73c1-4e57-bfbd-ce7d9659123e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "4dca8b06-5be7-407f-898f-c5b40dbf3da0"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "56ede722-d219-41dc-9306-5e3c3b5b2896"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "5f3fa328-508f-4270-a208-5c8af407af2d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "63dff47b-7a6b-465f-ab49-92cacddbce1f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "6936809a-cbcb-442e-bfae-7a53dea60cc5"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "6bb8fc4e-6ddf-417a-a552-70ba50bc5bf9"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "707d8801-8b24-4d30-8f7d-ba0293f7f62d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "cd747089-0161-4ef1-959d-94bc3569bdc0"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "d1289926-b09d-41b0-be5e-f32e224ea51e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "fbf17f89-00a6-4f6e-ac81-0949aadafef2"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "d1c09376-f8a0-4363-892f-dcf154c2ea5f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "e6548bf9-762d-47fa-b64c-88b97abca244"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "a8344f77-042d-42d3-918b-79ff4fafc001"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "235fe45a-dab2-4347-be32-df7dd5aa690e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "8b9b9dc3-2ca9-4dd9-92d2-202d741ededb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "192e4b4b-9c96-47f4-a298-646144569ceb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "b54f30ac-51c5-45b4-9fd7-9e5b577bd99a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "1c1ef96a-b4d5-4d78-a31c-b1397f5e8709"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "ae9b1041-cb08-4cf8-b932-59d6f3fcb89b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "0953e056-0d4a-4555-8e0e-9ac45c798b86"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BRAKE_SWITCH",
+      "uuid": "9c2bed39-fc2d-4ccf-a5a8-f750b11ced8f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "7eb444d6-74e5-4b44-8d2d-f27384b4ce55"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "8884c18f-218e-4803-a314-3a1b9264499a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "a800bafa-ca7f-4d10-a039-a789f2b9e5b0"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "abfadcf7-d00a-46ac-83fb-6071e5eec5d1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "bd18fcac-0d21-4bbe-beab-377782a4d15b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "f4380f69-e436-4ce8-8aa6-c0a7c4d7a932"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DLC_PLUS",
+      "uuid": "fbd17751-55b2-43d2-bf8a-706296a5ce1c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DLC_PLUS",
+      "uuid": "4d263cfe-5076-4fed-ad08-d4947b8dda66"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_4",
+      "uuid": "282a0210-09d1-4eb8-b29d-c0dbabe550b8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DLC_PLUS",
+      "uuid": "a027a4f9-ed0b-4feb-a200-ad602eb89e22"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BRAKE_SWITCH",
+      "uuid": "594adec8-ab61-4619-8709-b36e0c480adf"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DLC_PLUS",
+      "uuid": "3823e621-8e39-4fc6-9d0e-e0ca6424116c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DLC_PLUS",
+      "uuid": "fe848ba6-ca17-470c-ac85-b0c285798f1e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "13044736-d417-485e-b2bb-cc3682bb030a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "23f084b9-8595-458f-992b-92138be775b8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "69ed1877-49a2-4ad4-a506-ab8678eab4b9"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "7ffc454f-d638-463c-b1ae-8be04a260147"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "c7477aef-11a2-44cc-8a63-6fe8c9125aa3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "c9283149-18c9-4edc-91a1-cda7161f8221"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_MONITOR",
+      "uuid": "ff28b4c2-cb01-4dde-8be6-6b8400638a58"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "7bff3f04-1c74-46e3-950b-2f8a7578d374"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "3488a823-5963-4d50-8419-7d53afd96b02"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "ECT",
+      "uuid": "cf7e09b8-1e41-4e1d-8331-3e88bd08526b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "326dd779-f076-4704-9cfb-f81a54fd4bb7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "8f09b698-b262-4188-ac56-eb514e146fa8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_PLUS",
+      "uuid": "83e5047a-9ad1-494d-b3b5-dad18a6b2589"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FEPS",
+      "uuid": "3deddd16-900a-4e34-b1d3-8ff033dd07fd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FEPS",
+      "uuid": "46242967-0d9d-4f8b-be46-580b4a98c66b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FEPS",
+      "uuid": "6e6ba5e0-fe61-48d2-b2bc-4f7eed042dbe"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FEPS",
+      "uuid": "839b7f41-5fc9-4708-810d-7e21c7e7743c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FEPS",
+      "uuid": "95d82826-9ec6-421c-acd5-6cfa77f2ac60"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_LEVEL",
+      "uuid": "11729211-fc9e-429e-b2eb-8c70db00282a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_LEVEL",
+      "uuid": "2e0c1c74-0dbe-412f-8c58-3c40adba6b62"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_LEVEL",
+      "uuid": "c96c4b73-8fef-41c6-961f-6296106ac943"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_LEVEL",
+      "uuid": "f2ec2fdf-183b-4770-8d04-1aa5b2a378d5"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_A",
+      "uuid": "0b358d78-ef12-432e-82e7-146eda113f38"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_A",
+      "uuid": "4ee62cee-9cb2-4b3a-90eb-8b844ac315fd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_A",
+      "uuid": "5ff6f6de-1679-4ae7-95b5-802437e00907"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_A",
+      "uuid": "8cad205c-2dc7-4613-8ded-637c97eb6ad7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_A",
+      "uuid": "c3a9a567-3a2b-4d75-a7d2-7966dcdf069e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_LEVEL",
+      "uuid": "05561048-b208-40e9-b872-517f5de89bdb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_LEVEL",
+      "uuid": "c3f90194-3a47-4da2-9b37-3def9fb86bdd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_B",
+      "uuid": "f0ee6183-2786-4d99-91d3-22307899b064"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "287e03ac-fefb-4f55-94d5-79e0e87e0398"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "31ccf42c-4868-44c6-9e6f-c004d360f6ae"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "68d86b95-70d0-4c33-9422-b0208e6a73be"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "9bf64122-030c-4e24-9a97-5c181371ef91"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "b1b8c2a8-d6d0-4ed1-a2f4-393648846842"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_2",
+      "uuid": "152b44b9-9473-441e-bcc4-3bb2b5bb7741"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_2",
+      "uuid": "39648a62-1feb-4ada-b730-db88392d9782"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_2",
+      "uuid": "4d2bfd43-e034-4faa-bcff-100f96ba78c3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_2",
+      "uuid": "50e1bb05-c7f9-49ce-b22e-eb33716c2e4d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_2",
+      "uuid": "f5bad487-1aa4-4114-ba66-4addcc92ea0d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "431f5813-0d78-4836-81cb-59b614eb4dab"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "6a9ac243-117b-4b81-a429-c5b77763d5bd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "eb121a44-74a0-4478-a579-df9dd62c326b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "5e334b79-1bff-428a-9799-dc8c5b858791"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_F",
+      "uuid": "8dc3818f-e8df-498e-aaa1-9a63f18f8af8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_2",
+      "uuid": "333ed0a8-4c40-41fb-aa0c-4c1469d5d09a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_2",
+      "uuid": "5a687533-bf0a-433e-8cf6-7c8d717329f3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_B",
+      "uuid": "99749dc2-f435-4a97-8635-91ee7ea59c15"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_B",
+      "uuid": "ab5b9177-969c-46f4-9765-4a9f00399f74"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_A",
+      "uuid": "d3bf862a-e169-4ec8-9cbf-efd13156deab"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BATTERY_KEEPALIVE",
+      "uuid": "76fd1af5-d60c-4c28-a74c-4b558f9ce016"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_4",
+      "uuid": "6a7bdb54-f094-4361-930c-e9c63e2d01ac"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "7ce45d44-dec7-4f71-acbe-9be255537d81"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "61082d6e-2212-44cc-9220-91ba81715033"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "91eaaed0-3f5f-4fc6-8735-1f84ffcd8a42"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "d652a95e-e523-43cb-9a19-a2e0ff18bae1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FLEX_LOGIC",
+      "uuid": "a14545f6-16a7-4975-b9fd-392110236a75"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OD_SWITCH",
+      "uuid": "414740a6-b907-4136-bebf-fe54c1dd1a24"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OD_SWITCH",
+      "uuid": "282c4a0f-d22a-4efc-a41b-dfd49d20bdb2"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OD_SWITCH",
+      "uuid": "31933ae2-71d5-47bb-ade9-fc09aa06081d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_D_G",
+      "uuid": "08b2944e-b150-431e-9d73-cafc14489ffb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_D_G",
+      "uuid": "40d19c6a-59e1-41a2-920d-6b819e1e913b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_D_G",
+      "uuid": "59f44e80-1ada-4cd8-bf17-b71737447435"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_D_G",
+      "uuid": "6e657ae8-b06d-434e-a7fa-d172642a4c69"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_D_G",
+      "uuid": "714b0763-ad19-41f7-b25a-96e2a04d8aa4"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "171b837e-9d7b-4118-a91b-ebd787127398"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "47334faa-407a-4f3d-a735-c787d4c824c0"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "5f5d8adc-65eb-49d1-ad7a-cb0455f616e1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "709eb95f-2a0f-4a3c-a8f4-87c8f0fc5382"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CONTROL",
+      "uuid": "213e7e7d-e232-482d-9255-109c69d1f3f8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "HEATER_G2",
+      "uuid": "6965622a-273b-40a5-89e4-ecd307cda2cd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "HEATER_G2",
+      "uuid": "7c452583-ec0a-4fcc-86da-7c4c59993c9a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "HEATER_G2",
+      "uuid": "c9369d59-83b7-40c4-aecf-629fc83fd119"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "HEATER_G2",
+      "uuid": "31d8172d-0523-4b26-9ee2-6a298b6c142a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "HEATER_G2",
+      "uuid": "749b1652-fdea-48a7-b86f-0f61883369f7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CONTROL",
+      "uuid": "12125c92-cb0a-4b23-bd22-413f28f26bb2"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CONTROL",
+      "uuid": "8d6b811c-922a-4267-aebf-4b353bb52042"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CONTROL",
+      "uuid": "be8086c1-5eaa-40ad-8ba1-aa4cfc372041"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D",
+      "uuid": "2460bd7f-5dd6-4f28-b27b-f9f88dda06a5"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "5c44752f-be23-4059-84b0-3e8388fe172a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IAC",
+      "uuid": "05b7b8d3-8561-41bb-bb3d-d92ef41dbf59"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IAC",
+      "uuid": "868bc02f-4f09-40b7-824d-683267a987a8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IAC",
+      "uuid": "8e4d21c9-e3fc-4049-bb1c-930e0689a133"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "78ad0806-b3f2-479d-a7fc-0f22992409b1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CONTROL",
+      "uuid": "0b4581d7-0207-4f82-8406-a6743698445c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CONTROL",
+      "uuid": "b646172f-5ddd-48e0-9726-0bf06012e340"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FUEL_PUMP_CONTROL",
+      "uuid": "c2f1f710-7c0f-453c-b4ea-85ede1791b04"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "71f9fdc5-d212-41b8-9261-8abb145675f9"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "8727166b-ba9b-4441-aaf8-3cb2982f5a5d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "a1dcc86e-71e4-440d-b74e-7b4494eb1321"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "bd41055b-a9fb-4e15-a9d3-9a1c7f40d2fd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DATALOG_LOGIC",
+      "uuid": "9bda2cd5-ad90-491a-a316-96c545fe8a6a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DATALOG_LOGIC",
+      "uuid": "11e9dc19-5f91-4d37-bdbb-9d97639ea980"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "DATALOG_LOGIC",
+      "uuid": "d59aa637-7568-4ed0-8946-986780055643"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "9653cb4b-b9e4-4986-b297-9226985c3d7e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OD_SWITCH",
+      "uuid": "5bc14b62-6ed4-4ce1-9c21-ef14022b5e97"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "d7212db6-652e-498e-b48a-82f72802748f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "HEATER_G1",
+      "uuid": "dbdea5bb-3986-4385-a8c4-4b35f215f1b7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_C_G",
+      "uuid": "585f7742-93d8-4cfc-a594-daaf6118739a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OSS_PLUS",
+      "uuid": "419fe697-2ebc-4313-8ef3-be31e6a93e73"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OSS_PLUS",
+      "uuid": "5b90f78e-363b-4478-ba6b-56f1ef2a8203"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OSS_PLUS",
+      "uuid": "77e32aa0-9d43-489d-9e05-89ec415e8be9"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OSS_PLUS",
+      "uuid": "f1c3ae4a-91c7-4f5c-b879-f86e5a63dfa2"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OSS_PLUS",
+      "uuid": "f7dea1fa-2e34-46ff-8c81-435ac4555a51"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OSS_PLUS",
+      "uuid": "cc6999d3-6390-4f55-a62e-8e405ca4ae0f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "77cf54f5-1a6c-4308-9a6d-fd3cb59ceae1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "a5b19f42-5d34-4241-9b57-4e207f47a53b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OD_SWITCH",
+      "uuid": "3ac1c759-daed-4cdc-b5de-53c398ff2c90"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "OD_SWITCH",
+      "uuid": "417a59ce-3af9-4717-a6ec-8ccf2c297576"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D_G",
+      "uuid": "218d8d8a-638d-4d75-a100-30bee160c916"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_D_G",
+      "uuid": "7e0a503b-b289-4da5-a909-53d9c466340a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_E_G",
+      "uuid": "ed1d6b8c-3388-4bef-8091-2273bec03c75"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "c63ac0e4-9051-4731-8e28-da3defb51628"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "df606015-efbf-4c4b-bcb6-781c79547b51"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "fee6b743-fb3d-43e0-becf-603220413163"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPK_B",
+      "uuid": "67e5af34-bc46-4bce-b1fb-f9ead63dabe8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "2ca39403-aca3-45ed-b542-407ee51f2cf3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_1",
+      "uuid": "5fa6a535-845e-4912-a8e5-fe966301095e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_8",
+      "uuid": "68e4b7e4-eb21-49ac-8c5c-83832785ad9a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_E_G",
+      "uuid": "3ddc39e9-c612-4edc-aa29-550b9c9c83ad"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_E_G",
+      "uuid": "5dbcd26d-27d0-4cb5-95a6-546b6b4f31a5"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_E_G",
+      "uuid": "b9024059-9b8a-4474-9a86-ebcf4373014a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "c68972bd-02ec-4d71-8dd2-dbea76d2702e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "ee4cde27-abcd-48e8-bdbb-3874fae2edb5"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "f3173330-78cd-4525-ac06-0430c612ad95"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_8",
+      "uuid": "7d6a04a7-0c92-4668-a310-aa73f272bf11"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_E_G",
+      "uuid": "13ec1211-34dc-485e-a491-2e72b18ed365"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_E_G",
+      "uuid": "94dc5522-04df-4a45-b707-8a010a9bdef7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_E_G",
+      "uuid": "03e387f5-ed63-4b87-9849-123cff32a420"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "83f87d6d-a0c2-420c-bc2b-455381bbaeb8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "9b1729f1-07e0-4041-ab91-9c10a0d87ea7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "bd0fefe2-f119-4685-b9b5-b62701dc702d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "cf8b6c71-e731-4ac6-a253-0ccf605ed135"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "fd509512-d778-4f49-910a-d5a9987409dd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "b2249a68-0642-4986-91e3-9a26faff4469"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "35129cd8-e23b-4f06-a578-2e0ef1f90c91"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "VSS_MINUS",
+      "uuid": "7c9026bd-40fd-4777-848f-81057166c395"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "COIL_2",
+      "uuid": "2602a8bc-81ac-4944-ba36-42fb1fa78e92"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_8",
+      "uuid": "1d3aaa94-7490-4f76-a49f-dd49c0560dbd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJECTOR_8",
+      "uuid": "b3963384-dffb-48d4-b31a-867153eb3d08"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_A",
+      "uuid": "ec5f4d40-61b0-4fe7-aa9b-cef60d8cfd9e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "26a0bc2b-2a15-4b79-8053-edc6df7b48fa"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "5199ad08-ced0-439b-898d-f96665309778"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "617b4198-8391-45c6-b992-f96768ea38e2"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "a7ec573f-e24f-4bb2-8714-861f86d5db0a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "bc8b13c6-a23a-46c5-b037-b94cdbe8a3d8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "d5057561-f6b8-4bfa-af3d-5fd80447a153"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "ddfe00d0-ab3d-426e-a200-1029acfbd073"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "MIL_CMD_G",
+      "uuid": "c4a449a5-f560-4dec-8b78-b8af5e788e0e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "TABLE_LOGIC",
+      "uuid": "e42c7de8-2596-4b51-847d-624d2c076ce1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "3cf6900a-9048-4bd8-9832-a62303b6f1ce"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "992703a8-7152-473f-b2c9-d0c5ad35657d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "b0580604-4520-4267-a7db-2ce89fa29fc8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "TABLE_LOGIC",
+      "uuid": "d57dcfb8-f3e0-489e-b92d-401669c9d07e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "TABLE_LOGIC",
+      "uuid": "f5e7e652-a33b-4e8b-a05a-68c09e8b2bee"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "08c5a459-df57-4207-af0c-f16fa5167b53"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "863092fc-93be-4d0e-9783-0c006e4e5a45"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "INJ_H_G",
+      "uuid": "675678ba-a475-4f61-8d11-c5f39448c5c3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "e5cfb7e4-eb68-4d68-9ff5-b63b4b07500b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_DRIVE",
+      "uuid": "59221087-5fbc-4047-b1b3-ad32da8fa596"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_DRIVE",
+      "uuid": "52ff3180-5863-457a-ba31-4ed26188d851"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "5736184c-e9e4-4818-8471-eab2c721ef76"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IDLE_CMD_G",
+      "uuid": "5de7ea3b-5037-4036-a2ac-778b957fe39e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "116f0548-853b-4c00-b96a-812cd798f17b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "87f55a3e-9905-4ec5-9a60-e7a2557c8d29"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_DRIVE",
+      "uuid": "197ffa99-e290-49ab-b74c-62556bc0eae3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_DRIVE",
+      "uuid": "6262e87e-04ad-4968-a998-de96e0790e91"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "00c7c047-c16e-4be4-8dcf-d119db3e5382"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "2ccc5c59-6e8c-4282-b049-1a42144e7262"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "3ac5a088-008a-40bd-9e92-97ad7445079c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "e5fc6145-1044-4e00-9ef2-fc712b0af647"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "e9227bd9-ab75-4cee-b750-7f1265d57eaf"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_C_IN",
+      "uuid": "fc348cf0-e210-4af6-a27b-59ba8171d0f0"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FAN_CMD_G",
+      "uuid": "7bda3676-c784-4651-acff-320c5765a51b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FAN_CMD_G",
+      "uuid": "a93a3b55-b7e8-4b30-86d9-6a4b00669c6a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FAN_CMD_G",
+      "uuid": "383cc4fb-14c6-4e33-8645-0f2b1a021584"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FAN_CMD_G",
+      "uuid": "d7b9319b-a52c-4f9f-802c-156227ab002a"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "8d6e233b-3de6-4016-9a9c-f6897f76c140"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "b9e5c4dc-e123-4bcf-bc19-02dbc15e4c5c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "4f53b27c-d6c5-424f-b944-4a98ff82e7b6"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "744a3ef1-d724-4df1-a73a-1fbda280252e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "a1948547-f4ec-4170-aa12-cdced019bea6"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "c0d99535-c7b2-4935-90e1-0fb8b96d05d4"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_IN",
+      "uuid": "34331a26-a76e-4b38-887a-66af0b787ea3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STOCK_A_IN",
+      "uuid": "ba9b5e5f-022f-4685-8b3b-610ee94804f5"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IDLE_CMD",
+      "uuid": "4a1762cc-99d6-49c7-8b71-7ca85c5cf8fd"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IDLE_CMD",
+      "uuid": "57d83190-ac16-42fd-acd3-25668e079851"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IDLE_CMD",
+      "uuid": "9878d5f4-8115-4835-b45c-cbe27e6e83e1"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IDLE_CMD",
+      "uuid": "4bbc68da-c951-4032-ae5c-6e49d40fc469"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "IDLE_CMD",
+      "uuid": "eaa852a8-fb24-49cf-b93f-096817601bc7"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "1cc6532c-6b20-4755-9ace-db1d9069b46a"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "2258cd1a-65f1-45a1-a0d2-40cc5ba85ee9"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "22e03e64-7fce-4088-b126-984846ecdd49"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "2e3accff-1459-4d8f-9e3c-c13d04434fa9"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "3b90a036-50ca-45e7-9bbd-7d9cc1bf192b"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "3e0dea90-5e4b-40eb-9b8b-b64b4f25bc2f"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "53d2ff8c-411b-482d-90d5-691bca747593"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "560bee6a-05fc-4f6f-a1e3-2c20d221120e"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "5e2da9fa-f7c9-4ae2-9b87-9c911f34d687"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "5e7a6883-ce80-430e-9eac-f6b93490726c"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "71c1247c-2546-45f2-9c22-527372ca6d66"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "71f9ace9-9fd9-4c6e-bf0c-6d2bb606e09b"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "8fffb85c-355e-4ab1-92b2-0883a2f126ee"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "a98c7c0f-aa8b-43af-a68a-c4379a0551c2"
+    },
+    {
+      "for": "AUX_TACH",
+      "net": "OD_INDICATOR",
+      "uuid": "db38e982-4c61-4bd6-acdb-676e7860d495"
+    },
+    {
+      "for": "FUEL_PUMP_CONTROL",
+      "net": "BUF_C",
+      "uuid": "0fa25019-843b-4c63-b895-57f1f99cdebb"
+    },
+    {
+      "for": "FUEL_PUMP_CONTROL",
+      "net": "BUF_C",
+      "uuid": "8297d744-1bf9-4651-aafa-70673a3b06dc"
+    },
+    {
+      "for": "FUEL_PUMP_CONTROL",
+      "net": "BUF_C",
+      "uuid": "8f8ffc34-d092-4284-9228-1df4aa29c30f"
+    },
+    {
+      "for": "FUEL_PUMP_CONTROL",
+      "net": "BUF_C",
+      "uuid": "70c33f29-da69-4972-8022-f45deea011bf"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "11039f59-ee14-450a-9ea3-58d1a5b337b1"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "1516913a-7007-4615-b003-5e2c0231c7d3"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "307feb0a-5e3a-4ed4-b439-58bdf51d4d5f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "62c52605-5c1b-4ee6-a33c-ad7ceee73acf"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "94b15f1b-ab41-4948-aa29-8125959ac0fd"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "96b48e36-3a85-44a9-9eb8-1d2f69bfbcbe"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "d0486949-4c41-4bf4-9133-835f577365aa"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "edc327af-baec-4fa3-b920-8fffe9c7ffd6"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "cfed0067-b094-4402-9464-7bae0d36585f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "a633f9ac-801f-48df-a8a1-e86a4ddc13c8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "b25df20b-2a3a-4da2-b767-d383ff263e89"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_2",
+      "uuid": "d22acae1-c8c5-4a20-b31f-c337513243df"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_3",
+      "uuid": "04a4c682-3181-4b96-93b4-ced269cdc178"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_3",
+      "uuid": "9f957ce6-17cc-4919-b958-654e8e67f9ee"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_1",
+      "uuid": "98e9ff8d-a196-4a0a-822e-b8136e1c47e0"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_2",
+      "uuid": "a871efca-47a0-45bd-a989-bcebc6b2bd4a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "9cf77af5-9238-4ea5-bb5c-8206dc5a8eb7"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "c1c6d61c-bf15-4c43-b2f2-3241b6aa698a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "5161e80f-b8a3-4abf-b80c-29c4ded2048a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "733dd6c5-404a-420d-89a7-511a1d255cab"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "d7f9047c-b7de-4483-b5cc-429227123d6c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "deef7f0a-a612-4e45-8a2d-d27963463772"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "e3aca60e-d32e-4d93-ac03-658fae16678f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "03cc725d-4a90-4376-a12f-78c191f8d143"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CKP_PLUS",
+      "uuid": "69083e1d-fa27-42a6-8e07-246ab0c5e089"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND_BASE",
+      "uuid": "859991a5-fb59-49a1-a15c-8754fb68c793"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_1",
+      "uuid": "698959b4-e894-4910-89f0-6a4278cfea75"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_1",
+      "uuid": "f4a96f03-6299-441d-b0ae-b53e6fd741f2"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_1",
+      "uuid": "fb9cb83d-dd10-442d-a49e-9f327d2b43b9"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "13533c1a-7919-428f-9636-bee07d4a9094"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "17413c30-751a-4606-8363-7319137c9010"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "28159c13-abde-43cd-adc4-f6fdffba3966"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "50e2b651-b07d-47f2-9dbe-29beb7df8fdd"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "69bf7a24-0221-4d68-9507-d6daf9f821b0"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "c96b278d-4c54-4db4-80cd-fee24012d548"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "f086ccfc-2a2a-4cf7-9e26-2b26e6bacfa5"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "BRAKE_SWITCH",
+      "uuid": "5b2d3034-0ecc-468c-9462-f3d10068e856"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "02710ce5-5e6a-4398-b748-503cb656d534"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "10caaba8-53a0-40f3-b3d1-a597963e05bb"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "2dd43782-25be-410c-8b97-9f87a720fc32"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "eb081365-21b1-46ea-8011-b08b5896250d"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_C_G",
+      "uuid": "5af4c86b-0c09-41ed-a88f-62ba9845974b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_C_G",
+      "uuid": "65cba5f7-7da7-4904-9025-2f63b202bc7a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_C_G",
+      "uuid": "ca0166d0-6479-489b-a50f-95981f95f400"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_1",
+      "uuid": "04bd9266-d540-439d-8565-fcc6c02d8080"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_1",
+      "uuid": "f02e23d7-fd1e-4470-b2c1-11de52f58d41"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_1",
+      "uuid": "eef074c1-9f4e-40f6-b478-548ca50247c1"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "0b4d1a00-9331-43ee-a8ce-fb39216eaf2e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "3b36ef35-5926-4de4-95cc-c959638f8e89"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "4396c85b-8ffc-41d6-9405-3c3bcc7a196e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "67954ac4-a467-4d58-bfe4-e639fa1a3924"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "6b8b8a89-fa66-49ec-b42d-e6ecf8600c94"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "ae9cb055-4b67-47ac-9415-440189311297"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "59872d4f-fbad-46f3-83af-b401066dfe06"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_4",
+      "uuid": "9cb59667-6bfd-429c-82ed-f6b7bb29e1a5"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "VREF_FILTER",
+      "uuid": "0f6157cd-44d8-4f61-b825-db30da70a367"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "FLEX_LOGIC",
+      "uuid": "ec52fb70-99f7-400a-8041-724beb50b5f8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "c205781b-9704-4818-9e53-11c770af56a0"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "c65e1f9a-94fb-42ef-8330-be0559dbb91d"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "5cf947be-4490-4a41-8f3d-888129646eb7"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "6fafe7eb-3638-4307-8fcf-43bed8653ac8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "DLC_PLUS",
+      "uuid": "8ee48cf8-f6f0-4081-a38a-35063b447651"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "FUEL_FLOW",
+      "uuid": "1d79beed-543d-485e-92a7-77a5726ca262"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "FUEL_FLOW",
+      "uuid": "9e7e2036-9b20-4106-9912-45b16b200f9c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "c48dcb65-9b10-4908-950d-2ba0c82e6c7e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "DLC_PLUS",
+      "uuid": "8ca0a15f-6f4d-4df9-8f0c-6c7ccb13029b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "DLC_PLUS",
+      "uuid": "319fe5f8-3f62-4aaf-9ba3-5b3d0f7ee87b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "DLC_PLUS",
+      "uuid": "d8f19923-c460-4f68-b4b7-6c68d841f994"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ECT",
+      "uuid": "e8e6072f-baac-4fd6-b0eb-a06d94fccca4"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAM_LOGIC",
+      "uuid": "285adf03-f7f5-4c06-9615-712d14229f77"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAM_LOGIC",
+      "uuid": "362558bd-f468-4d25-abf9-e05cd0a9fdca"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAM_LOGIC",
+      "uuid": "d2345221-cc07-4092-b4e3-e56d110b181f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "FUEL_PUMP_CMD",
+      "uuid": "0aa5f07d-c493-4f91-a8d7-cae63324325e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_4",
+      "uuid": "163eda0d-0f95-4784-9b85-dc27461d8f4c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_4",
+      "uuid": "6001dda0-147e-4309-9ba6-537cfa71a8d8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_4",
+      "uuid": "9879ee70-c534-44c6-9240-44e1d9779599"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_4",
+      "uuid": "d24e52a3-895c-4274-9347-ab4c76117c55"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "COIL_4",
+      "uuid": "e5349945-bfb4-4c03-b463-d169ab63a54c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAM_LOGIC",
+      "uuid": "3f7f51e9-7da2-4482-a080-d0009285b121"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAM_LOGIC",
+      "uuid": "63477780-c93a-43a6-8c29-010f15594af2"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "VCC_5",
+      "uuid": "d5a7543b-92a9-414e-9486-5b5b3ce2cf79"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_3",
+      "uuid": "603d5a79-af7c-4e7a-af71-97fb5e940fdd"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJECTOR_3",
+      "uuid": "9796ebbe-c4f6-4a4e-a63f-363e83d3cd5c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_L",
+      "uuid": "44cf366b-1b3e-45e3-b60c-c33e9bf0e74b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_L",
+      "uuid": "c4f48ef2-1820-4d6d-9df1-33b8b2258897"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ADC_EGO1",
+      "uuid": "7c33a491-f30e-41b6-b8cb-a17e13a1a0eb"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STEPPER_2B",
+      "uuid": "50d61713-6f0c-49c5-a5ef-33eacd2a434e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STEPPER_2B",
+      "uuid": "c930ac67-924e-4a60-856b-094402d78c0a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "24e3574e-b555-457f-a0ff-394d8e77e490"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "05a193f8-7d68-4abe-b60b-ae4a170b8e1a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "1f54337b-b9ea-47e9-aa1f-1ce0cc015e30"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "27ef4896-4e68-4049-af61-1d9de56b2718"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "905a69cf-a05f-40a1-a9aa-098bc46f551f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "91f1b5e9-62fb-462c-9a23-f894846050d8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "afccb7f5-2578-4ad6-a1b5-b20c873bc638"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "cf1e7547-8795-4a71-aaa3-93a36d758ef8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "dbe2567d-cf7f-4a05-8bd9-6f9b771f2fdf"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "ee40a101-e2e4-4b5a-910b-0d25167bb4a6"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CRANK_LOGIC",
+      "uuid": "5f683759-9351-4d13-8b35-ef5837a41850"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CRANK_LOGIC",
+      "uuid": "6e869d88-14fd-4a1d-8be9-5cc3193ecb49"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CRANK_LOGIC",
+      "uuid": "58d5a40e-d191-4cdf-bce5-70e8977b00a8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "NITROUS_LOGIC",
+      "uuid": "047a6658-d6d3-4f27-b4bd-5c24887b29f2"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "NITROUS_LOGIC",
+      "uuid": "56dd4176-4946-480e-90b6-b7c7473c182c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "NITROUS_LOGIC",
+      "uuid": "a0907a22-f4fa-4304-a0fc-f54f2b4ffe89"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "NITROUS_LOGIC",
+      "uuid": "c338960f-fdd4-4bf9-af55-4bff5e6d4035"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "NITROUS_LOGIC",
+      "uuid": "faad14f9-6244-476a-a24b-20d72e624276"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ADC_BARO",
+      "uuid": "2c00300a-26eb-4c7c-bd82-0c89b89e412d"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_RX",
+      "uuid": "07cb5906-7a27-4370-aa80-993abb6fee42"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_RX",
+      "uuid": "45448060-e783-402e-a5f6-4e86877fe7e9"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_RX",
+      "uuid": "dc9245be-92bc-47bc-9ee3-b577831a9752"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PT5",
+      "uuid": "1d1842bd-d9cc-4c5e-9e7b-bde9ddcdfc06"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PT5",
+      "uuid": "a03843ee-d645-4aef-8754-7ad7d25bc17e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PT5",
+      "uuid": "f3ddbe2f-b222-4130-b340-a2c5e4558f16"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_RX",
+      "uuid": "37b20338-c5c0-4403-8d60-80067f1bca3c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_RX",
+      "uuid": "a52c663e-0f7b-4a69-a81a-0480741fa3c8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_RX",
+      "uuid": "bdb7d2dd-02b0-4644-84f2-78f475fe73ca"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "BUF_D",
+      "uuid": "38684470-79c7-4559-94fb-4b951a88e13f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "BUF_D",
+      "uuid": "4ef3f4ce-6ac6-4e96-a254-4f8a3ac1b9f5"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "BUF_D",
+      "uuid": "dc9a9421-3b9b-4435-bb8b-b7cfaeeeac2d"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "BUF_D",
+      "uuid": "c7ec8da1-627b-460c-b4b7-61042390d6fd"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PT5",
+      "uuid": "be617742-2b72-4b35-b2cb-a6523f745991"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "AUX_LAUNCH",
+      "uuid": "92a6d586-07ab-4dca-b1fa-50c99ba22ce0"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_RX",
+      "uuid": "42f5bd6e-6cd3-4b24-9394-145af932bfb1"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "FEPS",
+      "uuid": "8787f32e-bd5c-46fd-b929-317bf8d73564"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "VCC_5",
+      "uuid": "9df32979-2712-4988-a992-308a84b1e08a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "FEPS",
+      "uuid": "68fb0acb-6524-4ee8-bc48-af7c40960458"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "FEPS",
+      "uuid": "f2f41377-3f85-4d9c-8814-01677eb4e3c9"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PK1",
+      "uuid": "21025569-52d6-41b0-931a-147c641e004b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_H",
+      "uuid": "4baacf20-c4c1-4480-b678-120e709e8e8a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_H",
+      "uuid": "82949ba6-aa1e-4608-bf6a-fdc7d207baec"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_H",
+      "uuid": "9e1e1fe8-fc3c-475e-aa01-68fa5d915503"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_L",
+      "uuid": "603030ea-93a5-44d0-91b3-08f40e29b5b5"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_L",
+      "uuid": "ced19921-89d0-47a0-bf65-bd60bf515d7a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "CAN_L",
+      "uuid": "f10819b3-1f2e-485d-9a6b-679574de5e8a"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_TX",
+      "uuid": "a13d6953-e6fd-4f6d-b5d2-0b660edd7ec6"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_TX",
+      "uuid": "3b4ec01e-d04b-40a8-a837-ee0755dc9e56"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SER_TX",
+      "uuid": "cf48835a-b13a-4e0b-812c-c55cb9ae4300"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PJ7",
+      "uuid": "8fca4400-0422-40ca-aa06-b697957f86a8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "6d35d69e-59cc-4a2e-9366-b44a3da79db1"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "8e46a849-5fe7-4cb6-ad9b-0801598b52d8"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "d832c80c-fccc-4e8e-aa24-36fbd2dfb27d"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "8583f0cf-e553-4cf8-b0f8-a6b8d0d8f68e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "88a59cd0-c562-4169-b74b-3452f3806cd2"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "851347fd-efd1-49ed-ae02-51e32cca62a9"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "a5213417-a550-41d6-83e9-07deee3ecf7b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "af69155a-c326-4c76-9248-4e5001f3026c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "940724cb-465d-4002-ba87-53e65f069387"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "0b3ef5b8-0db0-4232-8531-f1e1834fa04d"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "769dc246-6514-4c8b-9b11-1fe43a9a7213"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "8bfe0146-704d-44f8-bfed-baf5777a2a5c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "2e0cc288-cc6b-4198-b129-709fc78fc948"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "aea75e05-660d-45e9-a813-731a1a9c6edd"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "a83504c3-3016-4f0a-b9b8-a49e0044a8f0"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ACTUATOR_12",
+      "uuid": "a94f4934-7c17-470d-8807-662e01c1609b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PK7",
+      "uuid": "65cd16c2-958d-4957-9fad-5e445214176e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "35adcbd4-cf4f-4611-a37b-e333d9ba0a03"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "755414ef-7e1d-4f99-8111-3c765f4d8f25"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_A_DRIVE",
+      "uuid": "cafab425-69a7-4ad4-81f4-55db58761796"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_C_G",
+      "uuid": "556debaa-db6d-42ba-835b-e1e8c4dc0fab"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PK7",
+      "uuid": "08481768-b4bf-459e-aa8d-df96d2534dab"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PK7",
+      "uuid": "b378ca4a-766c-4fb9-ba56-cdc3456a956e"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "AUX_TACH",
+      "uuid": "95421666-5375-4f35-99b2-07fe31abd202"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "AUX_TACH",
+      "uuid": "45c78535-511a-4342-bc36-4720d04b7251"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "AUX_TACH",
+      "uuid": "21fdb815-7858-4446-b1a4-c23658bc8d81"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "INJ_F",
+      "uuid": "89d96604-59f3-4c31-9b9d-acaf036f09ac"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PK7",
+      "uuid": "b8b0a5fd-51fe-49b2-abe3-ef2cdbb0832f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "SPARE_PK7",
+      "uuid": "d6395199-4b43-4cdd-8191-959e54bcc0ba"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "STOCK_D_DRIVE",
+      "uuid": "23ca4514-16de-4ff8-940b-38c753f78c19"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "ADC_MAF",
+      "uuid": "9925ec62-23e9-4c61-9f24-9605b972e163"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "3d9dc8d8-eb04-4937-92ef-5c7a739d5f3f"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "5df0e42c-6940-41a0-a6ce-2eb5a0f0c96b"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "6e1b8b4c-6359-4ea4-8be6-f313e8958079"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "dd02793d-2d72-44ec-8e89-f187e9cb0a53"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "TRANS_TEMP",
+      "uuid": "48d733b1-e63b-425b-acbb-54c150a3b846"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "1430d83a-9a5e-46dc-8582-fedbab19fd60"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "1fa43e6c-211b-4e55-8dea-05bfae51a021"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "402fb59f-dfdc-41d4-8fde-6c3526c3f657"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "4a7b234d-8dfa-4052-954a-cd07ab4ccc1d"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "5c9b3a56-2f89-467b-9420-47c2114f15ef"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "798ff6a1-d422-44d5-833b-496a87c04135"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "79af67a4-09cb-491a-803f-3c04f43b1275"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "8205b06f-bc0d-4c53-b8df-da3c45d093ab"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "b8985558-aa2b-41cc-b497-b4726e0c6ebe"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "ced337fb-696c-4429-9269-cb7a1c01a23c"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "bfd27b8b-51ae-43cb-a205-e30b8894f4de"
+    },
+    {
+      "for": "INJECTOR_1",
+      "net": "OCTANE_ADJUST",
+      "uuid": "c9b7eb63-e5ae-4a8c-b363-e27900dab709"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_6",
+      "uuid": "fbfeece5-3fbb-450c-9c5d-a128f4ea5f51"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_7",
+      "uuid": "403c3db3-9c1d-4fe8-8216-363a5eedab1f"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_7",
+      "uuid": "654ac9ca-07e9-45ef-be16-b4b49b7d493c"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_7",
+      "uuid": "c06d3640-e35a-4f8f-ae26-00a15043f011"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_8",
+      "uuid": "286de025-c8d5-40ba-8a90-9cf855536d7a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_8",
+      "uuid": "57ef285b-6c4c-4b27-a490-04500fc4235d"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_8",
+      "uuid": "f488347c-93bd-4b6e-86d6-aeb3549a169f"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_8",
+      "uuid": "73c92b16-cfc2-4af8-b066-d8b2713d918e"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "32647ccb-da61-49f5-8103-40c2439c67e3"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_4",
+      "uuid": "d334c124-6102-4a01-bb11-73a4d3f62464"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "66eb6dcd-2ec6-4b38-b84a-0d64406536bf"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "35d6522f-d04a-4304-a794-6c1d64d90627"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "c3f5f826-027a-4bba-9163-079c64853b9a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "a35d9f6a-4261-4c2f-8f6b-2d5e282f9a45"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "ECT",
+      "uuid": "726891c6-aced-4f71-b478-8e8470964a6f"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "ECT",
+      "uuid": "cf8ec166-8d01-4ac3-94e0-51d7ef090b0a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FLEX_LOGIC",
+      "uuid": "65bc9b49-4e98-4cc5-a04a-b052ba67dc4f"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "016c3d84-5836-4def-b189-c8892517ea23"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "a75521b7-8edf-430c-8dfb-75d1ff91c036"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "80529238-bfca-493a-9692-9d928d1392c7"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "ea6cb098-1258-4a19-8c25-bb03de8d6e27"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "3f648b89-c00c-4f0f-bbb0-8c2a3f8ad576"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "d101b5a6-fbd8-4a99-a34b-636669018b95"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "ff789a23-3a8a-4399-9290-1cb18df040b4"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "0a60762f-3e21-4392-b8b1-9664b7615540"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "4e6804c4-df7b-451d-9aaa-cd4feda19b5a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_FLOW",
+      "uuid": "8c76fcfc-ddba-41c0-8899-8494c078ada0"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "fcc53254-093b-4fd5-a844-5c2fa5c1d5a4"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJECTOR_1",
+      "uuid": "758025da-f7a6-419e-8433-30472eb8a7b8"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "36c594ef-2984-4228-ad4a-cc185b552723"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "af63a4e7-c7e5-416f-bf47-4b1edc113e6d"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "COIL_4",
+      "uuid": "1f96b289-6204-4b2c-9580-440498844194"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "COIL_4",
+      "uuid": "6f2f69ba-a823-499b-8237-9adf193dc030"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "COIL_4",
+      "uuid": "955b9144-a204-4421-82c8-aa924995443c"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_FLOW",
+      "uuid": "108e4d2c-983f-424e-8cbd-16568658f12d"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_FLOW",
+      "uuid": "6d521416-eddd-416c-b9f8-d877d981db23"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_FLOW",
+      "uuid": "ad801386-2f9d-4ac5-9927-f2d3ea3363bc"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "COIL_1",
+      "uuid": "84487a9f-014b-4c48-8a67-9966ca10438a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "COIL_4",
+      "uuid": "37063261-9bc8-40cf-b99a-b125071822d1"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "RAW_12",
+      "uuid": "ef18c2e6-1bdd-4622-9a38-f64f2657e2b3"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_FLOW",
+      "uuid": "3f94948d-03fc-4e43-9da3-1fda21f6a00c"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_FLOW",
+      "uuid": "5cabd227-c495-4ff2-b3d0-14a8e4b4408f"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_FLOW",
+      "uuid": "bed69a88-90af-4c63-a9c8-084787038bd4"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "COIL_1",
+      "uuid": "1bc37f43-9c48-4883-ac59-777f8a5b4dca"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "BUF_D",
+      "uuid": "60f6b892-fbf2-4778-9b4b-3753127defc7"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "BUF_D",
+      "uuid": "807a6603-18a7-4142-b35a-5a7f41880077"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "BUF_D",
+      "uuid": "ba89c422-4404-498d-83a1-64a3223e354e"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "TRANS_RANGE",
+      "uuid": "f85a3837-d02c-49c8-9b32-7c13da6cd021"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "BUF_D",
+      "uuid": "66ba4b79-7002-435d-940c-7805c6e6506b"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "BUF_D",
+      "uuid": "755caaf3-e142-4fd4-88ee-aae91ecef7be"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "OSS_PLUS",
+      "uuid": "6460546b-f534-41e8-976c-3f9077af0f36"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "138e3e51-f49b-4e72-9491-f5886fc88b96"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "1b9cc842-ac3b-4f0f-965d-e9dde251eb37"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "4cfc4da9-9478-451d-8e7f-73ce9db54275"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "7439425d-05e3-407f-b238-e79ad2e7c4e0"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "BATTERY_KEEPALIVE",
+      "uuid": "1bc930c1-b072-4600-96b0-705378976d02"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "CMP",
+      "uuid": "45851f40-8fe4-4198-b178-c9b1ba067956"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "CMP",
+      "uuid": "b090e47c-674b-4b87-9090-a4fe34fb6e3a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "CMP",
+      "uuid": "dc3be6ca-54cf-4bdd-8baa-189008957c9c"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "VDDA_5",
+      "uuid": "0eaa14f3-11fd-426f-ab48-034395f0d086"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "DGND",
+      "uuid": "942f341d-20a9-4b4a-81b8-5c1e50ba9a9c"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "BATTERY_KEEPALIVE",
+      "uuid": "ee210987-e9d3-44ce-b3dd-a980c706405e"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "WB1_0_5V",
+      "uuid": "ffbb4fbc-281a-4950-9efb-69602703672d"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "WB1_0_5V",
+      "uuid": "0eae1c17-6ee9-44d0-a779-632e931de4df"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "WB1_0_5V",
+      "uuid": "4f1f70fb-272d-4b37-a05b-2e86e8b80ae3"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_LEVEL",
+      "uuid": "e7cdb545-7a15-42a3-93b1-a7e69fe27843"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "WB1_0_5V",
+      "uuid": "00970d66-d6b7-432d-ab6b-6ae6e183744a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "WB1_0_5V",
+      "uuid": "67887875-85cd-42d8-a46a-dd795e34a273"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_LEVEL",
+      "uuid": "1bace29c-72d2-45af-bcd8-6eaab1cde22e"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "FUEL_LEVEL",
+      "uuid": "50266687-1623-45c2-928e-a7737db35aa8"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_B",
+      "uuid": "9945464f-0e7a-4c94-950a-0b413247782b"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_H",
+      "uuid": "19f8aea3-3aec-43cc-a0fc-00ecbf94eb51"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "STOCK_D_G",
+      "uuid": "f7627b4a-5fc3-4dde-8bc5-d6f29df7738a"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "WB1_0_5V",
+      "uuid": "7b33913b-aa23-4212-af21-de0e1bd24d95"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "WB1_0_5V",
+      "uuid": "88bf4aed-be39-4825-a8b5-134515159d8e"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_B_G",
+      "uuid": "90c75908-2917-4002-ba33-dc742b847ffe"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "DGND",
+      "uuid": "0852b8e6-c75f-4f52-a7b0-3a116a4d585d"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "RAW_12",
+      "uuid": "04d4bad0-c65c-4c0e-b7f8-ae6b1dfd6627"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "INJ_F_G",
+      "uuid": "df20235f-9259-449d-a5da-57a7b1ca2540"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "AC_CUT_CMD_G",
+      "uuid": "c939a633-5919-4ea9-9df1-ccfad5061b59"
+    },
+    {
+      "for": "INJECTOR_5",
+      "net": "AC_CUT_CMD_G",
+      "uuid": "ca4d2ef9-2170-4b99-acc1-ea994c82347f"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "2deb710a-82b2-4433-ae37-0e18c1364192"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "4999c7f3-be83-4bd5-9e77-a4dd826bef80"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "ab572ce8-c595-4625-a8e6-a53f7c953234"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "aec7db40-5f4f-49e1-adc8-a8fa3d9e0b31"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "c9654b4d-8f08-4880-9b87-622d61c5dbc0"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "d44193bc-e31b-4753-a4d7-a29a5e295224"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "d9a7c07e-f30d-46b9-959b-ff83432fb855"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "fb8e5759-a4f9-46da-bb87-c8aa11eaac66"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "023ae2e6-0209-4946-af21-b60357a13068"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "097ab48c-efa3-4741-a910-e7e5f683a36b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "3fa3351d-9e3a-4b7f-8859-02e68bbfa196"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "984b59cc-ccee-45dc-a74d-caae549f3810"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "a384cc6e-5f33-41af-823e-c6dabd14d4c0"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "d3e9a715-3f7d-4289-8f53-12e24816500b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "d400f809-d9b3-4262-b8b3-8323fa9055ca"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "27e61931-ce65-4551-948c-db7bc37b7737"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "576e03b5-54f7-4e8f-8358-1b798982a9c7"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "ab64d0ad-d12f-491e-9941-0d40338092aa"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "b1c83c94-f2fc-4fe7-a1f8-6b63722bd788"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "OCTANE_ADJUST",
+      "uuid": "efd94d30-9637-4b66-a7bf-e126678c25e7"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "IDLE_CMD_G",
+      "uuid": "8e2e9a9b-a3a8-49ab-a6a5-9657c6b50aae"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "STOCK_B_DRIVE",
+      "uuid": "92cbe703-f843-4c5d-bbb9-a67531012f00"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "VCC_5",
+      "uuid": "b7cfef04-7f1d-4c28-9c90-9db03374661f"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "STOCK_A_IN",
+      "uuid": "6960f573-ebe3-4465-956e-83f891f2ca60"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "STOCK_A_IN",
+      "uuid": "6c7836f6-5f99-443f-bd7d-8d14ca4cb9cc"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "VCC_5",
+      "uuid": "70e04bbd-cba1-4b15-b4a8-cecf8a6e4621"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ADC_SPARE13",
+      "uuid": "55428896-fdf5-4adf-a703-41d92add1e4c"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "SPARE_PM2",
+      "uuid": "fe473141-9627-4b68-9789-ef6fe0d3536d"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FAN_CMD",
+      "uuid": "e6e30f55-a3f6-413e-8e26-c58f22d0638b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ACTUATOR_12",
+      "uuid": "676a1914-0647-4b9f-a4e0-036645d9f364"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ACTUATOR_12",
+      "uuid": "e627a128-2bac-45c4-9064-cb2c78e0aa38"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ACTUATOR_12",
+      "uuid": "4af01036-a10e-49e7-aec8-66571d12743d"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ACTUATOR_12",
+      "uuid": "1da46221-3dbc-46af-b9e7-2c7f7f8add77"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ACTUATOR_12",
+      "uuid": "47f38bd0-f4b4-47cf-a5bb-ded18b2832aa"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "STOCK_D_G",
+      "uuid": "bb77e6d7-c413-4204-b853-4cc5eaeb294d"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "STOCK_D_G",
+      "uuid": "28652bbe-955d-47d9-b1af-59cb670467b0"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "STOCK_D_G",
+      "uuid": "bf555981-61a2-460b-bfe8-0bb880555f08"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "NITROUS_LOGIC",
+      "uuid": "3669f235-f617-4497-b85c-4b8dcf26dbeb"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "d8b67219-e4dc-4fa3-9205-a0c27555f824"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "735d5968-b51c-40e1-b375-0f6ca1d38bb8"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "752743ea-fad9-4bad-be20-fab275fd1c2b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "ef9ded86-fcb9-4734-93a8-028364478e88"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "NITROUS_LOGIC",
+      "uuid": "26c8b149-5220-48ea-b451-568807a19387"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ADC_EGO2",
+      "uuid": "5a7e3b9b-3e3f-4edd-9903-e35871550bf8"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ADC_EGO2",
+      "uuid": "d0441770-0b97-41db-ba6a-d53c407a78dd"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ADC_EGO2",
+      "uuid": "d1498b0f-2b19-4135-a305-f9f5eef9389c"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "NITROUS_LOGIC",
+      "uuid": "42cfd918-d7f6-4a6f-8077-e11f36738d8d"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ADC_EGO2",
+      "uuid": "42676dd0-0260-4655-850e-a9125b2d9f43"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ADC_EGO2",
+      "uuid": "61472373-1233-49af-9530-1ca1a4811b8b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_E",
+      "uuid": "4099af20-080b-4c8a-89bf-1803511d0c21"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "9fa51d7f-4048-4dfb-9e33-d27b1fd11db1"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_E",
+      "uuid": "d82fac42-84cc-46cb-893c-7b3ace2f63b1"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "202c9699-e0aa-47ad-8c4c-9c8732939260"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "2124379d-3e5c-4535-b354-544fc989b817"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "37628ccd-5533-48a6-95e7-9225de0bdcb1"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "5fcde50b-e3d5-4076-9b1a-5f7c810e1661"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "71c163e0-a410-42cf-8f5b-56789d0d2880"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "7756785b-70ae-45e3-b431-3a06c5f2889d"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "c64a22ff-493c-4a98-b7d1-2f484779e8be"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "d983b120-de96-4596-9f6c-e795414379e8"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "08e798e2-2325-4bb3-9cf3-fec46c3f8406"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "40d1af42-2820-48e2-aaf1-b0104ad6cc13"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_E",
+      "uuid": "4e3862fe-120d-4f4f-ab08-fa21ff3d96be"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "630b96d6-5a0c-43ee-a03e-ea5c99d48811"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "bde210b2-96e0-486d-9c32-24448101c1a1"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "d5c57344-ffb7-492d-b9bc-1503c7c8ea24"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "08b29e6f-3079-4483-8d0c-77f89d625e77"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_4",
+      "uuid": "86ff8ec8-af73-4a95-b4d3-da907f08fc4c"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "c7e73a9d-ad7d-4c6f-b9e2-6153a3b7b4c9"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_E",
+      "uuid": "2def306d-2d2c-4e90-8315-3fd25cec0182"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "8056b1ef-476e-4f41-a5a2-56a50b4c8acb"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "ec8cd607-1e80-49b7-b442-cb1f24f307cc"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "f7fddbe0-0b66-4a25-80dd-b6fb6e5b26b8"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "BUF_C",
+      "uuid": "0ab8a740-749c-47d8-896e-5bdeed48b3ee"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "BUF_C",
+      "uuid": "0f098c09-be03-4b55-80e5-2b0297b816e3"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "BUF_C",
+      "uuid": "149dd7a2-6dfe-4847-bb45-8309f99fcf2a"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "BUF_C",
+      "uuid": "4a684409-8e71-4875-98e0-eebcd9d1b705"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "BUF_C",
+      "uuid": "992f9ef6-7280-4fe9-b24d-cf906c615e01"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "adfd811f-6a38-459e-afaf-c32d72d4c2e7"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "0192f35f-0837-4f41-8e38-f3ee518230a9"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FUEL_PUMP_CMD_G",
+      "uuid": "41ff0331-9f64-46a8-8a8c-1758b9b3fb2f"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "075fdc16-7b6b-4bee-bd57-7f679f110013"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "0869d56a-0ec1-4814-a1f2-4f646e3262b4"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "5e22c382-c3d2-49d1-93a7-65886df9e8f3"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "69b98010-f33c-4eb8-a6ab-cf8ff4c93a7b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "b89ee36d-60a9-4c9c-85b2-b2b76ac33e89"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_E",
+      "uuid": "bfce9f64-7166-40d5-a3c7-8c489fcab7c4"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_E",
+      "uuid": "4d3afadd-2a67-43fe-ae12-89bd323ebca1"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FEPS",
+      "uuid": "56ab529d-eae8-433e-9692-299320c94752"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FEPS",
+      "uuid": "5d7801ce-a2e7-4cfa-b023-55cbc1bdde32"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FEPS",
+      "uuid": "bacf0efb-77c6-4052-bf41-3ca555991fb5"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "FEPS",
+      "uuid": "4bd1c742-b045-4b52-9c1c-3701ba1c8cba"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "442a3f49-a474-422a-9fbd-fcf54a65afea"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "f76dfc00-e9db-444c-9b37-beb41e4e7e05"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_E",
+      "uuid": "fb287f6b-f386-4007-8eec-7a769f4ef3ee"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "d3fc912d-653f-48c8-9875-914643fb4e5f"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJ_C",
+      "uuid": "0a1b42cf-9394-448b-af69-6ac407a5049b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_4",
+      "uuid": "2189d498-f91d-4103-b0de-7f277f905a90"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "1853466c-244e-4133-bbdc-cb634d02a74b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "1b5874a1-415d-485f-8f02-a1fbf8669af7"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "3ad58506-311e-4408-9075-272e0b4484d0"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "4f59cc1f-0f88-4216-ae25-e4f82221f7f8"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "54acf669-12b6-4d8d-8160-6e921eceaba4"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "a7b4bc61-5d9d-4bd6-8a0b-d74fe08c896e"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "b1bc1bc9-572e-4ee9-99fc-5ceeed8be4fc"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "c30a37a8-6bed-4cec-812b-999a5e0dc189"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "e12e827f-9520-4de2-995b-1f21d1e0f86c"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "021e79f9-1356-4127-ab01-4810971960dd"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "13f26b57-05a3-4659-9178-a713d8fee31e"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "267f54af-9b57-4b7e-8df3-85233a574291"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "34391eba-1086-4b82-b651-bb704ec000a4"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "5de54925-ec44-43ec-97d1-ff9a19abe164"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "09dcaccf-6363-4b9e-b190-33b02bf0c944"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "39be26ff-eb01-4e27-bd54-0679bcd76b15"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "7c1b8505-1bf6-47b5-8048-f9e53d18d49f"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "c2fd4d6c-c38b-4dc8-aa8f-39a4f9a296fb"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "ACTUATOR_12",
+      "uuid": "5e9614f0-f5e2-4b47-831c-a387798228ab"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "0aa334aa-cd40-46d6-99b0-3ab3e9d1e2e2"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "0dbd2ce9-39e7-4903-be65-ef7d0ddcb8c9"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "3a0fc0ba-aaf8-40c8-b427-c12696277d2a"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "f6ca5556-21b1-4bca-ad7a-7876324ab4c9"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "8a1ec487-ce74-43fc-bf48-407ff38bc638"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "efb143c9-0340-43d7-aeb8-6b3f0ad9176b"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "67ff993f-7084-4004-9a38-0ab70ff17c1e"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "d150ba2a-9db2-42cd-ab43-ac4373704b15"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "d8dd0018-3d3c-45e0-ae64-e3afc90d2d86"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_6",
+      "uuid": "27d80bd6-87a3-4cc8-a8d7-d1972ce79b53"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_8",
+      "uuid": "ebbbab87-d053-4998-8c6f-29aae4ffee40"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "3b382e4c-6bc1-4801-8a4d-d43e3bb06b99"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "4c955a30-0fa6-45ea-90f7-7ca6d326e5a3"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "743cbf68-db52-45a2-835b-25f6d075cfac"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "9fc77e96-cdae-4591-a8ea-eb9773523649"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "COIL_2",
+      "uuid": "b2ef1340-e230-45e7-906c-3b4006e7c369"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "4c00a5fb-8029-468d-8cf8-8e2abf1605f3"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "8c979a2c-5adf-423d-adce-19d1b45607e1"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "AC_CLUTCH_SIGNAL",
+      "uuid": "a085be9e-dfe3-47e6-8e98-7b1f2c58b7b3"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_8",
+      "uuid": "e787de85-e310-4ebc-9668-d9b6d047da12"
+    },
+    {
+      "for": "INJECTOR_7",
+      "net": "INJECTOR_5",
+      "uuid": "a986b474-6165-4353-a4ab-3e1fb0839c75"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "a2214461-8bcd-4fcf-a862-af4e6b643151"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "10d03546-16fd-4ac1-9331-15ffc30c557a"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "21612c2e-7143-44b3-9c2d-b77c95ad8580"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "7c22ddfb-3f14-4fe6-9fac-b69962344886"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "8ffa721c-2b3b-4f6c-9aa1-a3ec8547120b"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "a0ccb454-4f7d-4dcd-939d-7c645b2b5f9d"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "a3ebfcee-0bfb-427e-a92b-275471c402bc"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "b0005fe5-1d8e-40c0-b9ed-935b12919480"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "f6017032-dac4-4a63-a691-cddd7d421347"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "30cf9e76-5106-4427-ab79-24a659817f73"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "6693f653-f15f-4eca-804f-b20f047d5e20"
+    },
+    {
+      "for": "MIL",
+      "net": "SPARE_PE0",
+      "uuid": "8946acaf-5479-4ea5-a56f-21077c5d4735"
+    },
+    {
+      "for": "MIL",
+      "net": "STOCK_B_DRIVE",
+      "uuid": "9d0e8746-356c-46f0-9e99-1c67a97ce5da"
+    },
+    {
+      "for": "MIL",
+      "net": "TACH_CMD_G",
+      "uuid": "0c035476-d723-484c-8d46-35d70fe72e29"
+    },
+    {
+      "for": "MIL",
+      "net": "TACH_CMD_G",
+      "uuid": "1c8d966c-2b6e-4ab2-bdf6-ffdf49f48cf8"
+    },
+    {
+      "for": "MIL",
+      "net": "TACH_CMD_G",
+      "uuid": "33a440fb-f1ec-4ea8-8e6a-f36d758203f0"
+    },
+    {
+      "for": "MIL",
+      "net": "STOCK_B_DRIVE",
+      "uuid": "cc64568f-b964-43d9-a5a6-5ff8a47c4e24"
+    }
+  ]
+}

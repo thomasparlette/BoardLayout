@@ -1,0 +1,242 @@
+[
+  {
+    "ref": "C14",
+    "old_xy": [
+      128.324999,
+      69.605
+    ],
+    "new_xy": [
+      133.98185324949236,
+      63.94814575050762
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 1.24968,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "C16",
+    "old_xy": [
+      128.324999,
+      73.605
+    ],
+    "new_xy": [
+      128.324999,
+      57.605000000000004
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 1.24968,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "C20",
+    "old_xy": [
+      135.325,
+      92.605
+    ],
+    "new_xy": [
+      132.4965728752538,
+      95.43342712474619
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 1.24968,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "C26",
+    "old_xy": [
+      128.324999,
+      93.605
+    ],
+    "new_xy": [
+      117.01129050101522,
+      104.91870849898477
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 1.24968,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R100",
+    "old_xy": [
+      77.305,
+      136.575
+    ],
+    "new_xy": [
+      77.305,
+      148.575
+    ],
+    "old_side": "F.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R12",
+    "old_xy": [
+      124.305,
+      125.575
+    ],
+    "new_xy": [
+      124.305,
+      125.575
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R122",
+    "old_xy": [
+      105.305,
+      79.575
+    ],
+    "new_xy": [
+      93.99129150101524,
+      68.26129150101525
+    ],
+    "old_side": "F.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R128",
+    "old_xy": [
+      105.305,
+      91.575
+    ],
+    "new_xy": [
+      105.305,
+      111.575
+    ],
+    "old_side": "F.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R132",
+    "old_xy": [
+      110.305,
+      95.575
+    ],
+    "new_xy": [
+      110.305,
+      99.575
+    ],
+    "old_side": "F.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R133",
+    "old_xy": [
+      115.305,
+      95.575
+    ],
+    "new_xy": [
+      115.305,
+      111.575
+    ],
+    "old_side": "F.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R18",
+    "old_xy": [
+      124.305,
+      137.575
+    ],
+    "new_xy": [
+      112.99129150101524,
+      148.88870849898476
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R23",
+    "old_xy": [
+      123.305,
+      99.575
+    ],
+    "new_xy": [
+      127.5476406871193,
+      95.33235931288071
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R24",
+    "old_xy": [
+      124.305,
+      149.575
+    ],
+    "new_xy": [
+      117.23393218813453,
+      156.64606781186546
+    ],
+    "old_side": "F.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R36",
+    "old_xy": [
+      119.305,
+      119.575
+    ],
+    "new_xy": [
+      113.305,
+      119.575
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R58",
+    "old_xy": [
+      15.305,
+      154.575
+    ],
+    "new_xy": [
+      15.305,
+      154.575
+    ],
+    "old_side": "B.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  },
+  {
+    "ref": "R62",
+    "old_xy": [
+      105.305,
+      43.575
+    ],
+    "new_xy": [
+      99.64814575050762,
+      49.231854249492386
+    ],
+    "old_side": "F.Cu",
+    "new_side": "B.Cu",
+    "model_body_height_mm": 0.44958,
+    "cover_gap_mm": 6.35
+  }
+]

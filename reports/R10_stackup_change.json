@@ -1,0 +1,10 @@
+{
+  "copper_layers": 8,
+  "new_inner_layers": [
+    "In5.Cu",
+    "In6.Cu"
+  ],
+  "board_thickness_mm": 1.6,
+  "mechanics": "Outline, mounting holes and component positions unchanged",
+  "qualification": "Provisional eight-layer routing candidate; no production copper weights or ampacity qualification."
+}

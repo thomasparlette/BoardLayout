@@ -1,0 +1,138 @@
+{
+  "1": {
+    "hardware_function": "PH6_TABLE",
+    "net": "TABLE_LOGIC"
+  },
+  "2": {
+    "hardware_function": "PE2_FLEX",
+    "net": "FLEX_LOGIC"
+  },
+  "3": {
+    "hardware_function": "PH7_NITROUS_IN",
+    "net": "NITROUS_LOGIC"
+  },
+  "4": {
+    "hardware_function": "PB7_SPK_H",
+    "net": null
+  },
+  "5": {
+    "hardware_function": "PB5_SPK_F",
+    "net": null
+  },
+  "6": {
+    "hardware_function": "PB6_SPK_G",
+    "net": null
+  },
+  "7": {
+    "hardware_function": "PB3_SPK_D",
+    "net": "SPK_D"
+  },
+  "8": {
+    "hardware_function": "PB4_SPK_E",
+    "net": null
+  },
+  "9": {
+    "hardware_function": "PB1_SPK_B",
+    "net": "SPK_B"
+  },
+  "10": {
+    "hardware_function": "PB2_SPK_C",
+    "net": "SPK_C"
+  },
+  "11": {
+    "hardware_function": "AN11_EXT_MAP",
+    "net": "ADC_MAF"
+  },
+  "12": {
+    "hardware_function": "PB0_SPK_A",
+    "net": "SPK_A"
+  },
+  "13": {
+    "hardware_function": "AN13_SPARE",
+    "net": "ADC_SPARE13"
+  },
+  "14": {
+    "hardware_function": "AN12_EGO2",
+    "net": "ADC_EGO2"
+  },
+  "15": {
+    "hardware_function": "PT4",
+    "net": "SPARE_PT4"
+  },
+  "16": {
+    "hardware_function": "PT6_DATALOG",
+    "net": "DATALOG_LOGIC"
+  },
+  "17": {
+    "hardware_function": "PK0_TACH_OUT",
+    "net": "TACH_CMD"
+  },
+  "18": {
+    "hardware_function": "PT2_CAM",
+    "net": "CAM_LOGIC"
+  },
+  "19": {
+    "hardware_function": "PK2_LAUNCH",
+    "net": "LAUNCH_LOGIC"
+  },
+  "20": {
+    "hardware_function": "PK1_SPARE",
+    "net": "SPARE_PK1"
+  },
+  "21": {
+    "hardware_function": "PP2_IDLE",
+    "net": "IDLE_CMD"
+  },
+  "22": {
+    "hardware_function": "PK3_SPARE",
+    "net": "SPARE_PK3"
+  },
+  "23": {
+    "hardware_function": "PP4_NITROUS1",
+    "net": "AC_CUT_CMD"
+  },
+  "24": {
+    "hardware_function": "PP3_BOOST",
+    "net": "FAN_CMD"
+  },
+  "25": {
+    "hardware_function": "PP6_VVT",
+    "net": null
+  },
+  "26": {
+    "hardware_function": "PP5_NITROUS2",
+    "net": null
+  },
+  "27": {
+    "hardware_function": "PM2_SPARE",
+    "net": "SPARE_PM2"
+  },
+  "28": {
+    "hardware_function": "GND",
+    "net": "DGND"
+  },
+  "29": {
+    "hardware_function": "PK7_SPARE",
+    "net": "SPARE_PK7"
+  },
+  "30": {
+    "hardware_function": "GND",
+    "net": "DGND"
+  },
+  "31": {
+    "hardware_function": "5V",
+    "net": "VCC_5"
+  },
+  "32": {
+    "hardware_function": "GND",
+    "net": "DGND"
+  },
+  "33": {
+    "hardware_function": "12V",
+    "net": "RAW_12"
+  },
+  "34": {
+    "hardware_function": "12V",
+    "net": "RAW_12"
+  }
+}

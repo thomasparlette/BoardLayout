@@ -1,0 +1,1073 @@
+{
+  "status": "NOT AMPACITY QUALIFIED. Width targets are not current ratings; neckdowns, via arrays, copper stackup, duty cycles and heating remain to be engineered.",
+  "nets": {
+    "ACTUATOR_12": {
+      "target_width_mm": 4.0,
+      "total_track_length_mm": 480.942787394808,
+      "below_target_length_mm": 172.766301302278,
+      "minimum_width_mm": 0.8
+    },
+    "AC_CLUTCH_SIGNAL": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 228.53801100722433,
+      "below_target_length_mm": 228.53801100722433,
+      "minimum_width_mm": 0.2
+    },
+    "AC_CUT_CMD": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 49.39051486267781,
+      "below_target_length_mm": 49.39051486267781,
+      "minimum_width_mm": 0.2
+    },
+    "AC_CUT_CMD_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 105.85727532059391,
+      "below_target_length_mm": 105.85727532059391,
+      "minimum_width_mm": 0.2
+    },
+    "AC_REQUEST_GND": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 101.25776132154922,
+      "below_target_length_mm": 101.25776132154922,
+      "minimum_width_mm": 0.2
+    },
+    "AC_REQUEST_GND_BASE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 92.30921650299359,
+      "below_target_length_mm": 92.30921650299359,
+      "minimum_width_mm": 0.2
+    },
+    "AC_WOT_CUTOUT": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 47.77437442913367,
+      "below_target_length_mm": 13.678054085574045,
+      "minimum_width_mm": 0.8
+    },
+    "ADC_BATT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 132.85453995447148,
+      "below_target_length_mm": 132.85453995447148,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_CLT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 118.13529867483086,
+      "below_target_length_mm": 118.13529867483086,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_EGO1": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 110.40315733253249,
+      "below_target_length_mm": 110.40315733253249,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_EGO2": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 267.732880673564,
+      "below_target_length_mm": 267.732880673564,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_IAT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 116.85538761271835,
+      "below_target_length_mm": 116.85538761271835,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_MAF": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 242.40777131965058,
+      "below_target_length_mm": 240.2077713196506,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_MAP": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 105.04348755971834,
+      "below_target_length_mm": 105.04348755971834,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_SPARE7": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 167.81452372398599,
+      "below_target_length_mm": 167.81452372398599,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_SPARE13": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 216.20977621254536,
+      "below_target_length_mm": 216.20977621254536,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_TPS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 111.84415233939215,
+      "below_target_length_mm": 111.84415233939215,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_AN7": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 128.99387180220253,
+      "below_target_length_mm": 128.99387180220253,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_AN13": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 136.1318492443869,
+      "below_target_length_mm": 116.50431571575088,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_DATALOG": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 172.31309151568286,
+      "below_target_length_mm": 155.84913048500394,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_FLEX": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 95.58223430162826,
+      "below_target_length_mm": 95.58223430162826,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_LAUNCH": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 139.54948392873675,
+      "below_target_length_mm": 139.54948392873675,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_NITROUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 152.93643851312822,
+      "below_target_length_mm": 152.93643851312822,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_TABLE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 132.1232063679416,
+      "below_target_length_mm": 122.66503178014857,
+      "minimum_width_mm": 0.2
+    },
+    "AUX_TACH": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 507.1129901633807,
+      "below_target_length_mm": 72.34331499275362,
+      "minimum_width_mm": 0.8
+    },
+    "BATTERY_KEEPALIVE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 185.63890560216709,
+      "below_target_length_mm": 177.04184932731943,
+      "minimum_width_mm": 0.2
+    },
+    "BRAKE_SWITCH": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 109.66364184605371,
+      "below_target_length_mm": 109.66364184605371,
+      "minimum_width_mm": 0.2
+    },
+    "BUF_A": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 106.15942893135932,
+      "below_target_length_mm": 106.15942893135932,
+      "minimum_width_mm": 0.2
+    },
+    "BUF_B": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 123.79658437535686,
+      "below_target_length_mm": 123.79658437535686,
+      "minimum_width_mm": 0.2
+    },
+    "BUF_C": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 27.29592931323468,
+      "below_target_length_mm": 27.29592931323468,
+      "minimum_width_mm": 0.2
+    },
+    "BUF_D": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 109.05817917658193,
+      "below_target_length_mm": 109.05817917658193,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_BASE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 127.28565538260084,
+      "below_target_length_mm": 127.28565538260084,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_EMIT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 164.8775726857386,
+      "below_target_length_mm": 164.8775726857386,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_F1": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 79.14225686096526,
+      "below_target_length_mm": 79.14225686096526,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_F2": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 114.56182084206256,
+      "below_target_length_mm": 114.56182084206256,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_LOGIC": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 275.5188289274931,
+      "below_target_length_mm": 275.5188289274931,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_MINUS_OP": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 108.25417253651995,
+      "below_target_length_mm": 108.25417253651995,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_PLUS_OP": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 160.44454429123778,
+      "below_target_length_mm": 160.44454429123778,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_SPARE_OUT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 1.4900000000045475,
+      "below_target_length_mm": 1.4900000000045475,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_ZC_EMIT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 85.70746746134964,
+      "below_target_length_mm": 85.70746746134964,
+      "minimum_width_mm": 0.2
+    },
+    "CAM_ZC_WIPER": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 110.03466322818484,
+      "below_target_length_mm": 110.03466322818484,
+      "minimum_width_mm": 0.2
+    },
+    "CAN_H": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 217.50343439629506,
+      "below_target_length_mm": 210.9979806003916,
+      "minimum_width_mm": 0.2
+    },
+    "CAN_L": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 201.29436698085345,
+      "below_target_length_mm": 201.29436698085345,
+      "minimum_width_mm": 0.2
+    },
+    "CASE_GND": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 33.437333609591576,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 0.6
+    },
+    "CKP_BASE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 92.17362260154039,
+      "below_target_length_mm": 92.17362260154039,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_EMIT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 63.097656601396096,
+      "below_target_length_mm": 63.097656601396096,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_F1": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 160.07218925246644,
+      "below_target_length_mm": 160.07218925246644,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_F2": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 14.339775320113025,
+      "below_target_length_mm": 14.339775320113025,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_HALF": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 42.437383394701605,
+      "below_target_length_mm": 42.437383394701605,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_INV_IN": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 151.72367154478474,
+      "below_target_length_mm": 151.72367154478474,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_MINUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 166.54786692485573,
+      "below_target_length_mm": 166.54786692485573,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_MINUS_OP": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 35.275318618744684,
+      "below_target_length_mm": 35.275318618744684,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_PLUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 22.928494241458825,
+      "below_target_length_mm": 22.928494241458825,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_PLUS_OP": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 101.21648688701646,
+      "below_target_length_mm": 101.21648688701646,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_ZC_EMIT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 23.152805304221143,
+      "below_target_length_mm": 23.152805304221143,
+      "minimum_width_mm": 0.2
+    },
+    "CKP_ZC_WIPER": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 36.276397590543475,
+      "below_target_length_mm": 36.276397590543475,
+      "minimum_width_mm": 0.2
+    },
+    "CMP": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 196.95405875976988,
+      "below_target_length_mm": 196.95405875976988,
+      "minimum_width_mm": 0.2
+    },
+    "COIL_1": {
+      "target_width_mm": 3.0,
+      "total_track_length_mm": 258.3552753760116,
+      "below_target_length_mm": 64.12340839681123,
+      "minimum_width_mm": 0.8
+    },
+    "COIL_2": {
+      "target_width_mm": 3.0,
+      "total_track_length_mm": 289.28728191863024,
+      "below_target_length_mm": 77.8345088713782,
+      "minimum_width_mm": 0.8
+    },
+    "COIL_4": {
+      "target_width_mm": 3.0,
+      "total_track_length_mm": 230.31658284030647,
+      "below_target_length_mm": 58.570875879107255,
+      "minimum_width_mm": 0.8
+    },
+    "CRANK_INVERT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 109.67850837113461,
+      "below_target_length_mm": 109.67850837113461,
+      "minimum_width_mm": 0.2
+    },
+    "CRANK_LOGIC": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 104.39447972482003,
+      "below_target_length_mm": 104.39447972482003,
+      "minimum_width_mm": 0.2
+    },
+    "CRANK_NORMAL": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 111.25555333871095,
+      "below_target_length_mm": 111.25555333871095,
+      "minimum_width_mm": 0.2
+    },
+    "DATALOG_LOGIC": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 187.07141887700888,
+      "below_target_length_mm": 187.07141887700888,
+      "minimum_width_mm": 0.2
+    },
+    "DGND": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 907.2209734247118,
+      "below_target_length_mm": 50.400916360820936,
+      "minimum_width_mm": 0.25
+    },
+    "DLC_MINUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 148.51981484773694,
+      "below_target_length_mm": 126.37541427338046,
+      "minimum_width_mm": 0.2
+    },
+    "DLC_PLUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 163.726958476844,
+      "below_target_length_mm": 155.9414058056575,
+      "minimum_width_mm": 0.2
+    },
+    "ECT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 144.0605632738154,
+      "below_target_length_mm": 144.0605632738154,
+      "minimum_width_mm": 0.2
+    },
+    "FAN_CMD": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 126.55751546130415,
+      "below_target_length_mm": 126.55751546130415,
+      "minimum_width_mm": 0.2
+    },
+    "FAN_CMD_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 79.99075925843609,
+      "below_target_length_mm": 79.99075925843609,
+      "minimum_width_mm": 0.2
+    },
+    "FAN_CONTROL": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 78.45816391043516,
+      "below_target_length_mm": 17.083163910435157,
+      "minimum_width_mm": 0.8
+    },
+    "FEPS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 200.4428572354512,
+      "below_target_length_mm": 173.19568988598175,
+      "minimum_width_mm": 0.2
+    },
+    "FLEX_LOGIC": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 231.86760327058826,
+      "below_target_length_mm": 231.86760327058826,
+      "minimum_width_mm": 0.2
+    },
+    "FUEL_FLOW": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 183.33362838141898,
+      "below_target_length_mm": 183.33362838141898,
+      "minimum_width_mm": 0.2
+    },
+    "FUEL_LEVEL": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 168.27017004749388,
+      "below_target_length_mm": 156.24343558290218,
+      "minimum_width_mm": 0.2
+    },
+    "FUEL_PUMP_CMD": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 50.27862541578162,
+      "below_target_length_mm": 50.27862541578162,
+      "minimum_width_mm": 0.2
+    },
+    "FUEL_PUMP_CMD_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 121.59467291729915,
+      "below_target_length_mm": 121.59467291729915,
+      "minimum_width_mm": 0.2
+    },
+    "FUEL_PUMP_CONTROL": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 144.72050228208846,
+      "below_target_length_mm": 30.26831615201864,
+      "minimum_width_mm": 0.8
+    },
+    "FUEL_PUMP_MONITOR": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 169.3936010954291,
+      "below_target_length_mm": 156.77612194720035,
+      "minimum_width_mm": 0.2
+    },
+    "HEATER_G1": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 148.13634182244127,
+      "below_target_length_mm": 148.13634182244127,
+      "minimum_width_mm": 0.2
+    },
+    "HEATER_G2": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 66.30140555742275,
+      "below_target_length_mm": 66.30140555742275,
+      "minimum_width_mm": 0.2
+    },
+    "IAC": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 68.61408858549244,
+      "below_target_length_mm": 19.607412902873477,
+      "minimum_width_mm": 0.8
+    },
+    "IAT": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 202.1865324807804,
+      "below_target_length_mm": 202.1865324807804,
+      "minimum_width_mm": 0.2
+    },
+    "IDLE_CMD": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 127.2747838865782,
+      "below_target_length_mm": 127.2747838865782,
+      "minimum_width_mm": 0.2
+    },
+    "IDLE_CMD_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 77.95319075346508,
+      "below_target_length_mm": 77.95319075346508,
+      "minimum_width_mm": 0.2
+    },
+    "INJECTOR_1": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 140.26452357813218,
+      "below_target_length_mm": 72.77926386768802,
+      "minimum_width_mm": 0.5
+    },
+    "INJECTOR_2": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 383.92506531706067,
+      "below_target_length_mm": 136.68009428714998,
+      "minimum_width_mm": 0.5
+    },
+    "INJECTOR_3": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 292.6206669560857,
+      "below_target_length_mm": 132.0121443302689,
+      "minimum_width_mm": 0.5
+    },
+    "INJECTOR_4": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 215.40937323491747,
+      "below_target_length_mm": 131.66322248479378,
+      "minimum_width_mm": 0.5
+    },
+    "INJECTOR_5": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 295.1170947229699,
+      "below_target_length_mm": 132.55666913600967,
+      "minimum_width_mm": 0.5
+    },
+    "INJECTOR_6": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 168.1179204793276,
+      "below_target_length_mm": 139.6987556286057,
+      "minimum_width_mm": 0.5
+    },
+    "INJECTOR_7": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 270.97925945235903,
+      "below_target_length_mm": 128.06637353984044,
+      "minimum_width_mm": 0.5
+    },
+    "INJECTOR_8": {
+      "target_width_mm": 2.0,
+      "total_track_length_mm": 137.67374579797755,
+      "below_target_length_mm": 120.3038973169941,
+      "minimum_width_mm": 0.5
+    },
+    "INJ_A": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 63.961203872116315,
+      "below_target_length_mm": 63.961203872116315,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_A_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 77.36543128883042,
+      "below_target_length_mm": 77.36543128883042,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_B": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 73.3261605607223,
+      "below_target_length_mm": 73.3261605607223,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_B_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 72.66040568538318,
+      "below_target_length_mm": 72.66040568538318,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_C": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 48.56173303542035,
+      "below_target_length_mm": 48.56173303542035,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_C_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 152.24245206468171,
+      "below_target_length_mm": 152.24245206468171,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_D": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 70.10233810386121,
+      "below_target_length_mm": 70.10233810386121,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_D_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 111.86931052283774,
+      "below_target_length_mm": 111.86931052283774,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_E": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 62.56190275650316,
+      "below_target_length_mm": 62.56190275650316,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_E_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 107.90828261892693,
+      "below_target_length_mm": 107.90828261892693,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_F": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 160.16773026255282,
+      "below_target_length_mm": 160.16773026255282,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_F_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 112.60357671261225,
+      "below_target_length_mm": 112.60357671261225,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 160.04729733161975,
+      "below_target_length_mm": 160.04729733161975,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_G_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 115.72584328814727,
+      "below_target_length_mm": 115.72584328814727,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_H": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 134.32821939448843,
+      "below_target_length_mm": 134.32821939448843,
+      "minimum_width_mm": 0.2
+    },
+    "INJ_H_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 106.78609683949541,
+      "below_target_length_mm": 106.78609683949541,
+      "minimum_width_mm": 0.2
+    },
+    "LAUNCH_LOGIC": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 69.15538214024939,
+      "below_target_length_mm": 69.15538214024939,
+      "minimum_width_mm": 0.2
+    },
+    "LEGACY_INJ1": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 93.19173473149512,
+      "below_target_length_mm": 35.38010092026425,
+      "minimum_width_mm": 0.2
+    },
+    "LEGACY_INJ2": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 111.13909285663146,
+      "below_target_length_mm": 111.13909285663146,
+      "minimum_width_mm": 0.2
+    },
+    "MAF_SIGNAL": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 229.4653274650849,
+      "below_target_length_mm": 229.4653274650849,
+      "minimum_width_mm": 0.2
+    },
+    "MAP_RAW": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 69.52406615994826,
+      "below_target_length_mm": 69.52406615994826,
+      "minimum_width_mm": 0.2
+    },
+    "MIL": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 310.51527933367345,
+      "below_target_length_mm": 64.30043815898449,
+      "minimum_width_mm": 0.8
+    },
+    "MIL_CMD": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 61.888024756989196,
+      "below_target_length_mm": 61.888024756989196,
+      "minimum_width_mm": 0.2
+    },
+    "MIL_CMD_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 130.09003511562503,
+      "below_target_length_mm": 130.09003511562503,
+      "minimum_width_mm": 0.2
+    },
+    "NITROUS_LOGIC": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 269.34564482035194,
+      "below_target_length_mm": 269.34564482035194,
+      "minimum_width_mm": 0.2
+    },
+    "OCTANE_ADJUST": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 333.6835519519802,
+      "below_target_length_mm": 54.15794709343688,
+      "minimum_width_mm": 0.2
+    },
+    "OD_INDICATOR": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 318.8058177104006,
+      "below_target_length_mm": 63.5504617357995,
+      "minimum_width_mm": 0.2
+    },
+    "OD_SWITCH": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 262.6486490814519,
+      "below_target_length_mm": 262.6486490814519,
+      "minimum_width_mm": 0.2
+    },
+    "OSS_PLUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 173.48434776598555,
+      "below_target_length_mm": 173.48434776598555,
+      "minimum_width_mm": 0.2
+    },
+    "PGND": {
+      "target_width_mm": 4.0,
+      "total_track_length_mm": 48.000935779725346,
+      "below_target_length_mm": 48.000935779725346,
+      "minimum_width_mm": 0.8
+    },
+    "PWR_FUSED": {
+      "target_width_mm": 1.0,
+      "total_track_length_mm": 75.95806210457125,
+      "below_target_length_mm": 0.08455563094184819,
+      "minimum_width_mm": 0.8
+    },
+    "RAW_12": {
+      "target_width_mm": 1.0,
+      "total_track_length_mm": 390.3548992478025,
+      "below_target_length_mm": 8.347314698264324,
+      "minimum_width_mm": 0.8
+    },
+    "REG_5": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 76.04384753400304,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 0.6
+    },
+    "SER_RX": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 134.246749500637,
+      "below_target_length_mm": 134.246749500637,
+      "minimum_width_mm": 0.2
+    },
+    "SER_TX": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 91.52306162522699,
+      "below_target_length_mm": 91.52306162522699,
+      "minimum_width_mm": 0.2
+    },
+    "SGND": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 525.5502053810469,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 0.6
+    },
+    "SPARE_FIDLE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 102.71944389348793,
+      "below_target_length_mm": 102.71944389348793,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PE0": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 165.9734877526411,
+      "below_target_length_mm": 87.28606286881491,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PJ7": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 121.70805909561611,
+      "below_target_length_mm": 121.70805909561611,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PK1": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 183.96490102668886,
+      "below_target_length_mm": 111.28366385081418,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PK3": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 176.9435528934405,
+      "below_target_length_mm": 176.9435528934405,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PK7": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 163.07789072611084,
+      "below_target_length_mm": 163.07789072611084,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PM2": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 171.9066432199804,
+      "below_target_length_mm": 171.9066432199804,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PT0": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 135.46280181530375,
+      "below_target_length_mm": 135.46280181530375,
+      "minimum_width_mm": 0.2
+    },
+    "SPARE_PT5": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 104.9717973557789,
+      "below_target_length_mm": 104.9717973557789,
+      "minimum_width_mm": 0.2
+    },
+    "SPK_A": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 295.0385669466917,
+      "below_target_length_mm": 295.0385669466917,
+      "minimum_width_mm": 0.2
+    },
+    "SPK_B": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 226.9599552449169,
+      "below_target_length_mm": 226.9599552449169,
+      "minimum_width_mm": 0.2
+    },
+    "STEPPER_1B": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 109.09765568054988,
+      "below_target_length_mm": 109.09765568054988,
+      "minimum_width_mm": 0.2
+    },
+    "STEPPER_2B": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 133.58813654453067,
+      "below_target_length_mm": 133.58813654453067,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_A_DRIVE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 76.67498469032842,
+      "below_target_length_mm": 76.67498469032842,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_A_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 113.48385154945684,
+      "below_target_length_mm": 113.48385154945684,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_A_IN": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 17.919458560555636,
+      "below_target_length_mm": 17.919458560555636,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_B_DRIVE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 74.15709926554695,
+      "below_target_length_mm": 74.15709926554695,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_B_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 51.44593746871943,
+      "below_target_length_mm": 51.44593746871943,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_B_IN": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 71.84008871648801,
+      "below_target_length_mm": 71.84008871648801,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_C_DRIVE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 135.58551686185157,
+      "below_target_length_mm": 135.58551686185157,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_C_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 229.03146090507718,
+      "below_target_length_mm": 229.03146090507718,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_C_IN": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 160.2900339437545,
+      "below_target_length_mm": 160.2900339437545,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_D_DRIVE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 78.43342295339595,
+      "below_target_length_mm": 78.43342295339595,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_D_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 218.82412495788276,
+      "below_target_length_mm": 218.82412495788276,
+      "minimum_width_mm": 0.2
+    },
+    "STOCK_D_IN": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 189.06057703368734,
+      "below_target_length_mm": 189.06057703368734,
+      "minimum_width_mm": 0.2
+    },
+    "TABLE_LOGIC": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 540.8730763374028,
+      "below_target_length_mm": 540.8730763374028,
+      "minimum_width_mm": 0.2
+    },
+    "TACH_CMD": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 2.799999999999997,
+      "below_target_length_mm": 2.799999999999997,
+      "minimum_width_mm": 0.2
+    },
+    "TACH_CMD_G": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 275.24152784089966,
+      "below_target_length_mm": 275.24152784089966,
+      "minimum_width_mm": 0.2
+    },
+    "TCU_BRAKE_GND": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 273.21201742425245,
+      "below_target_length_mm": 38.132346344614895,
+      "minimum_width_mm": 0.2
+    },
+    "TCU_BRAKE_GND_BASE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 113.0417176372104,
+      "below_target_length_mm": 113.0417176372104,
+      "minimum_width_mm": 0.2
+    },
+    "TCU_VREF": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 383.4600441733707,
+      "below_target_length_mm": 383.4600441733707,
+      "minimum_width_mm": 0.2
+    },
+    "TCU_VSS_MINUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 280.9447898992793,
+      "below_target_length_mm": 280.9447898992793,
+      "minimum_width_mm": 0.2
+    },
+    "TCU_VSS_PLUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 155.21298429675588,
+      "below_target_length_mm": 155.21298429675588,
+      "minimum_width_mm": 0.2
+    },
+    "TPS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 91.87656145774953,
+      "below_target_length_mm": 91.87656145774953,
+      "minimum_width_mm": 0.2
+    },
+    "TRANS_RANGE": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 254.79749166773396,
+      "below_target_length_mm": 254.79749166773396,
+      "minimum_width_mm": 0.2
+    },
+    "TRANS_TEMP": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 262.98845880939143,
+      "below_target_length_mm": 262.98845880939143,
+      "minimum_width_mm": 0.2
+    },
+    "VCC_5": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 902.09028583497,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 0.6
+    },
+    "VDDA_5": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 80.4766028486931,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 0.6
+    },
+    "VREF_5": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 366.61704838011985,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 0.6
+    },
+    "VREF_FILTER": {
+      "target_width_mm": 0.6,
+      "total_track_length_mm": 70.77578612770019,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 0.6
+    },
+    "VSS_MINUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 216.5635504446901,
+      "below_target_length_mm": 216.5635504446901,
+      "minimum_width_mm": 0.2
+    },
+    "VSS_PLUS": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 75.18020873024713,
+      "below_target_length_mm": 75.18020873024713,
+      "minimum_width_mm": 0.2
+    },
+    "WB1_0_5V": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 373.41792136961504,
+      "below_target_length_mm": 373.41792136961504,
+      "minimum_width_mm": 0.2
+    },
+    "WB1_RELAY_LOW": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 3.0500000000000043,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 1.2
+    },
+    "WB2_0_5V": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 65.12833975119251,
+      "below_target_length_mm": 65.12833975119251,
+      "minimum_width_mm": 0.2
+    },
+    "WB2_RELAY_LOW": {
+      "target_width_mm": 1.2,
+      "total_track_length_mm": 6.1000000000000085,
+      "below_target_length_mm": 0,
+      "minimum_width_mm": 1.2
+    },
+    "WB_ENABLE_CMD": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 263.87809155426316,
+      "below_target_length_mm": 263.87809155426316,
+      "minimum_width_mm": 0.2
+    },
+    "ADC_BARO": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 126.73522013347451,
+      "below_target_length_mm": 126.73522013347451,
+      "minimum_width_mm": 0.2
+    },
+    "BARO_RAW": {
+      "target_width_mm": 0.25,
+      "total_track_length_mm": 265.96584462898835,
+      "below_target_length_mm": 265.96584462898835,
+      "minimum_width_mm": 0.2
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "removed_items": 62,
+  "by_net": {
+    "DATALOG_LOGIC": 5,
+    "TABLE_LOGIC": 8,
+    "VCC_5": 49
+  },
+  "rule": "Only conductive components with no connected pad, on nets without copper zones. No pad net assignments changed."
+}

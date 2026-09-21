@@ -1,0 +1,347 @@
+{
+  "added": [
+    "ACTUATOR_12",
+    "TRANS_EPC"
+  ],
+  "failed": [],
+  "displaced_items": [
+    {
+      "for": "ACTUATOR_12",
+      "net": "STEPPER_2B",
+      "uuid": "2e31a859-485a-42b8-ae6e-bd92ca95b4f8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "STEPPER_2B",
+      "uuid": "6959accb-5a11-4515-bb93-57d8b7f894ba"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_PE0",
+      "uuid": "dec98344-7c1d-47ae-9d61-d479a88661b4"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "TACH_CMD_G",
+      "uuid": "b00fe94b-213d-475d-b6aa-9454e5ba32f3"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_PT5",
+      "uuid": "2b2735ba-bacc-445d-bb22-34b664123a64"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_PT5",
+      "uuid": "2d17fa2c-b961-4820-8f86-bffa7147e5ee"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_PT5",
+      "uuid": "409e0e4c-7771-4031-944d-c461a0803c2c"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "TACH_CMD_G",
+      "uuid": "2c98cd67-c310-4602-be11-813cfa19d263"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "TACH_CMD_G",
+      "uuid": "5587f3db-9b3a-4395-b8b1-8489c48982fc"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "TACH_CMD_G",
+      "uuid": "644d719b-83f1-4240-be5c-3cbfa618b26e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "2edee92c-cbee-4aa8-b798-d2eda166c2d6"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "32bb59dd-ccd5-4559-a2f4-cd40e334d7cb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "6bfab834-0098-434c-8307-6675984d0841"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "a71b1e4c-2638-4a6c-be8f-e3c9b8e01e74"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "dbc1b866-4dcc-4fd5-9f03-d2e8336c49fb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "e5416220-9d8a-4ae2-b44d-838aeda9241e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "eb069327-d1a4-4122-bbbc-5d4386683628"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "LEGACY_INJ1",
+      "uuid": "eca9af18-3525-4f95-b0b0-61b8f0c15a78"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_PT5",
+      "uuid": "95b4738c-621b-4842-a95d-489b9fc5269e"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_A",
+      "uuid": "bc87a1f4-3229-45c5-b0d8-72b1ecb88896"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_A",
+      "uuid": "1b3b44d0-5e87-4fe8-9873-c1e273b00a40"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_A",
+      "uuid": "50553e74-95ce-4859-acdc-636b233b83d6"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_A",
+      "uuid": "8cce4536-ecdf-4749-8b6c-2a24491e4a49"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FAN_CMD",
+      "uuid": "e469f290-f338-4799-9a04-a4a2bc0c1a0f"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SER_RX",
+      "uuid": "912cf348-6b80-489f-a743-9b15f9cf0541"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SER_RX",
+      "uuid": "f9b5e51f-a5a5-4706-ba27-0a795b5f0205"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_FIDLE",
+      "uuid": "8e6578b4-1bb8-4a19-83ea-73a2b4e92a48"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_A",
+      "uuid": "52915069-3583-4ba1-acfa-2192e97836c8"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_A",
+      "uuid": "983aecd8-26a0-4f35-b63e-295299dc3d1d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_A",
+      "uuid": "c9ac4739-8b7b-4e53-9af9-7c868e136bfa"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SER_RX",
+      "uuid": "0856b549-50c0-48ab-9190-261d1ec2f8cb"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SER_RX",
+      "uuid": "0ef98fb0-0f72-4e96-bcd1-38d4062c542d"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SER_RX",
+      "uuid": "f2e704ed-c87d-46bc-ab61-c0e9c92268a5"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_FIDLE",
+      "uuid": "e659d765-8e5b-4bda-a9e6-e446e245c7b7"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "FAN_CMD",
+      "uuid": "2a392486-2cbb-47ed-8f6b-364dda7a771b"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_D",
+      "uuid": "644343a1-e4b7-4d9a-b80f-2a5e4ead8722"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_D",
+      "uuid": "8144d90a-39e6-4e78-8e5c-1c69bcccbdc0"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_D",
+      "uuid": "dda36c9d-6cd3-443e-9bd5-e4eef194b363"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "BUF_D",
+      "uuid": "a58ebff6-cea4-4d00-926a-99947b703924"
+    },
+    {
+      "for": "ACTUATOR_12",
+      "net": "SPARE_FIDLE",
+      "uuid": "a19765fb-65a9-4e3b-a7fb-eb561bc597d9"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "HEATER_G1",
+      "uuid": "83f804ff-5f36-4e15-bcf3-2f8b906b0fe5"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "STEPPER_2B",
+      "uuid": "1eb3b88d-250d-45d8-bdeb-b9c3a4387988"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "STEPPER_2B",
+      "uuid": "83428597-fbb5-4b36-a2d2-e8383374895d"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "SPARE_PK1",
+      "uuid": "e6722325-ceab-4363-bbe9-0a0c26ab52ea"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "SPARE_PK1",
+      "uuid": "954e4c09-e9b0-40e3-887b-de170b50a637"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "AUX_DATALOG",
+      "uuid": "5af41a06-2970-4105-b167-9341e8527946"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "AUX_DATALOG",
+      "uuid": "b060326f-5ff2-45e0-a813-d1944232315c"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "AUX_DATALOG",
+      "uuid": "5bc01dfd-28a5-43be-9faa-bed469f64b1f"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "AUX_DATALOG",
+      "uuid": "e62eabb9-fce4-45d0-930b-b0016f7e4db7"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "SPARE_PK1",
+      "uuid": "4f10ac42-e9ef-4a1b-8e9c-14d1e155d5a1"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "SPARE_PK1",
+      "uuid": "91fcdd2c-5d33-4a8a-b229-38ca68e940a2"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "SPARE_PK1",
+      "uuid": "a798dd77-0a49-4707-a212-89b41e57f1cc"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "4d9dabe1-7d20-4f2f-9212-6d2110221388"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "77263cf7-90d2-4af1-8dda-8e8e34e19de4"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "e596919c-9b13-4f37-ad9f-451bfc9e49fa"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "c2fec0ab-20d7-4436-832a-f0aad2ac6651"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "WB_ENABLE_CMD",
+      "uuid": "69f7357f-6675-49d2-a770-201f0726cb42"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "AUX_DATALOG",
+      "uuid": "1465bc29-a4aa-4859-81fc-a3263cccacb9"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "AUX_DATALOG",
+      "uuid": "600b8fcb-2c61-4cf1-a08f-4230e7ecfe77"
+    },
+    {
+      "for": "TRANS_EPC",
+      "net": "AUX_DATALOG",
+      "uuid": "dcbcacf0-c97a-4431-93db-247ed468b4cb"
+    }
+  ],
+  "protected": [
+    "ACTUATOR_12",
+    "AC_WOT_CUTOUT",
+    "AUX_TACH",
+    "CASE_GND",
+    "COIL_1",
+    "COIL_2",
+    "COIL_3",
+    "COIL_4",
+    "DGND",
+    "FAN_CONTROL",
+    "FUEL_PUMP_CONTROL",
+    "IAC",
+    "INJECTOR_1",
+    "INJECTOR_2",
+    "INJECTOR_3",
+    "INJECTOR_4",
+    "INJECTOR_5",
+    "INJECTOR_6",
+    "INJECTOR_7",
+    "INJECTOR_8",
+    "MIL",
+    "PWR_FUSED",
+    "RAW_12",
+    "REG_5",
+    "SGND",
+    "TRANS_EPC",
+    "TRANS_SS1",
+    "TRANS_SS2",
+    "TRANS_TCC",
+    "VCC_5",
+    "VDDA_5",
+    "VPWR",
+    "VREF_5",
+    "VREF_FILTER",
+    "WB1_RELAY_LOW",
+    "WB2_RELAY_LOW"
+  ]
+}

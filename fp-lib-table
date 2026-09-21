@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "GM97_Layout") (type "KiCad") (uri "${KIPRJMOD}/GM97_Layout.pretty") (options "") (descr "Portable initial layout footprints")))

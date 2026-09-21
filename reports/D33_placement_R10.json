@@ -1,0 +1,19 @@
+{
+  "ref": "D33",
+  "from": {
+    "side": "B.Cu",
+    "xy": [
+      87.17,
+      33.948
+    ]
+  },
+  "to": {
+    "side": "B.Cu",
+    "xy": [
+      78,
+      133
+    ]
+  },
+  "displaced_signal_tracks": 20,
+  "reason": "Move the EPC clamp diode near the transmission pass-through to provide short accessible branches. Package and thermal rating remain unqualified."
+}

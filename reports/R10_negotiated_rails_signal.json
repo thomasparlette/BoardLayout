@@ -1,0 +1,110 @@
+{
+  "added": [
+    "FLEX_LOGIC",
+    "FLEX_LOGIC",
+    "NITROUS_LOGIC",
+    "NITROUS_LOGIC"
+  ],
+  "failed": [
+    [
+      "TCU_BRAKE_GND_BASE",
+      "hard search"
+    ],
+    [
+      "TCU_BRAKE_GND_BASE",
+      "hard search"
+    ]
+  ],
+  "displaced_items": [
+    {
+      "for": "FLEX_LOGIC",
+      "net": "VCC_5",
+      "uuid": "00199ed3-e36e-4c7d-8541-e5f15910a295"
+    },
+    {
+      "for": "FLEX_LOGIC",
+      "net": "VCC_5",
+      "uuid": "6424ccb1-7f84-4026-8652-a5f1faeaafa3"
+    },
+    {
+      "for": "FLEX_LOGIC",
+      "net": "VCC_5",
+      "uuid": "0c1dfb28-3c51-4094-a0e1-643015c46c13"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "LAUNCH_LOGIC",
+      "uuid": "4738144b-f8a4-4e71-a67b-8e5c3c1543c7"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "VCC_5",
+      "uuid": "05d0a35a-74bf-4ef9-bc3c-2bc8237d19f5"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "VCC_5",
+      "uuid": "090d0b5f-88bf-4100-89d7-8d72600b026c"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "VCC_5",
+      "uuid": "0cf3dc5f-0e70-4a80-b88a-f58427329820"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "VCC_5",
+      "uuid": "77163321-adaf-4286-b735-fd365006ce48"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "DGND",
+      "uuid": "8a1e98f1-3ccb-4b65-b79a-7be5911910b0"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "DGND",
+      "uuid": "4be5fabb-ba54-4b3d-ba1e-b19bb95ad672"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "TABLE_LOGIC",
+      "uuid": "6fad9207-ccc3-4b53-946e-87a0d72caa12"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "AC_REQUEST_GND_BASE",
+      "uuid": "75a1cfe1-d0c1-44b8-beb4-4190f4c3b65c"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "AC_REQUEST_GND_BASE",
+      "uuid": "d7d52a86-96e5-4eed-9f3a-ec96dff749cc"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "AC_REQUEST_GND_BASE",
+      "uuid": "da5e395e-649f-48de-aea0-486616d99f01"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "AC_REQUEST_GND_BASE",
+      "uuid": "ea1ad58b-4c56-46c1-a22a-f2030bb14a37"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "AC_REQUEST_GND_BASE",
+      "uuid": "f7ac9e0a-faa0-4c63-a857-a9e1cbedf707"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "VCC_5",
+      "uuid": "82703094-9820-4984-8e65-4defd9a066cd"
+    },
+    {
+      "for": "NITROUS_LOGIC",
+      "net": "VCC_5",
+      "uuid": "8aaf79ce-0864-4716-968b-effb62b9fad1"
+    }
+  ]
+}

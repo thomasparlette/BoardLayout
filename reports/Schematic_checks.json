@@ -1,0 +1,17 @@
+{
+  "native_netlist_export": "KiCad 7 succeeded",
+  "JP2_pin_map_matches_reviewed_mapping": true,
+  "MapDaddy_to_JS5_verified_in_netlist": true,
+  "baro_external_drive_header_disconnected": true,
+  "wire_endpoint_grid_check": "passed",
+  "native_ERC": "NOT RUN: KiCad 7 CLI has no ERC command; rerun in GUI",
+  "power_flags_added": [
+    "RAW_12",
+    "DGND",
+    "VREF_5",
+    "SGND",
+    "VCC_5",
+    "PGND"
+  ],
+  "not_a_complete_electrical_design_review": true
+}

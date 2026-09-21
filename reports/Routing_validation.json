@@ -1,0 +1,15 @@
+{
+  "footprints": 246,
+  "assigned_pin_net_pairs_verified": 737,
+  "tracks": 42896,
+  "vias": 2226,
+  "DRC_counts": {
+    "lib_footprint_mismatch": 199,
+    "silk_edge_clearance": 2,
+    "track_dangling": 199,
+    "via_dangling": 15,
+    "unconnected_items": 24
+  },
+  "removed_components_absent": true,
+  "manufacturing_release": false
+}

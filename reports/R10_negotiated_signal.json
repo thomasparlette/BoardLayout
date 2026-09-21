@@ -1,0 +1,262 @@
+{
+  "added": [
+    "AC_REQUEST_GND",
+    "ADC_CLT",
+    "CAM_EMIT",
+    "CKP_BASE",
+    "CKP_PLUS_OP",
+    "LAUNCH_LOGIC",
+    "TABLE_LOGIC",
+    "TCU_BRAKE_GND_BASE",
+    "WB2_0_5V",
+    "WB2_0_5V"
+  ],
+  "failed": [],
+  "displaced_items": [
+    {
+      "for": "AC_REQUEST_GND",
+      "net": "SPK_A",
+      "uuid": "bc57d186-9e10-47d2-9984-b6cc9b518e63"
+    },
+    {
+      "for": "AC_REQUEST_GND",
+      "net": "OSS_PLUS",
+      "uuid": "8ee29993-e393-4e92-a000-f69500f0c3b5"
+    },
+    {
+      "for": "AC_REQUEST_GND",
+      "net": "TABLE_LOGIC",
+      "uuid": "f1df52ea-7221-43c8-97e9-d509998d2653"
+    },
+    {
+      "for": "AC_REQUEST_GND",
+      "net": "TABLE_LOGIC",
+      "uuid": "b53f5a1d-3a75-4bbe-a7ef-5c5db132ede8"
+    },
+    {
+      "for": "ADC_CLT",
+      "net": "CAM_MINUS_OP",
+      "uuid": "269191f0-02ba-4302-a35b-3e209fd65a02"
+    },
+    {
+      "for": "ADC_CLT",
+      "net": "ADC_SPARE7",
+      "uuid": "094c9308-7003-4f25-8b4b-a128d0f0b16d"
+    },
+    {
+      "for": "ADC_CLT",
+      "net": "ADC_SPARE7",
+      "uuid": "8a9467fc-f4d5-4a71-b9a3-27e590e29ea5"
+    },
+    {
+      "for": "ADC_CLT",
+      "net": "ADC_SPARE7",
+      "uuid": "ad007c0b-51db-4c91-b416-a55282faa3b3"
+    },
+    {
+      "for": "ADC_CLT",
+      "net": "ADC_SPARE7",
+      "uuid": "87bd486e-345d-4714-8269-c8f9851c81e7"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "CAM_F2",
+      "uuid": "9b56766e-a4dc-4466-a9bf-e30bcb1cef1d"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "CAM_ZC_EMIT",
+      "uuid": "996ffe25-31be-44cb-aad3-f6d1141c11a4"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "CMP",
+      "uuid": "a0106df8-0099-4602-ac40-de768fac4e62"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "ADC_EGO2",
+      "uuid": "21e72df3-9da6-4dd1-ae40-9c8e5597259b"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "ADC_EGO2",
+      "uuid": "3a644d64-0db2-4bb2-9d67-86433599cb2e"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "ADC_EGO2",
+      "uuid": "b5674276-dfaf-4c04-80dd-a564c8a7174f"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "CKP_EMIT",
+      "uuid": "8e3e6b4d-e348-40c4-833d-39695a8d7073"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "CKP_EMIT",
+      "uuid": "ba83791d-cfb1-4993-8bfb-7e1b23fe3de4"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "IAT",
+      "uuid": "1063fc45-7a76-4dad-a191-401f1f212693"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "IAT",
+      "uuid": "fc3a4137-5b9e-4168-b662-5a6cc85d3c7b"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "CAM_ZC_EMIT",
+      "uuid": "63d7cae9-f33e-45c0-8ec3-251770af6097"
+    },
+    {
+      "for": "CAM_EMIT",
+      "net": "CAM_F1",
+      "uuid": "a797b732-2632-4921-98d7-3598de73f8b4"
+    },
+    {
+      "for": "CKP_BASE",
+      "net": "CKP_F2",
+      "uuid": "6f85b8eb-a2e1-478c-84f2-5760368e0051"
+    },
+    {
+      "for": "CKP_PLUS_OP",
+      "net": "CKP_ZC_EMIT",
+      "uuid": "39c4af45-e357-4b8c-9eb0-a28c34266527"
+    },
+    {
+      "for": "LAUNCH_LOGIC",
+      "net": "NITROUS_LOGIC",
+      "uuid": "e637deb9-aaa2-4f0a-909f-ca07262a4247"
+    },
+    {
+      "for": "LAUNCH_LOGIC",
+      "net": "NITROUS_LOGIC",
+      "uuid": "86c9fe96-3b47-478f-9ad9-01bbb6ce76a5"
+    },
+    {
+      "for": "LAUNCH_LOGIC",
+      "net": "NITROUS_LOGIC",
+      "uuid": "34d78456-2724-425c-ba14-a17691ae4240"
+    },
+    {
+      "for": "LAUNCH_LOGIC",
+      "net": "NITROUS_LOGIC",
+      "uuid": "a889ab68-1c82-40ae-a6e9-0367fe1c9580"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "SPARE_PT5",
+      "uuid": "28535a41-40f0-4235-9a9b-b6b1c66eae6a"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "SPARE_PT5",
+      "uuid": "8037bb6e-2aa2-4db5-aae2-0c8c58e70df3"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "LEGACY_INJ1",
+      "uuid": "18468317-97e0-4b3d-a5d3-c153cbf23acf"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "SPARE_PT5",
+      "uuid": "90e00074-8982-4dbf-9c2c-86bc1c8a7fa2"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "DATALOG_LOGIC",
+      "uuid": "8d89dfc0-942c-4ba1-be2b-f07329a5741c"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "LAUNCH_LOGIC",
+      "uuid": "2b2353dc-455b-44e7-9154-b9ed475a8199"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "AUX_DATALOG",
+      "uuid": "4b9fbb6c-4360-4371-af65-ef3c2c6566d0"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "LAUNCH_LOGIC",
+      "uuid": "42ece227-4cd6-4a79-8766-887c5196552f"
+    },
+    {
+      "for": "TABLE_LOGIC",
+      "net": "LAUNCH_LOGIC",
+      "uuid": "c418355a-147a-4ba5-b41d-43e9809dd524"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "FLEX_LOGIC",
+      "uuid": "2c23b256-fcbc-41e3-a0dc-0164f1f9b138"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "FLEX_LOGIC",
+      "uuid": "5f32b3b7-5e55-4ec3-96c6-997fe218d1fb"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "FLEX_LOGIC",
+      "uuid": "71a81307-5c2a-4bca-9dcf-f217caa3e029"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "FLEX_LOGIC",
+      "uuid": "f0879785-4b5b-49c1-ac40-7acaf86a674d"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "FLEX_LOGIC",
+      "uuid": "9e35e35c-e4cd-44d5-b1de-7883fa12f6b2"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "ac163728-4038-4d06-bf86-19ccd6fcc735"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "2325b923-35c9-4526-9688-14ce09063c7d"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "TCU_BRAKE_GND",
+      "uuid": "9ca19d59-1940-4374-b291-bba1d475f758"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "CAM_LOGIC",
+      "uuid": "32f9caeb-dfb5-4af1-b956-9f529b87bb9a"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "LAUNCH_LOGIC",
+      "uuid": "eadcbfea-35a9-4f60-92c1-be375c056f5a"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "CRANK_NORMAL",
+      "uuid": "146952fc-a076-4ee1-b44f-05e571d2f3ce"
+    },
+    {
+      "for": "TCU_BRAKE_GND_BASE",
+      "net": "CRANK_NORMAL",
+      "uuid": "69c84b94-bec3-4cb4-a1aa-af2c1deefa80"
+    },
+    {
+      "for": "WB2_0_5V",
+      "net": "CMP",
+      "uuid": "31842c9b-2243-48e0-b2de-7cd5dd9af5fc"
+    }
+  ]
+}

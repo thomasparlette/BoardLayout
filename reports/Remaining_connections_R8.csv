@@ -1,0 +1,78 @@
+finding,x1_mm,y1_mm,item1,x2_mm,y2_mm,item2
+1,53.2000,65.7000,Via [ACTUATOR_12] on F.Cu - B.Cu,30.4000,46.9000,"Track [ACTUATOR_12] on In2.Cu, length 0.4243 mm"
+2,36.2000,35.9000,"Track [ACTUATOR_12] on F.Cu, length 0.0566 mm",82.1700,27.9480,"Track [ACTUATOR_12] on F.Cu, length 0.0566 mm"
+3,90.5650,5.3000,PTH pad 69 [AC_WOT_CUTOUT] of J1,47.8000,122.4000,"Track [AC_WOT_CUTOUT] on B.Cu, length 0.8485 mm"
+4,110.9000,138.3000,"Track [CKP_PLUS] on F.Cu, length 0.1000 mm",104.1650,11.2000,PTH pad 21 [CKP_PLUS] of J1
+5,77.4000,21.7000,"Track [COIL_2] on B.Cu, length 0.8485 mm",40.6000,44.0000,"Track [COIL_2] on In2.Cu, length 0.8485 mm"
+6,34.8750,150.7180,PTH pad 2 [COIL_3] of Q15,121.1650,5.3000,PTH pad 78 [COIL_3] of J1
+7,102.2000,39.4000,"Track [COIL_4] on B.Cu, length 0.8485 mm",109.7000,29.7000,"Track [COIL_4] on In2.Cu, length 1.8000 mm"
+8,106.7000,143.9000,"Track [DGND] on B.Cu, length 0.2000 mm",107.6000,143.0000,"Track [DGND] on In1.Cu, length 1.2728 mm"
+9,99.0650,8.2500,PTH pad 45 [FAN_CONTROL] of J1,25.9500,110.6050,"Track [FAN_CONTROL] on F.Cu, length 3.0500 mm"
+10,46.8000,39.5000,"Track [FUEL_PUMP_CONTROL] on F.Cu, length 1.6971 mm",57.8000,43.7000,"Track [FUEL_PUMP_CONTROL] on F.Cu, length 7.8000 mm"
+11,27.6000,26.6050,"Track [FUEL_PUMP_CONTROL] on F.Cu, length 3.0500 mm",24.8650,2.3500,PTH pad 80 [FUEL_PUMP_CONTROL] of J1
+12,39.0000,31.8000,"Track [IAC] on F.Cu, length 1.4000 mm",35.0650,2.3500,PTH pad 83 [IAC] of J1
+13,39.0000,75.2000,"Track [IAC] on In2.Cu, length 1.0000 mm",39.0000,33.2000,"Track [IAC] on F.Cu, length 2.9867 mm"
+14,93.2000,23.5000,"Track [INJECTOR_1] on In2.Cu, length 0.8485 mm",38.6000,111.0000,"Track [INJECTOR_1] on In1.Cu, length 0.2828 mm"
+15,59.9000,16.3000,"Track [INJECTOR_2] on F.Cu, length 0.1414 mm",45.5000,23.6000,"Track [INJECTOR_2] on F.Cu, length 10.7480 mm"
+16,104.0500,17.0000,"Track [INJECTOR_3] on B.Cu, length 0.8485 mm",81.1000,43.2000,"Track [INJECTOR_3] on In2.Cu, length 5.7983 mm"
+17,110.8000,18.5000,"Track [INJECTOR_4] on F.Cu, length 0.1000 mm",19.5000,49.5000,"Track [INJECTOR_4] on In1.Cu, length 2.5456 mm"
+18,99.5000,14.4000,"Track [INJECTOR_5] on In1.Cu, length 0.1414 mm",75.3000,36.5000,Via [INJECTOR_5] on F.Cu - B.Cu
+19,89.8000,16.1000,"Track [INJECTOR_6] on B.Cu, length 4.2426 mm",25.4000,55.1000,"Track [INJECTOR_6] on B.Cu, length 0.8485 mm"
+20,70.2000,14.5000,"Track [INJECTOR_7] on F.Cu, length 0.8485 mm",42.2000,68.0000,"Track [INJECTOR_7] on In2.Cu, length 2.8284 mm"
+21,32.7000,60.4000,"Track [INJECTOR_8] on F.Cu, length 1.7000 mm",89.0000,13.5000,"Track [INJECTOR_8] on B.Cu, length 0.8485 mm"
+22,105.1000,39.9000,"Track [LAUNCH_LOGIC] on F.Cu, length 0.7827 mm",4.5000,48.3600,PTH pad 19 [LAUNCH_LOGIC] of J101
+23,56.5000,78.5000,Via [PGND] on F.Cu - B.Cu,56.5000,77.5000,Via [PGND] on F.Cu - B.Cu
+24,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+25,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+26,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+27,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+28,14.5000,100.5000,Via [PGND] on F.Cu - B.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+29,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+30,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+31,14.5000,100.5000,Via [PGND] on F.Cu - B.Cu,8.5000,95.5000,Via [PGND] on F.Cu - B.Cu
+32,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+33,1.0000,1.0000,Zone [PGND] on B.Cu,56.0000,79.0000,Via [PGND] on F.Cu - B.Cu
+34,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+35,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+36,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+37,102.6000,31.6000,Pad 1 [PGND] of NT1 on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+38,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+39,1.0000,1.0000,Zone [PGND] on F.Cu,1.0000,1.0000,Zone [PGND] on F.Cu
+40,1.0000,1.0000,Zone [PGND] on F.Cu,102.6000,31.6000,Pad 1 [PGND] of NT1 on F.Cu
+41,75.3000,72.9000,"Track [RAW_12] on F.Cu, length 26.7000 mm",80.4000,33.6000,"Track [RAW_12] on B.Cu, length 0.1414 mm"
+42,6.1750,76.8150,"Track [REG_5] on F.Cu, length 0.3748 mm",46.4538,28.7357,Via [REG_5] on F.Cu - B.Cu
+43,63.0000,6.3000,"Track [SGND] on In1.Cu, length 3.2000 mm",52.0650,8.2500,PTH pad 36 [SGND] of J1
+44,74.7000,156.0000,PTH pad 11 [SGND] of J131,93.0000,151.4400,"Track [SGND] on In1.Cu, length 3.1397 mm"
+45,85.0000,32.0000,"Track [SGND] on F.Cu, length 1.5556 mm",63.0000,6.3000,"Track [SGND] on In1.Cu, length 3.2000 mm"
+46,4.5000,43.2800,PTH pad 15 [SPARE_PT4] of J101,79.7800,146.0000,PTH pad 15 [SPARE_PT4] of J130
+47,109.3925,47.5750,Pad 1 [SPK_C] of R66 on F.Cu,59.9875,27.1500,Pad 4 [SPK_C] of U5 on F.Cu
+48,59.9875,27.1500,Pad 4 [SPK_C] of U5 on F.Cu,7.0400,35.6600,PTH pad 10 [SPK_C] of J101
+49,104.3925,51.5750,Pad 1 [SPK_D] of R68 on F.Cu,59.9875,27.8000,Pad 5 [SPK_D] of U5 on F.Cu
+50,59.9875,27.8000,Pad 5 [SPK_D] of U5 on F.Cu,4.5000,33.1200,PTH pad 7 [SPK_D] of J101
+51,74.7000,146.0000,PTH pad 11 [STEPPER_1A] of J130,78.2400,58.0800,PTH pad 38 [STEPPER_1A] of J100
+52,77.2400,146.0000,PTH pad 13 [STEPPER_2A] of J130,78.2400,63.1600,PTH pad 36 [STEPPER_2A] of J100
+53,68.2000,123.2000,"Track [STOCK_A_IN] on B.Cu, length 0.1414 mm",62.2000,122.6000,"Track [STOCK_A_IN] on F.Cu, length 0.1414 mm"
+54,34.2000,96.9000,"Track [STOCK_A_IN] on In2.Cu, length 0.1000 mm",62.2000,122.6000,"Track [STOCK_A_IN] on F.Cu, length 0.1414 mm"
+55,4.5000,45.8200,PTH pad 17 [TACH_CMD] of J101,73.5925,148.5750,Via [TACH_CMD] on F.Cu - B.Cu
+56,76.8000,139.0000,"Track [TACH_CMD_G] on F.Cu, length 2.2398 mm",78.2175,148.5750,Pad 2 [TACH_CMD_G] of R100 on B.Cu
+57,127.5000,54.5000,"Track [TPS] on In2.Cu, length 0.1570 mm",55.4650,2.3500,PTH pad 89 [TPS] of J1
+58,86.1700,27.9480,Pad 2 [TRANS_EPC] of D33 on F.Cu,28.2650,2.3500,PTH pad 81 [TRANS_EPC] of J1
+59,84.0000,154.4400,PTH pad 9 [TRANS_EPC] of J120,86.1700,27.9480,Pad 2 [TRANS_EPC] of D33 on F.Cu
+60,21.4650,8.2500,PTH pad 27 [TRANS_SS1] of J1,93.0000,154.4400,PTH pad 6 [TRANS_SS1] of J120
+61,19.7650,11.2000,PTH pad 1 [TRANS_SS2] of J1,90.0000,154.4400,PTH pad 7 [TRANS_SS2] of J120
+62,23.1650,5.3000,PTH pad 54 [TRANS_TCC] of J1,87.0000,154.4400,PTH pad 8 [TRANS_TCC] of J120
+63,110.6077,27.4502,"Track [VCC_5] on F.Cu, length 1.8488 mm",110.6075,32.4500,Pad 2 [VCC_5] of D29 on F.Cu
+64,88.9000,143.5000,"Track [VCC_5] on In1.Cu, length 0.1000 mm",95.9000,144.8000,"Track [VCC_5] on In1.Cu, length 0.1414 mm"
+65,89.5792,60.8604,"Track [VCC_5] on F.Cu, length 13.2003 mm",80.4000,35.6000,"Track [VCC_5] on F.Cu, length 1.4142 mm"
+66,98.4750,39.7166,"Track [VDDA_5] on F.Cu, length 55.6752 mm",63.0000,53.0000,"Track [VDDA_5] on In1.Cu, length 1.3519 mm"
+67,97.3650,5.3000,PTH pad 71 [VPWR] of J1,99.0650,2.3500,PTH pad 97 [VPWR] of J1
+68,13.4375,26.5750,Pad 1 [VPWR] of F1 on F.Cu,97.3650,5.3000,PTH pad 71 [VPWR] of J1
+69,97.3650,5.3000,PTH pad 71 [VPWR] of J1,108.0000,154.4400,PTH pad 1 [VPWR] of J120
+70,94.7125,26.5750,"Track [VREF_5] on F.Cu, length 4.7174 mm",58.8650,2.3500,PTH pad 90 [VREF_5] of J1
+71,90.4375,26.5750,Pad 1 [VREF_FILTER] of F3 on F.Cu,79.1262,46.9913,"Track [VREF_FILTER] on F.Cu, length 11.9423 mm"
+72,62.9000,6.9000,"Track [VSS_PLUS] on F.Cu, length 0.1000 mm",75.4000,30.1000,"Track [VSS_PLUS] on In2.Cu, length 0.1414 mm"
+73,29.5000,91.4000,"Track [WB1_0_5V] on In1.Cu, length 0.3000 mm",75.4000,85.6000,"Track [WB1_0_5V] on In1.Cu, length 6.9296 mm"
+74,85.4650,2.3500,PTH pad 93 [WB1_RELAY_LOW] of J1,31.9500,44.6050,Pad 2 [WB1_RELAY_LOW] of Q26 on F.Cu
+75,122.3925,75.5750,"Track [WB2_0_5V] on B.Cu, length 3.0343 mm",48.6650,2.3500,PTH pad 87 [WB2_0_5V] of J1
+76,31.9500,53.6050,"Track [WB2_RELAY_LOW] on F.Cu, length 3.0500 mm",88.8650,2.3500,PTH pad 94 [WB2_RELAY_LOW] of J1
+77,51.0000,65.9000,"Track [WB_ENABLE_CMD] on B.Cu, length 0.1414 mm",56.1000,65.6000,"Track [WB_ENABLE_CMD] on B.Cu, length 0.1414 mm"

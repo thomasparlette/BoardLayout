@@ -1,0 +1,11 @@
+{
+  "envelope_overlap_count": 0,
+  "overlaps": [],
+  "front_bodies": 179,
+  "back_bodies": 57,
+  "user_cover_clearance_mm": 6.35,
+  "maximum_modelled_back_height_mm": 2.21996,
+  "nominal_body_only_margin_mm": 4.130039999999999,
+  "modelled_back_bodies_within_gap": true,
+  "qualification": "Approximate body envelopes only. Lead protrusions, solder, case hardware, thermal insulation and module assemblies remain excluded."
+}

@@ -1,0 +1,10 @@
+{
+  "copper_layers": 6,
+  "new_inner_layers": {
+    "In3.Cu": "PGND plane with limited routing",
+    "In4.Cu": "DGND plane with limited routing"
+  },
+  "board_thickness_mm": 1.6,
+  "mechanics": "outline, holes and placement preserved",
+  "status": "Provisional six-layer option; final JLC stackup and copper weights not qualified."
+}

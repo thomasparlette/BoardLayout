@@ -1,0 +1,64 @@
+ERC report (2026-09-14T13:02:06, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+
+***** Sheet /01 | Switched power and 5 V regulation/
+
+***** Sheet /02 | Ground topology, reference rails and CAN/
+
+***** Sheet /03 | Genuine MS3 daughtercard - 40-pin base socket/
+
+***** Sheet /04 | Genuine MS3 expansion interfaces/
+
+***** Sheet /05 | Factory Ford connector - cavities 1 to 52/
+
+***** Sheet /06 | Factory Ford connector - cavities 53 to 104/
+
+***** Sheet /07 | Engine temperature, throttle and oxygen inputs/
+
+***** Sheet /08 | MS3X analogue inputs/
+
+***** Sheet /09 | MAP sensor, battery measurement and spare ADC/
+
+***** Sheet /10 | Factory crank VR conditioner/
+
+***** Sheet /11 | Crank adjustment, phase selection and cam front end/
+
+***** Sheet /12 | Cam zero-crossing comparator/
+
+***** Sheet /13 | Sequential injectors A-D/
+
+***** Sheet /14 | Sequential injectors E-H/
+
+***** Sheet /15 | Eight buffered smart-coil signals/
+
+***** Sheet /16 | Optional factory wasted-spark power stages/
+
+***** Sheet /17 | Low-side auxiliary drivers - group 1/
+
+***** Sheet /18 | Low-side auxiliary drivers - group 2/
+
+***** Sheet /19 | Low-side auxiliary drivers - group 3/
+
+***** Sheet /20 | Oxygen-sensor heater low-side stages/
+
+***** Sheet /21 | Protected switch inputs/
+
+***** Sheet /22 | Brake, A/C request and flex-fuel input/
+
+***** Sheet /23 | External MicroSquirt transmission interface/
+
+***** Sheet /24 | Service and spare feature headers/
+
+***** Sheet /25 | Factory functions outside the implemented control scope/
+
+***** Sheet /26 | ECM-shell pass-through to cabin MicroSquirt/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

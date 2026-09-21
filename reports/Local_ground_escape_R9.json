@@ -1,0 +1,61 @@
+{
+  "added": [
+    {
+      "pad": "R80.2",
+      "net": "PGND",
+      "via_mm": [
+        69.62,
+        121.17
+      ],
+      "displaced": [
+        "STOCK_C_IN",
+        "STOCK_C_IN"
+      ]
+    },
+    {
+      "pad": "U6.3",
+      "net": "PGND",
+      "via_mm": [
+        33.25,
+        98.49
+      ],
+      "displaced": [
+        "IDLE_CMD",
+        "INJ_G",
+        "INJ_G",
+        "SPARE_PK1",
+        "SPARE_PK1",
+        "SPARE_PK1",
+        "SPARE_PK1",
+        "INJ_E_G",
+        "INJ_E_G"
+      ]
+    },
+    {
+      "pad": "U7.3",
+      "net": "PGND",
+      "via_mm": [
+        32.65,
+        105.09
+      ],
+      "displaced": [
+        "INJ_E_G"
+      ]
+    },
+    {
+      "pad": "U5.19",
+      "net": "DGND",
+      "via_mm": [
+        63.91,
+        25.65
+      ],
+      "displaced": [
+        "FUEL_PUMP_CMD_G",
+        "FUEL_PUMP_CMD_G"
+      ]
+    }
+  ],
+  "failed": [
+    "NT1.1"
+  ]
+}

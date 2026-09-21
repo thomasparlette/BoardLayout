@@ -1,0 +1,1922 @@
+[
+  {
+    "reference": "C1",
+    "value": "33 uF / 50 V",
+    "footprint": "GM97_Layout:CP_Elec_8x10",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C2",
+    "value": "100 nF / 100 V",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C3",
+    "value": "33 uF / 10 V",
+    "footprint": "GM97_Layout:CP_Elec_8x10",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C4",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C5",
+    "value": "47 uF / 10 V",
+    "footprint": "GM97_Layout:CP_Elec_8x10",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D1",
+    "value": "STPS3H100",
+    "footprint": "GM97_Layout:D_SMB",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D2",
+    "value": "SMBJ18A TVS",
+    "footprint": "GM97_Layout:D_SMB",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D3",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D4",
+    "value": "1N4734A 5.6 V",
+    "footprint": "GM97_Layout:D_DO-41_SOD81_P10.16mm_Horizontal",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "F1",
+    "value": "1 A SMD fuse / MPN TBD",
+    "footprint": "GM97_Layout:R_1812_4532Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "F2",
+    "value": "PTC 0.5 A",
+    "footprint": "GM97_Layout:R_1812_4532Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "U1",
+    "value": "LM2937ES-5.0 / SMD candidate",
+    "footprint": "GM97_Layout:TO-263-3_TabPin2",
+    "part": "LM2937ES-5.0/NOPB",
+    "source": "Mouser target",
+    "status": "TI/Mouser candidate; load budget and output capacitor ESR/thermal HOLD"
+  },
+  {
+    "reference": "C6",
+    "value": "4.7 uF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C7",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C8",
+    "value": "4.7 uF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C9",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "F3",
+    "value": "PTC 0.1 A",
+    "footprint": "GM97_Layout:R_1812_4532Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "L1",
+    "value": "1 uH",
+    "footprint": "GM97_Layout:L_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "L2",
+    "value": "1 uH",
+    "footprint": "GM97_Layout:L_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "NT1",
+    "value": "NET_TIE",
+    "footprint": "GM97_Layout:NetTie-2_SMD_Pad2.0mm",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "NT2",
+    "value": "NET_TIE",
+    "footprint": "GM97_Layout:NetTie-2_SMD_Pad2.0mm",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R1",
+    "value": "0R DNP",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R2",
+    "value": "120R DNP",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C10",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J100",
+    "value": "MS3_40_SOCKET",
+    "footprint": "GM97_Layout:DIP-40_W15.24mm_Socket",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J101",
+    "value": "MS3_JP2_34",
+    "footprint": "GM97_Layout:Candidate_J101",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J102",
+    "value": "MS3_INJ_10",
+    "footprint": "GM97_Layout:Candidate_J102",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J1",
+    "value": "Ford104",
+    "footprint": "GM97_Layout:Ford104_TE770750_PLACEMENT_PROVISIONAL",
+    "part": "Salvaged original Ford 104-pin header",
+    "source": "User supplied",
+    "status": "User accepted cavity mapping; contact ratings and mounting qualification HOLD"
+  },
+  {
+    "reference": "C11",
+    "value": "1 uF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C12",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C13",
+    "value": "1 uF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C14",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C15",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C16",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C17",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C18",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D5",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D6",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D7",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D8",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R3",
+    "value": "2.2k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R4",
+    "value": "2.49k 1%",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R5",
+    "value": "2.2k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R6",
+    "value": "2.49k 1%",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R7",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R8",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R9",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R10",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C19",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C20",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C21",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C22",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C23",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C24",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C25",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C26",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D9",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D10",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D11",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D12",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R11",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R12",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R13",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R14",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R15",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R16",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R17",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R18",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C27",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C28",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C29",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C30",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D13",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D14",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J150",
+    "value": "MapDaddy wired interface - user supplied module",
+    "footprint": "GM97_Layout:MapDaddy_Harness_4",
+    "part": "4-position wired adapter",
+    "source": "User supplied MapDaddy",
+    "status": "Custom pin order; NOT a native MapDaddy package footprint; mount dimensions HOLD"
+  },
+  {
+    "reference": "R19",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R20",
+    "value": "50k 1%",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R21",
+    "value": "10k 1%",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R22",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R23",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C31",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C32",
+    "value": "1 nF DNP",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C33",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D15",
+    "value": "1N4148W / candidate",
+    "footprint": "GM97_Layout:D_SOD-123",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q1",
+    "value": "ZTX553",
+    "footprint": "GM97_Layout:TO-92_Inline",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q2",
+    "value": "ZTX553",
+    "footprint": "GM97_Layout:TO-92_Inline",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R24",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R25",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R26",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R27",
+    "value": "47k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R28",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R29",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R30",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R31",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R32",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R33",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R34",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R35",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R36",
+    "value": "0R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "U3",
+    "value": "MC34072 SOIC / candidate",
+    "footprint": "GM97_Layout:SOIC-8_3.9x4.9mm_P1.27mm",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C34",
+    "value": "220 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C35",
+    "value": "1 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D16",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "JP1",
+    "value": "CRANK POLARITY",
+    "footprint": "GM97_Layout:Candidate_JP1",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R37",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R38",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R39",
+    "value": "1M",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R40",
+    "value": "47k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R41",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R42",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R43",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R44",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R45",
+    "value": "2.2k DNP",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "RV1",
+    "value": "10k / CRANK ZERO",
+    "footprint": "GM97_Layout:Potentiometer_Bourns_3224W_Vertical",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "RV2",
+    "value": "100k / CRANK HYST",
+    "footprint": "GM97_Layout:Potentiometer_Bourns_3224W_Vertical",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C36",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q3",
+    "value": "MMBT2907A",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q4",
+    "value": "MMBT2907A",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "RV3",
+    "value": "10k / CAM ZERO",
+    "footprint": "GM97_Layout:Potentiometer_Bourns_3224W_Vertical",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "RV4",
+    "value": "100k / CAM HYST",
+    "footprint": "GM97_Layout:Potentiometer_Bourns_3224W_Vertical",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "U4",
+    "value": "MCP6002-I/SN",
+    "footprint": "GM97_Layout:SOIC-8_3.9x4.9mm_P1.27mm",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q5",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q6",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q7",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q8",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "R46",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R47",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R48",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R49",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R50",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R51",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R52",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R53",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q9",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q10",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q11",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q12",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "R54",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R55",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R56",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R57",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R58",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R59",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R60",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R61",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C37",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R62",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R64",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R66",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R68",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "U5",
+    "value": "SN74AHCT541PWR",
+    "footprint": "GM97_Layout:TSSOP-20_4.4x6.5mm_P0.65mm",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C38",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C39",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q13",
+    "value": "MK-CoilDrvr IGBT - PINOUT HOLD",
+    "footprint": "GM97_Layout:TO-220-3_Vertical",
+    "part": "MK-CoilDrvr",
+    "source": "DIYAutoTune",
+    "status": "Kit specified; underlying IGBT MPN/pinout and case mounting HOLD"
+  },
+  {
+    "reference": "Q14",
+    "value": "MK-CoilDrvr IGBT - PINOUT HOLD",
+    "footprint": "GM97_Layout:TO-220-3_Vertical",
+    "part": "MK-CoilDrvr",
+    "source": "DIYAutoTune",
+    "status": "Kit specified; underlying IGBT MPN/pinout and case mounting HOLD"
+  },
+  {
+    "reference": "Q15",
+    "value": "MK-CoilDrvr IGBT - PINOUT HOLD",
+    "footprint": "GM97_Layout:TO-220-3_Vertical",
+    "part": "MK-CoilDrvr",
+    "source": "DIYAutoTune",
+    "status": "Kit specified; underlying IGBT MPN/pinout and case mounting HOLD"
+  },
+  {
+    "reference": "Q16",
+    "value": "MK-CoilDrvr IGBT - PINOUT HOLD",
+    "footprint": "GM97_Layout:TO-220-3_Vertical",
+    "part": "MK-CoilDrvr",
+    "source": "DIYAutoTune",
+    "status": "Kit specified; underlying IGBT MPN/pinout and case mounting HOLD"
+  },
+  {
+    "reference": "R78",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R79",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R80",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R81",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R82",
+    "value": "0R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R83",
+    "value": "330R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R84",
+    "value": "0R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R85",
+    "value": "330R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R86",
+    "value": "0R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R87",
+    "value": "330R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R88",
+    "value": "0R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R89",
+    "value": "330R",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "U6",
+    "value": "TC4427A",
+    "footprint": "GM97_Layout:SOIC-8_3.9x4.9mm_P1.27mm",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "U7",
+    "value": "TC4427A",
+    "footprint": "GM97_Layout:SOIC-8_3.9x4.9mm_P1.27mm",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D17",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D18",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D19",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q17",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q18",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q19",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "R90",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R91",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R92",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R93",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R94",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R95",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D22",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q22",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "R100",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R101",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D23",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D24",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q23",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q24",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "R102",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R103",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R104",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R105",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q26",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "Q27",
+    "value": "VND5N07",
+    "footprint": "GM97_Layout:TO-252-2",
+    "part": "VND5N07TR-E",
+    "source": "Mouser target",
+    "status": "ST datasheet/order code checked; thermal and current qualification HOLD"
+  },
+  {
+    "reference": "R108",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R109",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R110",
+    "value": "1k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R111",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C40",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C41",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C42",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "C43",
+    "value": "100 nF",
+    "footprint": "GM97_Layout:C_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D26",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D27",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D28",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D29",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R116",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R117",
+    "value": "2.2k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R118",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R119",
+    "value": "2.2k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R120",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R121",
+    "value": "2.2k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R122",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R123",
+    "value": "2.2k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D30",
+    "value": "1N4148W / candidate",
+    "footprint": "GM97_Layout:D_SOD-123",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D31",
+    "value": "1N4148W / candidate",
+    "footprint": "GM97_Layout:D_SOD-123",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D32",
+    "value": "BAT54S",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q30",
+    "value": "MMBT3904",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "Q31",
+    "value": "MMBT3904",
+    "footprint": "GM97_Layout:SOT-23",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R124",
+    "value": "47k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R125",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R126",
+    "value": "47k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R127",
+    "value": "100k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R128",
+    "value": "0R DNP",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R129",
+    "value": "2.2k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R130",
+    "value": "10k",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "D33",
+    "value": "400V 1A SMA / MPN TBD",
+    "footprint": "GM97_Layout:D_SMA",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J120",
+    "value": "Molex 43045-2000",
+    "footprint": "GM97_Layout:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal",
+    "part": "43045-2000",
+    "source": "Molex drawing / KiCad library; Mouser procurement target",
+    "status": "Selected header; verify mating assembly and simultaneous-current derating"
+  },
+  {
+    "reference": "JP2",
+    "value": "SPEED SOURCE +",
+    "footprint": "GM97_Layout:Candidate_JP2",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "JP3",
+    "value": "SPEED RETURN -",
+    "footprint": "GM97_Layout:Candidate_JP3",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R131",
+    "value": "2.2k DNP",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R132",
+    "value": "10k DNP",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "R133",
+    "value": "2.49k DNP",
+    "footprint": "GM97_Layout:R_0805_2012Metric",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J130",
+    "value": "SERVICE",
+    "footprint": "GM97_Layout:Candidate_J130",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J131",
+    "value": "EXPANSION",
+    "footprint": "GM97_Layout:Candidate_J131",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J140",
+    "value": "RETENTION_12",
+    "footprint": "GM97_Layout:Candidate_J140",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  },
+  {
+    "reference": "J121",
+    "value": "SEALED SHELL FEEDTHROUGH",
+    "footprint": "",
+    "part": "UNSELECTED",
+    "source": "Mouser target",
+    "status": "HOLD: exact part and footprint qualification incomplete"
+  }
+]

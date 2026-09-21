@@ -1,0 +1,19 @@
+{
+  "ref": "D27",
+  "from": {
+    "side": "B.Cu",
+    "xy": [
+      90.0,
+      123.0
+    ]
+  },
+  "to": {
+    "side": "B.Cu",
+    "xy": [
+      80,
+      126
+    ]
+  },
+  "displaced_signal_tracks": 5,
+  "reason": "Relocate the input clamp diode out of a trapped front-side routing area. Package and thermal rating remain unqualified."
+}

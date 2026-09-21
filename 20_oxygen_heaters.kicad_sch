@@ -1,0 +1,128 @@
+(kicad_sch (version 20230121) (generator eeschema) (uuid adc47af8-def2-5821-8e25-1a877da6c66f) (paper "A3")
+(title_block (title "20 | Wideband-controller relay low-side stages") (date "2026-09-12") (rev "R4 CURRENT-TARGET REVIEW") (company "1997 Grand Marquis / genuine MS3") (comment 1 "NOT FOR FABRICATION OR VEHICLE CONNECTION"))
+(lib_symbols
+(symbol "GM97:R" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "R" (at 0 9 0) (effects (font (size 1.27 1.27))))
+(property "Value" "R" (at 0 6 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "R_0_1" (rectangle (start -2.54 1.016) (end 2.54 -1.016) (stroke (width 0.254) (type default)) (fill (type none))))
+(symbol "R_1_1" (pin passive line (at -5.08 0 0) (length 2.54) (name "~" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin passive line (at 5.08 0 180) (length 2.54) (name "~" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+))
+(symbol "GM97:VND5N07" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "Q" (at 0 9 0) (effects (font (size 1.27 1.27))))
+(property "Value" "VND5N07" (at 0 6 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "VND5N07_0_1" (rectangle (start -20 6) (end 20 -6) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "VND5N07_1_1" (pin input line (at -25.4 0 0) (length 5.08) (name "IN" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin open_collector line (at 25.4 2.54 180) (length 5.08) (name "DRAIN" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+(pin power_in line (at 25.4 -2.54 180) (length 5.08) (name "SOURCE" (effects (font (size 1.0 1.0)))) (number "3" (effects (font (size 1.0 1.0)))))
+)))
+(text "20 | Wideband-controller relay low-side stages" (at 15 15 0) (effects (font (size 2.54 2.54)) (justify left top)) (uuid 98234378-1cca-5588-8863-0a9eb21bdc84))
+(text "Two protected low-side devices switch external relay coils; common ON/OFF enable. Do not use heater PWM." (at 15 22 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid 5a269f13-490b-58b7-b21f-1223fbe4c426))
+(symbol (lib_id "GM97:R") (at 69.85 52.07 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 59395475-1f4a-5d15-924a-51e19d407fe8)
+(property "Reference" "R108" (at 70 46 0) (effects (font (size 1.0 1.0))))
+(property "Value" "1k" (at 70 48.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 70 52 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 70 52 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 70 52 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/adc47af8-def2-5821-8e25-1a877da6c66f" (reference "R108") (unit 1)))))
+(wire (pts (xy 64.77 52.07) (xy 57.15 52.07)) (stroke (width 0) (type default)) (uuid 249baa46-d524-4e5f-8865-c1d8216b9f60))
+(global_label "WB_ENABLE_CMD" (shape bidirectional) (at 57.15 52.07 180) (effects (font (size 1 1)) (justify right)) (uuid 581b6820-56b1-4a73-a5fb-5850f92e489e))
+(wire (pts (xy 74.93 52.07) (xy 82.55 52.07)) (stroke (width 0) (type default)) (uuid 5240cde5-9db9-477a-b24d-dd2f1cd1a424))
+(global_label "HEATER_G1" (shape bidirectional) (at 82.55 52.07 0) (effects (font (size 1 1)) (justify left)) (uuid d625007f-f8b9-4185-837a-41bf5105ceff))
+(symbol (lib_id "GM97:R") (at 190.5 52.07 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid c94ce7ca-97f8-51ba-8142-61d01fd0f8ef)
+(property "Reference" "R109" (at 190 46 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100k" (at 190 48.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 190 52 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 190 52 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 190 52 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/adc47af8-def2-5821-8e25-1a877da6c66f" (reference "R109") (unit 1)))))
+(wire (pts (xy 185.42 52.07) (xy 177.8 52.07)) (stroke (width 0) (type default)) (uuid 5457ebed-1b0f-4ca4-b9e0-8f986af2f125))
+(global_label "HEATER_G1" (shape bidirectional) (at 177.8 52.07 180) (effects (font (size 1 1)) (justify right)) (uuid 49e174ac-29cd-455f-8932-64dbd1adc361))
+(wire (pts (xy 195.58 52.07) (xy 203.2 52.07)) (stroke (width 0) (type default)) (uuid f6e33b5e-7fb1-4d98-8772-7ff422cef881))
+(global_label "PGND" (shape bidirectional) (at 203.2 52.07 0) (effects (font (size 1 1)) (justify left)) (uuid f52d5e82-8ac1-404b-a615-a9d073df3193))
+(symbol (lib_id "GM97:VND5N07") (at 314.96 52.07 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 699f9d80-0db0-5d6d-8ca4-db4288a52ddd)
+(property "Reference" "Q26" (at 315 42 0) (effects (font (size 1.0 1.0))))
+(property "Value" "VND5N07" (at 315 44.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:TO-252-2" (at 315 52 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 315 52 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "External relay coil return only; controller main ground remains permanent. Coil current and suppression must be verified." (at 315 52 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/adc47af8-def2-5821-8e25-1a877da6c66f" (reference "Q26") (unit 1)))))
+(wire (pts (xy 289.56 52.07) (xy 281.94 52.07)) (stroke (width 0) (type default)) (uuid a97594a1-131a-4fc3-ab81-27da51b92ef5))
+(global_label "HEATER_G1" (shape bidirectional) (at 281.94 52.07 180) (effects (font (size 1 1)) (justify right)) (uuid af405b49-44ef-4ead-b685-26c69142080f))
+(wire (pts (xy 340.36 49.53) (xy 347.98 49.53)) (stroke (width 0) (type default)) (uuid e2584936-df19-442e-9602-495062867bd3))
+(global_label "WB1_RELAY_LOW" (shape bidirectional) (at 347.98 49.53 0) (effects (font (size 1 1)) (justify left)) (uuid 274342f2-79bf-4c7f-8a8b-69d8a209b52c))
+(wire (pts (xy 340.36 54.61) (xy 347.98 54.61)) (stroke (width 0) (type default)) (uuid 00b46244-c8f7-4d44-9c7f-dca7ce398604))
+(global_label "PGND" (shape bidirectional) (at 347.98 54.61 0) (effects (font (size 1 1)) (justify left)) (uuid 2076bd6a-e65d-4465-baa7-324f1b59458a))
+(symbol (lib_id "GM97:R") (at 69.85 96.52 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid a364e278-d15c-5509-97d3-922729ded6b7)
+(property "Reference" "R110" (at 70 91 0) (effects (font (size 1.0 1.0))))
+(property "Value" "1k" (at 70 93.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 70 97 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 70 97 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 70 97 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/adc47af8-def2-5821-8e25-1a877da6c66f" (reference "R110") (unit 1)))))
+(wire (pts (xy 64.77 96.52) (xy 57.15 96.52)) (stroke (width 0) (type default)) (uuid 69db4b1a-52e4-4863-bee6-c6b0988784d9))
+(global_label "WB_ENABLE_CMD" (shape bidirectional) (at 57.15 96.52 180) (effects (font (size 1 1)) (justify right)) (uuid 560ab152-9c23-454b-98ee-5720858d856c))
+(wire (pts (xy 74.93 96.52) (xy 82.55 96.52)) (stroke (width 0) (type default)) (uuid 614fce0c-9d72-49a8-8373-6b4ba6d5eaae))
+(global_label "HEATER_G2" (shape bidirectional) (at 82.55 96.52 0) (effects (font (size 1 1)) (justify left)) (uuid 13a84790-f170-4755-89e8-dd3f3f76ef19))
+(symbol (lib_id "GM97:R") (at 190.5 96.52 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 2cba30e6-07ca-5620-8189-490d151ec6be)
+(property "Reference" "R111" (at 190 91 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100k" (at 190 93.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 190 97 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 190 97 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 190 97 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/adc47af8-def2-5821-8e25-1a877da6c66f" (reference "R111") (unit 1)))))
+(wire (pts (xy 185.42 96.52) (xy 177.8 96.52)) (stroke (width 0) (type default)) (uuid f84a9174-0964-49d2-902b-27b75c80e04c))
+(global_label "HEATER_G2" (shape bidirectional) (at 177.8 96.52 180) (effects (font (size 1 1)) (justify right)) (uuid 256b8cd8-29a5-4127-9439-1c9c83a307d7))
+(wire (pts (xy 195.58 96.52) (xy 203.2 96.52)) (stroke (width 0) (type default)) (uuid 8305367f-5425-4d7d-8b66-b3953ae2fd79))
+(global_label "PGND" (shape bidirectional) (at 203.2 96.52 0) (effects (font (size 1 1)) (justify left)) (uuid f71568b5-aa31-459a-bbc9-8fd163ffe291))
+(symbol (lib_id "GM97:VND5N07") (at 314.96 96.52 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 8405c13f-1818-5cfb-aac0-61449ab406d3)
+(property "Reference" "Q27" (at 315 87 0) (effects (font (size 1.0 1.0))))
+(property "Value" "VND5N07" (at 315 89.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:TO-252-2" (at 315 97 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 315 97 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "External relay coil return only; controller main ground remains permanent. Coil current and suppression must be verified." (at 315 97 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/adc47af8-def2-5821-8e25-1a877da6c66f" (reference "Q27") (unit 1)))))
+(wire (pts (xy 289.56 96.52) (xy 281.94 96.52)) (stroke (width 0) (type default)) (uuid 870d3295-d11e-460a-88fa-280fe6921382))
+(global_label "HEATER_G2" (shape bidirectional) (at 281.94 96.52 180) (effects (font (size 1 1)) (justify right)) (uuid 4b6b3aac-f7ba-459d-960f-865d4ac8acb5))
+(wire (pts (xy 340.36 93.98) (xy 347.98 93.98)) (stroke (width 0) (type default)) (uuid aee5c2fe-74f3-447d-9881-f2c6abf2451b))
+(global_label "WB2_RELAY_LOW" (shape bidirectional) (at 347.98 93.98 0) (effects (font (size 1 1)) (justify left)) (uuid 9cf02522-9021-4e28-9f65-b8bc7c0b1a4f))
+(wire (pts (xy 340.36 99.06) (xy 347.98 99.06)) (stroke (width 0) (type default)) (uuid 1d1131c0-1019-434f-b163-207938f69b80))
+(global_label "PGND" (shape bidirectional) (at 347.98 99.06 0) (effects (font (size 1 1)) (justify left)) (uuid 57008068-7100-4162-ac6a-1ca21deb5c31))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(text "External relay contacts switch supplied fused +12 V to each matched wideband controller.\nController ground remains connected; 0-5 V outputs feed WB1_0_5V / WB2_0_5V.\nUse coil suppression (diode cathode to coil +12 V, anode to the low-side return) and ON/OFF firmware control.\nThe wideband controller, not this relay stage, regulates the LSU heater." (at 15 244 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid 6ebd369c-6acd-5335-9622-fcd8b09001a5))
+)

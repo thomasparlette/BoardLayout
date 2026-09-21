@@ -1,0 +1,166 @@
+{
+  "added": [
+    "CASE_GND",
+    "VREF_5",
+    "WB1_RELAY_LOW"
+  ],
+  "failed": [
+    [
+      "ACTUATOR_12",
+      "hard escape"
+    ],
+    [
+      "ACTUATOR_12",
+      "hard escape"
+    ],
+    [
+      "ACTUATOR_12",
+      "hard escape"
+    ],
+    [
+      "AC_WOT_CUTOUT",
+      "hard escape"
+    ],
+    [
+      "COIL_1",
+      "hard escape"
+    ],
+    [
+      "COIL_2",
+      "hard escape"
+    ],
+    [
+      "COIL_3",
+      "hard escape"
+    ],
+    [
+      "COIL_4",
+      "hard escape"
+    ],
+    [
+      "COIL_4",
+      "hard escape"
+    ],
+    [
+      "FAN_CONTROL",
+      "hard escape"
+    ],
+    [
+      "FUEL_PUMP_CONTROL",
+      "hard escape"
+    ],
+    [
+      "FUEL_PUMP_CONTROL",
+      "hard escape"
+    ],
+    [
+      "IAC",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_4",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_4",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_4",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_5",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_6",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_6",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_6",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_6",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_6",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_6",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_6",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_7",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_7",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_7",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_7",
+      "hard escape"
+    ],
+    [
+      "INJECTOR_8",
+      "hard escape"
+    ],
+    [
+      "MIL",
+      "hard escape"
+    ],
+    [
+      "TRANS_EPC",
+      "hard escape"
+    ],
+    [
+      "TRANS_SS1",
+      "hard escape"
+    ],
+    [
+      "TRANS_TCC",
+      "hard escape"
+    ],
+    [
+      "VCC_5",
+      "hard escape"
+    ],
+    [
+      "VCC_5",
+      "hard escape"
+    ],
+    [
+      "VCC_5",
+      "hard escape"
+    ],
+    [
+      "VPWR",
+      "hard escape"
+    ],
+    [
+      "VPWR",
+      "hard escape"
+    ],
+    [
+      "WB2_RELAY_LOW",
+      "hard escape"
+    ]
+  ],
+  "displaced_items": []
+}

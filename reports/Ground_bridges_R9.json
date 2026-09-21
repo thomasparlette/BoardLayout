@@ -1,0 +1,67 @@
+{
+  "added": [],
+  "failed": [
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "escape"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "search"
+    ],
+    [
+      "PGND",
+      "escape"
+    ],
+    [
+      "PGND",
+      "escape"
+    ],
+    [
+      "PGND",
+      "escape"
+    ],
+    [
+      "PGND",
+      "escape"
+    ]
+  ],
+  "groups_remaining": 6,
+  "ampacity": "UNQUALIFIED"
+}

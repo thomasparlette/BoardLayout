@@ -1,0 +1,125 @@
+(kicad_sch (version 20230121) (generator eeschema) (uuid 55c870f2-8877-5e43-9b85-790a7633fc5c) (paper "A3")
+(title_block (title "18 | Low-side auxiliary drivers - group 2") (date "2026-09-12") (rev "R4 CURRENT-TARGET REVIEW") (company "1997 Grand Marquis / genuine MS3") (comment 1 "NOT FOR FABRICATION OR VEHICLE CONNECTION"))
+(lib_symbols
+(symbol "GM97:D" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "D" (at 0 9 0) (effects (font (size 1.27 1.27))))
+(property "Value" "D" (at 0 6 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "D_0_1" (polyline (pts (xy 2.54 1.905)(xy 2.54 -1.905)(xy -2.54 0)(xy 2.54 1.905)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy -2.54 -1.905)(xy -2.54 1.905)) (stroke (width 0.254) (type default)) (fill (type none))))
+(symbol "D_1_1" (pin passive line (at -5.08 0 0) (length 2.54) (name "K" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin passive line (at 5.08 0 180) (length 2.54) (name "A" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+))
+(symbol "GM97:R" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "R" (at 0 9 0) (effects (font (size 1.27 1.27))))
+(property "Value" "R" (at 0 6 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "R_0_1" (rectangle (start -2.54 1.016) (end 2.54 -1.016) (stroke (width 0.254) (type default)) (fill (type none))))
+(symbol "R_1_1" (pin passive line (at -5.08 0 0) (length 2.54) (name "~" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin passive line (at 5.08 0 180) (length 2.54) (name "~" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+))
+(symbol "GM97:VND5N07" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "Q" (at 0 9 0) (effects (font (size 1.27 1.27))))
+(property "Value" "VND5N07" (at 0 6 0) (effects (font (size 1.27 1.27))))
+(property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(symbol "VND5N07_0_1" (rectangle (start -20 6) (end 20 -6) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "VND5N07_1_1" (pin input line (at -25.4 0 0) (length 5.08) (name "IN" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))
+(pin open_collector line (at 25.4 2.54 180) (length 5.08) (name "DRAIN" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))
+(pin power_in line (at 25.4 -2.54 180) (length 5.08) (name "SOURCE" (effects (font (size 1.0 1.0)))) (number "3" (effects (font (size 1.0 1.0)))))
+)))
+(text "18 | Low-side auxiliary drivers - group 2" (at 15 15 0) (effects (font (size 2.54 2.54)) (justify left top)) (uuid 279a46e1-0c14-5d7a-af15-159a3c949010))
+(text "Custom protected low-side stages replace the MS3X shared clamp arrangement. Verify each actual load, flyback and PWM requirement." (at 15 22 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid 93e15839-fbd8-57f2-ab42-d5ac75fbcdd2))
+(text "EVAP_PURGE | Purge valve PWM, firmware assignment TBD" (at 15 41 0) (effects (font (size 1.5 1.5)) (justify left top)) (uuid 5c5c8db6-da7c-5a07-b78e-84d11e8d2594))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(text "EVAP_VENT | Vent solenoid, firmware assignment TBD" (at 15 105 0) (effects (font (size 1.5 1.5)) (justify left top)) (uuid dbcf901f-fa9e-5851-b610-0f32bc1d1aa3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(text "AUX_TACH | Tachometer output" (at 15 169 0) (effects (font (size 1.5 1.5)) (justify left top)) (uuid 489d86cd-a2ef-51e7-863b-6d8b740b9fe8))
+(symbol (lib_id "GM97:R") (at 69.85 181.61 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid a2fdac5e-e1b6-5bc9-904e-5151c993144f)
+(property "Reference" "R100" (at 70 176 0) (effects (font (size 1.0 1.0))))
+(property "Value" "1k" (at 70 178.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 70 182 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 70 182 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 70 182 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/55c870f2-8877-5e43-9b85-790a7633fc5c" (reference "R100") (unit 1)))))
+(wire (pts (xy 64.77 181.61) (xy 57.15 181.61)) (stroke (width 0) (type default)) (uuid 20e0d31b-d7ec-459e-9938-cb9a5059a40c))
+(global_label "TACH_CMD" (shape bidirectional) (at 57.15 181.61 180) (effects (font (size 1 1)) (justify right)) (uuid 0c097d31-f523-4718-b134-40934813aa5a))
+(wire (pts (xy 74.93 181.61) (xy 82.55 181.61)) (stroke (width 0) (type default)) (uuid 27e14453-34d4-41f4-aba1-d7118a05069b))
+(global_label "TACH_CMD_G" (shape bidirectional) (at 82.55 181.61 0) (effects (font (size 1 1)) (justify left)) (uuid 94cdc4b5-432e-43a5-9c49-1f6f7c861642))
+(symbol (lib_id "GM97:R") (at 190.5 181.61 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid b58fcd13-bbbc-59f1-bd4d-1ce9cc74594f)
+(property "Reference" "R101" (at 190 176 0) (effects (font (size 1.0 1.0))))
+(property "Value" "100k" (at 190 178.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:R_0805_2012Metric" (at 190 182 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 190 182 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "" (at 190 182 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/55c870f2-8877-5e43-9b85-790a7633fc5c" (reference "R101") (unit 1)))))
+(wire (pts (xy 185.42 181.61) (xy 177.8 181.61)) (stroke (width 0) (type default)) (uuid 2d3b69d2-1450-4ddc-a466-bea63f269ad9))
+(global_label "TACH_CMD_G" (shape bidirectional) (at 177.8 181.61 180) (effects (font (size 1 1)) (justify right)) (uuid e2ac3354-06cc-482d-b3c4-5b7e4dd5968a))
+(wire (pts (xy 195.58 181.61) (xy 203.2 181.61)) (stroke (width 0) (type default)) (uuid bef613a1-4cb6-4625-8583-9e13a6169e84))
+(global_label "PGND" (shape bidirectional) (at 203.2 181.61 0) (effects (font (size 1 1)) (justify left)) (uuid 17869b53-14c0-43bc-9ee7-02bc8f321cdd))
+(symbol (lib_id "GM97:VND5N07") (at 314.96 181.61 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 9ded0010-bdd4-5775-adf3-9d0aa63e3836)
+(property "Reference" "Q22" (at 315 172 0) (effects (font (size 1.0 1.0))))
+(property "Value" "VND5N07" (at 315 174.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:TO-252-2" (at 315 182 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 315 182 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "Tachometer output; original MS3X device availability unresolved" (at 315 182 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/55c870f2-8877-5e43-9b85-790a7633fc5c" (reference "Q22") (unit 1)))))
+(wire (pts (xy 289.56 181.61) (xy 281.94 181.61)) (stroke (width 0) (type default)) (uuid 8751cb32-9288-4e35-bd35-26e0eb0a3eba))
+(global_label "TACH_CMD_G" (shape bidirectional) (at 281.94 181.61 180) (effects (font (size 1 1)) (justify right)) (uuid 2cbfb29d-5019-4601-bba1-0b10cc8157e9))
+(wire (pts (xy 340.36 179.07) (xy 347.98 179.07)) (stroke (width 0) (type default)) (uuid d2c4d91b-d973-401a-aaea-5a8bb4110941))
+(global_label "AUX_TACH" (shape bidirectional) (at 347.98 179.07 0) (effects (font (size 1 1)) (justify left)) (uuid dd0606d6-802d-400f-9bdc-45685f3d28d0))
+(wire (pts (xy 340.36 184.15) (xy 347.98 184.15)) (stroke (width 0) (type default)) (uuid 153de072-3dc0-44b1-b79e-61dd6c072882))
+(global_label "PGND" (shape bidirectional) (at 347.98 184.15 0) (effects (font (size 1 1)) (justify left)) (uuid d9b532ee-0d70-4bb7-81ae-818a1ea01c43))
+(symbol (lib_id "GM97:D") (at 190.5 207.01 0) (unit 1) (dnp no) (in_bom yes) (on_board yes) (uuid 283e0ae1-2893-519f-bd2d-9f6fbb9eec94)
+(property "Reference" "D22" (at 190 201 0) (effects (font (size 1.0 1.0))))
+(property "Value" "400V 1A SMA / MPN TBD" (at 190 203.5 0) (effects (font (size 1.0 1.0))))
+(property "Footprint" "GM97_Layout:D_SMA" (at 190 207 0) (effects (font (size 1.0 1.0)) hide))
+(property "Population" "FIT - REVIEW" (at 190 207 0) (effects (font (size 1.0 1.0)) hide))
+(property "Purpose" "Cathode must connect to actual fused actuator +12; diode changes release time" (at 190 207 0) (effects (font (size 1.0 1.0)) hide))
+(instances (project "GrandMarquis97_RevA" (path "/61478f39-4814-50d5-93e9-22b31da7cb64/55c870f2-8877-5e43-9b85-790a7633fc5c" (reference "D22") (unit 1)))))
+(wire (pts (xy 185.42 207.01) (xy 177.8 207.01)) (stroke (width 0) (type default)) (uuid eadb7183-9b83-493f-921d-82430dad3e4f))
+(global_label "ACTUATOR_12" (shape bidirectional) (at 177.8 207.01 180) (effects (font (size 1 1)) (justify right)) (uuid f990f43c-82ef-4d07-96b0-9dde38b942cc))
+(wire (pts (xy 195.58 207.01) (xy 203.2 207.01)) (stroke (width 0) (type default)) (uuid 4fd3268e-10fb-4389-abeb-4ec0eb94a7b8))
+(global_label "AUX_TACH" (shape bidirectional) (at 203.2 207.01 0) (effects (font (size 1 1)) (justify left)) (uuid a5aafa9a-399e-4895-8e52-664786a233ba))
+(text "ACTUATOR_12 is a separate flyback-return connection to the actual load supply, not regulator RAW_12.\nDo not power fan motors, fuel pumps or clutch coils through relay-rated outputs without a load review.\nMIL is programmable indication; it does not implement Ford OBD diagnostics." (at 15 252 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid 8f91e5c0-aa44-5d43-8ed3-f87f3a69efe0))
+)

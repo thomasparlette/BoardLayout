@@ -1,0 +1,20 @@
+[
+  {
+    "reference": "R58",
+    "from": "F.Cu",
+    "to": "B.Cu",
+    "x_mm": 15.305,
+    "y_mm": 154.575,
+    "generic_body_height_mm": 0.44958,
+    "cover_clearance_mm": 6.35
+  },
+  {
+    "reference": "R36",
+    "from": "F.Cu",
+    "to": "B.Cu",
+    "x_mm": 119.305,
+    "y_mm": 119.575,
+    "generic_body_height_mm": 0.44958,
+    "cover_clearance_mm": 6.35
+  }
+]

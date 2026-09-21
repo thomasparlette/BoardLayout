@@ -1,0 +1,32 @@
+[
+  {
+    "ref": "NT1",
+    "pin": "2",
+    "net": "DGND",
+    "via": [
+      108.6,
+      31.6
+    ],
+    "displaced": 7
+  },
+  {
+    "ref": "NT2",
+    "pin": "1",
+    "net": "DGND",
+    "via": [
+      79.6,
+      32.6
+    ],
+    "displaced": 10
+  },
+  {
+    "ref": "NT2",
+    "pin": "2",
+    "net": "SGND",
+    "via": [
+      87.6,
+      32.6
+    ],
+    "displaced": 2
+  }
+]
