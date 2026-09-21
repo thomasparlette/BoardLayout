@@ -1,40 +1,45 @@
-# Grand Marquis 1997 MS3 replacement PCB — R9 six-layer option
+# Grand Marquis 1997 MS3 replacement PCB — R10 eight-layer candidate
 
-**Engineering checkpoint. Not released for fabrication or vehicle operation.**
+> **Engineering checkpoint — not released for fabrication or vehicle use.**
 
-Routing has 24 native KiCad unconnected-item findings. This is not a completed PCB. See `reports/After_routing_DRC.txt` for individual locations and `reports/Remaining_connections_by_net.json` for the summary. No DRC rule severities or exclusions were changed in R9 to obtain a lower count.
+This repository contains the active R10 eight-layer KiCad candidate for a custom controller in a 1997 Mercury Grand Marquis EEC-V enclosure. The design is still `ROUTING_INCOMPLETE`.
 
-## What changed
+## Current verified inventory
 
-R9 adds two internal copper layers and continues signal, power and ground routing. It is a SIX-layer option, replacing R8's four-layer routing stack. The finished thickness remains provisionally 1.60 mm; a JLCPCB stackup and copper weights have not been selected or qualified.
+The read-only static audit of the native board reports:
 
-All footprint positions, rotations, sides, mounting holes and the board outline remain identical to R8. The R8 fit-print models included in `mechanical` remain applicable. Printed component bodies are approximate envelopes, not manufacturer STEP models. Leads, mating connectors, MS3 daughtercard clearances, hoses and thermal hardware still need physical checks. The 6.35 mm back-cover gap is not a guarantee of assembled clearance.
+- 246 footprints and 888 pads;
+- 737 assigned pad/net pairs matching `source/input_netlist.xml`, excluding the intentionally off-board J121 entry;
+- eight copper layers (`F.Cu`, `In1.Cu`–`In6.Cu`, `B.Cu`);
+- 43,176 segments and 2,230 through vias;
+- 102 zero-length segments;
+- 207 exact duplicate segment geometries, comprising 208 extra records;
+- 3,339 locked segments and 89 locked vias.
 
-## Verification performed
+Run `py source/production_baseline_audit.py` to regenerate `production_review/BASELINE_AUDIT.md` and the machine-readable audit. This parser is a reproducible inventory tool; it does not replace KiCad DRC, ERC, zone refill, or visual review.
 
-- Native KiCad loads the PCB and runs DRC.
-- 737 assigned pad/net pairs match the stored source netlist. This checks synchronization with that netlist, not correctness of the vehicle pin map or circuit design.
-- 246 footprints; 31397 track segments; 1802 vias.
-- DRC categories: `{"lib_footprint_mismatch": 199, "silk_edge_clearance": 2, "track_dangling": 199, "unconnected_items": 24, "via_dangling": 24}`.
-- Outline, board thickness and all footprint placements compare equal to R8 (`reports/Mechanical_preservation_R9.json`).
-- Native ERC was not rerun: this KiCad 7 environment does not provide the required schematic ERC CLI workflow. Historical ERC reports are not a fresh pass result.
+## Stale validation warning
 
-## Remaining release blockers
+`reports/Routing_validation.json` is behind the current board by 280 segments and four vias. `reports/After_routing_DRC.txt` is also a saved checkpoint, not a current native run. Its 24 unconnected-item findings and other category counts must be regenerated before routing work begins.
 
-1. Complete the remaining routing and review all dangling copper, footprint/library differences and silkscreen issues.
-2. Resolve 216 UNSELECTED entries in the retained parts list. That list is not a procurement-ready Mouser BOM. Pinouts, optional ignition packages and final footprints still need component-specific review.
-3. Qualify current paths, including local necks, layer changes, shared return currents, connector contacts, actual copper weights and temperature rise. Neither a trace-width target nor zero unconnected findings establishes ampacity.
-4. Verify 6 A ignition operation using measured dwell/current waveforms. No 6 A limiter was established merely by changing the PCB. Keep the 10 A per-primary provisional routing allowance separate from the user's operating target.
-5. Check automotive input protection, fault behavior and case thermal interfaces, then bench-test engine and external MicroSquirt transmission interfaces before connecting loads.
-6. Confirm mechanical fit and the actual production stackup before fabrication outputs are released.
+## Release blockers
 
-## Files
+- Native DRC and ERC must be rerun on the current files.
+- Every true open, unintended dangling object, zero-length segment, duplicate segment, and unexplained zone island must be resolved without weakening rules.
+- The 0.20 mm Default class conflicts with the 0.25 mm signal target in `REQUIREMENTS_CURRENT.md`.
+- The eight-layer physical stackup and copper weights are not selected.
+- Footprints, procurement BOM, functional pin mapping, current paths, via arrays, thermal interfaces, mechanical fit, and automotive protection remain incompletely qualified.
+- Bench, transient, engine, and transmission validation have not been performed.
 
-- `GrandMarquis97_RevA.kicad_pro`, `.kicad_sch`, `.kicad_pcb`: editable project.
-- `mechanical/Layout_R9.png`: six-layer copper/layout overview.
-- `mechanical`: inherited R8 fit-test STL files and updated layer pictures.
-- `reports`: native DRC, remaining nets, routing targets, parts list and mechanical comparison.
-- `LOAD_BUDGET_R9.md`: current user-supplied load basis and unresolved qualifications.
-- `source`: reproducibility scripts and historical checkpoints. R8-prefixed scripts/reports may be reused by R9; the native DRC and Routing_validation.json describe the current main PCB.
+See `production_review/RELEASE_STATUS.md` and `production_review/KNOWN_HOLDS.md` for the controlling release posture.
 
-No fabrication-ready Gerber release is provided in this checkpoint.
+## Primary files
+
+- `GrandMarquis97_RevA.kicad_pro`, `.kicad_sch`, and `.kicad_pcb`: active native project.
+- `GM97_Layout.pretty`, `GM97.kicad_sym`, and `models`: project libraries.
+- `REQUIREMENTS_CURRENT.md`: current project requirements.
+- `production_review`: regenerated audit evidence and release status.
+- `reports`: current and historical engineering reports; check each report's date and provenance before relying on it.
+- `source`: audit and historical routing scripts. Do not rerun historical routing automation wholesale against the active board.
+
+No release Gerbers or drill package are provided.

@@ -1,0 +1,551 @@
+{
+  "scope": "static native-file audit; does not replace KiCad DRC/ERC",
+  "baseline_commit": "b5af19f6b018b43a92e55f4675a8856e3b85c9b5",
+  "audited_git_head": "b5af19f6b018b43a92e55f4675a8856e3b85c9b5",
+  "audited_files_from_worktree": true,
+  "kicad_runtime": "NOT AVAILABLE in audit environment",
+  "board_file_version": 20221018,
+  "board_thickness_mm": 1.6,
+  "copper_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "In5.Cu",
+    "In6.Cu",
+    "B.Cu"
+  ],
+  "physical_stackup_embedded": false,
+  "counts": {
+    "footprints": 246,
+    "pads": 888,
+    "named_nets": 189,
+    "segments": 43176,
+    "vias": 2230,
+    "zones_total": 17,
+    "copper_zones": 8,
+    "rule_areas_or_keepouts": 9,
+    "locked_segments": 3339,
+    "locked_vias": 89,
+    "zero_length_segments": 102,
+    "exact_duplicate_segment_groups": 207,
+    "extra_duplicate_segment_records": 208,
+    "exact_duplicate_via_groups": 0,
+    "extra_duplicate_via_records": 0
+  },
+  "segment_length_histogram_mm": {
+    "zero": 102,
+    ">0-0.05": 503,
+    ">0.05-0.10": 4617,
+    ">0.10-0.25": 17423,
+    ">0.25-1.00": 8779,
+    ">1.00": 11752
+  },
+  "track_width_counts": {
+    "0.2": 22552,
+    "0.25": 1543,
+    "0.6": 8255,
+    "0.8": 662,
+    "1": 446,
+    "1.2": 3763,
+    "1.7998": 1,
+    "1.9048": 2,
+    "2": 3455,
+    "3": 1614,
+    "4": 883
+  },
+  "via_size_drill_span_counts": {
+    "0.6/0.3 mm, F.Cu->B.Cu": 797,
+    "0.8/0.4 mm, F.Cu->B.Cu": 1433
+  },
+  "zones": [
+    {
+      "net": "",
+      "layers": [
+        "F.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "PGND",
+      "layers": [
+        "F.Cu"
+      ],
+      "rule_area_or_keepout": false
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": true
+    },
+    {
+      "net": "DGND",
+      "layers": [
+        "In1.Cu"
+      ],
+      "rule_area_or_keepout": false
+    },
+    {
+      "net": "PGND",
+      "layers": [
+        "In2.Cu"
+      ],
+      "rule_area_or_keepout": false
+    },
+    {
+      "net": "PGND",
+      "layers": [
+        "In3.Cu"
+      ],
+      "rule_area_or_keepout": false
+    },
+    {
+      "net": "DGND",
+      "layers": [
+        "In4.Cu"
+      ],
+      "rule_area_or_keepout": false
+    },
+    {
+      "net": "PGND",
+      "layers": [
+        "In5.Cu"
+      ],
+      "rule_area_or_keepout": false
+    },
+    {
+      "net": "DGND",
+      "layers": [
+        "In6.Cu"
+      ],
+      "rule_area_or_keepout": false
+    },
+    {
+      "net": "PGND",
+      "layers": [
+        "B.Cu"
+      ],
+      "rule_area_or_keepout": false
+    }
+  ],
+  "rule_severities_ignored": [
+    "footprint_type_mismatch",
+    "missing_courtyard",
+    "npth_inside_courtyard",
+    "pth_inside_courtyard"
+  ],
+  "drc_exclusions": [],
+  "project_minimums": {
+    "max_error": 0.005,
+    "min_clearance": 0.0,
+    "min_connection": 0.0,
+    "min_copper_edge_clearance": 0.5,
+    "min_hole_clearance": 0.25,
+    "min_hole_to_hole": 0.25,
+    "min_microvia_diameter": 0.19999999999999998,
+    "min_microvia_drill": 0.09999999999999999,
+    "min_resolved_spokes": 2,
+    "min_silk_clearance": 0.0,
+    "min_text_height": 0.7999999999999999,
+    "min_text_thickness": 0.08,
+    "min_through_hole_diameter": 0.3,
+    "min_track_width": 0.0,
+    "min_via_annular_width": 0.09999999999999999,
+    "min_via_diameter": 0.5,
+    "solder_mask_to_copper_clearance": 0.0,
+    "use_height_for_length_calcs": true
+  },
+  "net_classes": [
+    {
+      "bus_width": 12,
+      "clearance": 0.2,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "line_style": 0,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.1,
+      "name": "Default",
+      "pcb_color": "rgba(0, 0, 0, 0.000)",
+      "schematic_color": "rgba(0, 0, 0, 0.000)",
+      "track_width": 0.2,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "wire_width": 6
+    },
+    {
+      "bus_width": 12,
+      "clearance": 0.25,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "line_style": 0,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.1,
+      "name": "Aux_3A_target",
+      "pcb_color": "rgba(0, 0, 0, 0.000)",
+      "schematic_color": "rgba(0, 0, 0, 0.000)",
+      "track_width": 1.2,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "wire_width": 6
+    },
+    {
+      "bus_width": 12,
+      "clearance": 0.25,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "line_style": 0,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.1,
+      "name": "Coil_peak_unverified",
+      "pcb_color": "rgba(0, 0, 0, 0.000)",
+      "schematic_color": "rgba(0, 0, 0, 0.000)",
+      "track_width": 3.0,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "wire_width": 6
+    },
+    {
+      "bus_width": 12,
+      "clearance": 0.25,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "line_style": 0,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.1,
+      "name": "Injector_5A_target",
+      "pcb_color": "rgba(0, 0, 0, 0.000)",
+      "schematic_color": "rgba(0, 0, 0, 0.000)",
+      "track_width": 2.0,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "wire_width": 6
+    },
+    {
+      "bus_width": 12,
+      "clearance": 0.25,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "line_style": 0,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.1,
+      "name": "Protected_control_supply",
+      "pcb_color": "rgba(0, 0, 0, 0.000)",
+      "schematic_color": "rgba(0, 0, 0, 0.000)",
+      "track_width": 1.0,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "wire_width": 6
+    },
+    {
+      "bus_width": 12,
+      "clearance": 0.25,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "line_style": 0,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.1,
+      "name": "Rails_unverified",
+      "pcb_color": "rgba(0, 0, 0, 0.000)",
+      "schematic_color": "rgba(0, 0, 0, 0.000)",
+      "track_width": 0.6,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "wire_width": 6
+    },
+    {
+      "bus_width": 12,
+      "clearance": 0.25,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "line_style": 0,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.1,
+      "name": "Shared_power_unverified",
+      "pcb_color": "rgba(0, 0, 0, 0.000)",
+      "schematic_color": "rgba(0, 0, 0, 0.000)",
+      "track_width": 4.0,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "wire_width": 6
+    }
+  ],
+  "net_class_patterns": [
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_1"
+    },
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_2"
+    },
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_3"
+    },
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_4"
+    },
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_5"
+    },
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_6"
+    },
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_7"
+    },
+    {
+      "netclass": "Injector_5A_target",
+      "pattern": "INJECTOR_8"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "IAC"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "FAN_CONTROL"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "FUEL_PUMP_CONTROL"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "AC_WOT_CUTOUT"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "MIL"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "AUX_TACH"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "WB1_RELAY_LOW"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "WB2_RELAY_LOW"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "TRANS_SS1"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "TRANS_SS2"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "TRANS_TCC"
+    },
+    {
+      "netclass": "Aux_3A_target",
+      "pattern": "TRANS_EPC"
+    },
+    {
+      "netclass": "Coil_peak_unverified",
+      "pattern": "COIL_1"
+    },
+    {
+      "netclass": "Coil_peak_unverified",
+      "pattern": "COIL_2"
+    },
+    {
+      "netclass": "Coil_peak_unverified",
+      "pattern": "COIL_3"
+    },
+    {
+      "netclass": "Coil_peak_unverified",
+      "pattern": "COIL_4"
+    },
+    {
+      "netclass": "Shared_power_unverified",
+      "pattern": "PGND"
+    },
+    {
+      "netclass": "Shared_power_unverified",
+      "pattern": "ACTUATOR_12"
+    },
+    {
+      "netclass": "Shared_power_unverified",
+      "pattern": "VPWR"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "DGND"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "SGND"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "VCC_5"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "REG_5"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "VREF_5"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "VDDA_5"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "VREF_FILTER"
+    },
+    {
+      "netclass": "Rails_unverified",
+      "pattern": "CASE_GND"
+    },
+    {
+      "netclass": "Protected_control_supply",
+      "pattern": "RAW_12"
+    },
+    {
+      "netclass": "Protected_control_supply",
+      "pattern": "PWR_FUSED"
+    }
+  ],
+  "schematic_netlist_mapping": {
+    "expected_assigned_pairs_excluding_J121": 737,
+    "matches": true,
+    "differences": []
+  },
+  "saved_drc": {
+    "created": "2026-09-14 22:43:03",
+    "counts": {
+      "lib_footprint_mismatch": 199,
+      "silk_edge_clearance": 2,
+      "track_dangling": 199,
+      "via_dangling": 15,
+      "unconnected_items": 24
+    },
+    "fresh_native_run": false
+  },
+  "stale_validation_delta": {
+    "segments": 280,
+    "vias": 4
+  },
+  "release_state": "ROUTING_INCOMPLETE"
+}
