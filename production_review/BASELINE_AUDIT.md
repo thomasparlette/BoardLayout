@@ -1,6 +1,6 @@
 # R10 static baseline audit
 
-This report inventories the current working-tree native files without modifying the board. The preserved baseline is commit `b5af19f6b018b43a92e55f4675a8856e3b85c9b5`. This audit supplements, but does not replace, native KiCad DRC/ERC. KiCad was not available in the audit environment, so the checked-in DRC remains stale and release-blocking.
+This report inventories the current working-tree native files without modifying the board. The preserved baseline is commit `b5af19f6b018b43a92e55f4675a8856e3b85c9b5`. Static parsing supplements the native KiCad 10.0.6 DRC/ERC results recorded below.
 
 ## Native-file inventory
 
@@ -22,6 +22,19 @@ This report inventories the current working-tree native files without modifying 
 
 Saved DRC categories: `{"lib_footprint_mismatch": 199, "silk_edge_clearance": 2, "track_dangling": 199, "unconnected_items": 24, "via_dangling": 15}`
 
+## Fresh native KiCad baseline
+
+- DRC rule violations: 218 — `{"silk_edge_clearance": 2, "track_dangling": 199, "via_dangling": 17}`
+- DRC unconnected items: 42
+- Schematic parity issues: 286 — `{"extra_footprint": 7, "footprint_symbol_field_mismatch": 199, "footprint_symbol_mismatch": 10, "net_conflict": 70}`
+- ERC violations under the configured profile: 0
+- Strict-copy DRC rule violations: 287 — `{"missing_courtyard": 17, "silk_edge_clearance": 2, "track_dangling": 199, "track_not_centered_on_via": 52, "via_dangling": 17}`
+- Strict-copy ERC violations: 0; ignored checks: 0
+- DRC zone refill: in memory only; the native board was not saved or converted.
+- Native input hashes remained unchanged. KiCad's incidental `.kicad_prl` preference migration was discarded.
+
+The strict profile was applied only to an isolated Git worktree. Its ERC result is a full zero-violation pass. The strict DRC remains release-blocking and the active project still retains its original ignored-category settings pending reviewed disposition.
+
 ## Rule concerns
 
 - Project minimum track width: 0.0 mm
@@ -34,4 +47,4 @@ Saved DRC categories: `{"lib_footprint_mismatch": 199, "silk_edge_clearance": 2,
 
 `ROUTING_INCOMPLETE`
 
-Do not modify routing or release fabrication outputs from this static audit. A fresh native DRC and ERC, zone refill, visual review, and all documented electrical/mechanical qualification gates remain required.
+Do not release fabrication outputs from this baseline. DRC repair, post-repair native validation, visual review, and all documented electrical/mechanical qualification gates remain required.

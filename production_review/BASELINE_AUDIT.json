@@ -1,9 +1,9 @@
 {
   "scope": "static native-file audit; does not replace KiCad DRC/ERC",
   "baseline_commit": "b5af19f6b018b43a92e55f4675a8856e3b85c9b5",
-  "audited_git_head": "b5af19f6b018b43a92e55f4675a8856e3b85c9b5",
+  "audited_git_head": "d5221964f7d3537577bf680d065e63a312f6f3e7",
   "audited_files_from_worktree": true,
-  "kicad_runtime": "NOT AVAILABLE in audit environment",
+  "kicad_runtime": "10.0.6",
   "board_file_version": 20221018,
   "board_thickness_mm": 1.6,
   "copper_layers": [
@@ -542,6 +542,133 @@
       "unconnected_items": 24
     },
     "fresh_native_run": false
+  },
+  "native_drc": {
+    "date": "2026-09-21T16:02:53",
+    "kicad_version": "10.0.6",
+    "violation_counts": {
+      "silk_edge_clearance": 2,
+      "track_dangling": 199,
+      "via_dangling": 17
+    },
+    "unconnected_count": 42,
+    "unconnected_counts_by_net": {
+      "ADC_EGO2": 1,
+      "ADC_SPARE7": 2,
+      "AUX_DATALOG": 1,
+      "CAM_F2": 1,
+      "CAM_LOGIC": 1,
+      "CAM_MINUS_OP": 1,
+      "CAM_ZC_EMIT": 2,
+      "CKP_EMIT": 1,
+      "CKP_F2": 1,
+      "CKP_ZC_EMIT": 1,
+      "CMP": 2,
+      "CRANK_NORMAL": 1,
+      "DATALOG_LOGIC": 1,
+      "DGND": 12,
+      "FLEX_LOGIC": 1,
+      "IAT": 1,
+      "LAUNCH_LOGIC": 2,
+      "LEGACY_INJ1": 1,
+      "NITROUS_LOGIC": 1,
+      "OSS_PLUS": 1,
+      "PGND": 2,
+      "SPARE_PT5": 1,
+      "SPK_A": 1,
+      "TABLE_LOGIC": 1,
+      "TCU_BRAKE_GND": 2
+    },
+    "schematic_parity_counts": {
+      "extra_footprint": 7,
+      "footprint_symbol_field_mismatch": 199,
+      "footprint_symbol_mismatch": 10,
+      "net_conflict": 70
+    },
+    "ignored_checks": [
+      {
+        "description": "Footprint has no courtyard defined",
+        "key": "missing_courtyard"
+      },
+      {
+        "description": "Track endpoint not centered on via",
+        "key": "track_not_centered_on_via"
+      },
+      {
+        "description": "Tuning profile track geometries",
+        "key": "tuning_profile_track_geometries"
+      },
+      {
+        "description": "Footprint doesn't match symbol's footprint filters",
+        "key": "footprint_filters_mismatch"
+      },
+      {
+        "description": "PTH inside courtyard",
+        "key": "pth_inside_courtyard"
+      },
+      {
+        "description": "NPTH inside courtyard",
+        "key": "npth_inside_courtyard"
+      },
+      {
+        "description": "Footprint component type doesn't match footprint pads",
+        "key": "footprint_type_mismatch"
+      }
+    ],
+    "zone_refill_in_memory": true,
+    "board_saved": false
+  },
+  "native_erc": {
+    "date": "2026-09-21T16:02:35",
+    "kicad_version": "10.0.6",
+    "violation_counts": {},
+    "violation_count": 0,
+    "ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ]
+  },
+  "strict_drc": {
+    "date": "2026-09-21T16:10:02",
+    "kicad_version": "10.0.6",
+    "violation_counts": {
+      "missing_courtyard": 17,
+      "silk_edge_clearance": 2,
+      "track_dangling": 199,
+      "track_not_centered_on_via": 52,
+      "via_dangling": 17
+    },
+    "unconnected_count": 42,
+    "schematic_parity_counts": {
+      "extra_footprint": 7,
+      "footprint_symbol_field_mismatch": 199,
+      "footprint_symbol_mismatch": 10,
+      "net_conflict": 70
+    },
+    "ignored_checks": [],
+    "active_project_modified": false
+  },
+  "strict_erc": {
+    "date": "2026-09-21T16:11:09",
+    "kicad_version": "10.0.6",
+    "violation_counts": {},
+    "violation_count": 0,
+    "ignored_checks": [],
+    "active_project_modified": false
   },
   "stale_validation_delta": {
     "segments": 280,

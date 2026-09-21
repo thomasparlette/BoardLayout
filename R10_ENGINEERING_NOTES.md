@@ -6,6 +6,8 @@ The candidate retains the 140.93 × 163.36 mm outline, mounting-hole coordinates
 
 Power routing preserves the unqualified targets in reports/Routing_targets.json. The VPWR branch serving only F1 pin 1 uses a 1.0 mm trunk and 0.6 mm neck; the schematic specifies F1 as 1 A, with its actual part unselected. The ACTUATOR_12 branch serving D33 pin 1 uses the 1.2 mm EPC branch target. Shared VPWR and ACTUATOR_12 trunks remain 4.0 mm targets. Connector fanouts use parallel 0.6 mm necks on three layers and via arrays where space permits. None of these geometries establishes a current rating.
 
+On 2026-09-21 the user clarified that the previously supplied injector and ignition amperage figures represent aggregate eight-cylinder budgets, not per-channel ratings. The existing 2.0 mm injector and 3.0 mm coil routes are therefore conservative legacy targets and may be reduced after individual branch peak/RMS current, simultaneous-channel cases, copper stackup and temperature-rise limits are established. The aggregate figure must not be divided by eight as a substitute for branch peak analysis.
+
 The source-netlist comparison verifies 737 pad/net assignments. This is consistency with the existing design, not an independent verification against Ford and MS3 hardware documentation.
 
 ## Release holds
@@ -13,8 +15,8 @@ The source-netlist comparison verifies 737 pad/net assignments. This is consiste
 - 216 of 240 parts-list entries remain UNSELECTED; component selection is incomplete.
 - Q13–Q16 ignition footprints/pinouts remain on hold. The requested TO-220/DPAK alternatives are not qualified.
 - The eight-layer copper weights and dielectric stackup require selection. The 70 µm assumption used for earlier width targets is not a confirmed manufacturing stackup.
-- Neckdowns, via arrays, current sharing, coil dwell and thermal interfaces require electrical/thermal validation. A 6 A peak target is not hardware current regulation.
-- No fresh schematic ERC is available from this runtime. Historical ERC is not a current pass.
+- Neckdowns, via arrays, current sharing, coil dwell and thermal interfaces require electrical/thermal validation. Aggregate current budgets do not establish individual branch peaks or hardware current regulation.
+- KiCad 10.0.6 strict-profile ERC passes with zero violations and zero ignored checks. PCB/schematic parity still has 286 warnings requiring disposition.
 - No bench, dummy-load, automotive-transient or engine/transmission validation has been performed.
 
 ## Mechanical fit files

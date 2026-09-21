@@ -172,6 +172,15 @@ def histogram(lengths: list[float]) -> dict[str, int]:
     return {name: sum(test(value) for value in lengths) for name, test in buckets}
 
 
+def item_net(item: dict[str, object]) -> str:
+    match = re.search(r"\[([^]]+)\]", str(item.get("description", "")))
+    return match.group(1) if match else "<unknown>"
+
+
+def count_types(items: list[dict[str, object]]) -> dict[str, int]:
+    return dict(sorted(collections.Counter(str(item["type"]) for item in items).items()))
+
+
 def tracked_hashes(commit: str) -> list[tuple[str, str]]:
     archive = git("archive", "--format=tar", commit, binary=True)
     rows = []
@@ -244,6 +253,75 @@ def main() -> None:
         name for name, severity in design["rule_severities"].items() if severity == "ignore"
     )
     net_settings = project["net_settings"]
+    native_drc_path = OUTPUT / "BASELINE_DRC.json"
+    native_erc_path = OUTPUT / "BASELINE_ERC.json"
+    strict_drc_path = OUTPUT / "STRICT_DRC.json"
+    strict_erc_path = OUTPUT / "STRICT_ERC.json"
+    native_drc = json.loads(native_drc_path.read_text(encoding="utf-8")) if native_drc_path.exists() else None
+    native_erc = json.loads(native_erc_path.read_text(encoding="utf-8")) if native_erc_path.exists() else None
+    strict_drc = json.loads(strict_drc_path.read_text(encoding="utf-8")) if strict_drc_path.exists() else None
+    strict_erc = json.loads(strict_erc_path.read_text(encoding="utf-8")) if strict_erc_path.exists() else None
+
+    native_unconnected: list[dict[str, object]] = []
+    native_drc_summary = None
+    if native_drc:
+        native_unconnected = native_drc["unconnected_items"]
+        native_drc_summary = {
+            "date": native_drc["date"],
+            "kicad_version": native_drc["kicad_version"],
+            "violation_counts": count_types(native_drc["violations"]),
+            "unconnected_count": len(native_unconnected),
+            "unconnected_counts_by_net": dict(
+                sorted(collections.Counter(item_net(item["items"][0]) for item in native_unconnected).items())
+            ),
+            "schematic_parity_counts": count_types(native_drc["schematic_parity"]),
+            "ignored_checks": native_drc["ignored_checks"],
+            "zone_refill_in_memory": True,
+            "board_saved": False,
+        }
+
+    native_erc_summary = None
+    if native_erc:
+        erc_violations = [
+            violation
+            for sheet in native_erc["sheets"]
+            for violation in sheet["violations"]
+        ]
+        native_erc_summary = {
+            "date": native_erc["date"],
+            "kicad_version": native_erc["kicad_version"],
+            "violation_counts": count_types(erc_violations),
+            "violation_count": len(erc_violations),
+            "ignored_checks": native_erc["ignored_checks"],
+        }
+
+    strict_drc_summary = None
+    if strict_drc:
+        strict_drc_summary = {
+            "date": strict_drc["date"],
+            "kicad_version": strict_drc["kicad_version"],
+            "violation_counts": count_types(strict_drc["violations"]),
+            "unconnected_count": len(strict_drc["unconnected_items"]),
+            "schematic_parity_counts": count_types(strict_drc["schematic_parity"]),
+            "ignored_checks": strict_drc["ignored_checks"],
+            "active_project_modified": False,
+        }
+
+    strict_erc_summary = None
+    if strict_erc:
+        strict_erc_violations = [
+            violation
+            for sheet in strict_erc["sheets"]
+            for violation in sheet["violations"]
+        ]
+        strict_erc_summary = {
+            "date": strict_erc["date"],
+            "kicad_version": strict_erc["kicad_version"],
+            "violation_counts": count_types(strict_erc_violations),
+            "violation_count": len(strict_erc_violations),
+            "ignored_checks": strict_erc["ignored_checks"],
+            "active_project_modified": False,
+        }
 
     locked_rows = []
     locked_counts: collections.Counter[tuple[str, str, str]] = collections.Counter()
@@ -261,7 +339,7 @@ def main() -> None:
         "baseline_commit": baseline,
         "audited_git_head": git("rev-parse", "HEAD").strip(),
         "audited_files_from_worktree": True,
-        "kicad_runtime": "NOT AVAILABLE in audit environment",
+        "kicad_runtime": native_drc["kicad_version"] if native_drc else "NOT AVAILABLE in audit environment",
         "board_file_version": int(re.search(r"\(kicad_pcb \(version (\d+)\)", board_text).group(1)),
         "board_thickness_mm": number(r"\(thickness ([\d.]+)\)", board_text),
         "copper_layers": [name for _, name in re.findall(r'^    \((\d+) "([^"]+)" signal\)$', board_text, re.M)],
@@ -310,6 +388,10 @@ def main() -> None:
             "counts": drc_counts,
             "fresh_native_run": False,
         },
+        "native_drc": native_drc_summary,
+        "native_erc": native_erc_summary,
+        "strict_drc": strict_drc_summary,
+        "strict_erc": strict_erc_summary,
         "stale_validation_delta": {
             "segments": len(segments) - saved["tracks"],
             "vias": len(vias) - saved["vias"],
@@ -323,6 +405,33 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(locked_rows)
 
+    if native_unconnected:
+        fields = [
+            "finding_id", "net", "endpoint_a", "endpoint_a_x_mm", "endpoint_a_y_mm",
+            "endpoint_b", "endpoint_b_x_mm", "endpoint_b_y_mm", "root_cause",
+            "repair_method", "layers_and_vias", "evidence", "status",
+        ]
+        with (OUTPUT / "UNCONNECTED_BEFORE_AFTER.csv").open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=fields)
+            writer.writeheader()
+            for index, finding in enumerate(native_unconnected, 1):
+                endpoint_a, endpoint_b = finding["items"][:2]
+                writer.writerow({
+                    "finding_id": f"NATIVE-{index:03d}",
+                    "net": item_net(endpoint_a),
+                    "endpoint_a": endpoint_a["description"],
+                    "endpoint_a_x_mm": endpoint_a["pos"]["x"],
+                    "endpoint_a_y_mm": endpoint_a["pos"]["y"],
+                    "endpoint_b": endpoint_b["description"],
+                    "endpoint_b_x_mm": endpoint_b["pos"]["x"],
+                    "endpoint_b_y_mm": endpoint_b["pos"]["y"],
+                    "root_cause": "UNREVIEWED",
+                    "repair_method": "",
+                    "layers_and_vias": "",
+                    "evidence": "BASELINE_DRC.json",
+                    "status": "OPEN",
+                })
+
     hashes = tracked_hashes(baseline)
     (OUTPUT / "baseline" / "SHA256SUMS.txt").write_text(
         "".join(f"{digest}  {name}\n" for digest, name in hashes), encoding="utf-8"
@@ -331,7 +440,7 @@ def main() -> None:
     counts = audit["counts"]
     markdown = f"""# R10 static baseline audit
 
-This report inventories the current working-tree native files without modifying the board. The preserved baseline is commit `{audit['baseline_commit']}`. This audit supplements, but does not replace, native KiCad DRC/ERC. KiCad was not available in the audit environment, so the checked-in DRC remains stale and release-blocking.
+This report inventories the current working-tree native files without modifying the board. The preserved baseline is commit `{audit['baseline_commit']}`. Static parsing supplements the native KiCad 10.0.6 DRC/ERC results recorded below.
 
 ## Native-file inventory
 
@@ -353,6 +462,19 @@ This report inventories the current working-tree native files without modifying 
 
 Saved DRC categories: `{json.dumps(drc_counts, sort_keys=True)}`
 
+## Fresh native KiCad baseline
+
+- DRC rule violations: {sum(native_drc_summary['violation_counts'].values()) if native_drc_summary else 'NOT RUN'} — `{json.dumps(native_drc_summary['violation_counts'], sort_keys=True) if native_drc_summary else ''}`
+- DRC unconnected items: {native_drc_summary['unconnected_count'] if native_drc_summary else 'NOT RUN'}
+- Schematic parity issues: {sum(native_drc_summary['schematic_parity_counts'].values()) if native_drc_summary else 'NOT RUN'} — `{json.dumps(native_drc_summary['schematic_parity_counts'], sort_keys=True) if native_drc_summary else ''}`
+- ERC violations under the configured profile: {native_erc_summary['violation_count'] if native_erc_summary else 'NOT RUN'}
+- Strict-copy DRC rule violations: {sum(strict_drc_summary['violation_counts'].values()) if strict_drc_summary else 'NOT RUN'} — `{json.dumps(strict_drc_summary['violation_counts'], sort_keys=True) if strict_drc_summary else ''}`
+- Strict-copy ERC violations: {strict_erc_summary['violation_count'] if strict_erc_summary else 'NOT RUN'}; ignored checks: {len(strict_erc_summary['ignored_checks']) if strict_erc_summary else 'unknown'}
+- DRC zone refill: in memory only; the native board was not saved or converted.
+- Native input hashes remained unchanged. KiCad's incidental `.kicad_prl` preference migration was discarded.
+
+The strict profile was applied only to an isolated Git worktree. Its ERC result is a full zero-violation pass. The strict DRC remains release-blocking and the active project still retains its original ignored-category settings pending reviewed disposition.
+
 ## Rule concerns
 
 - Project minimum track width: {design['rules']['min_track_width']} mm
@@ -365,7 +487,7 @@ Saved DRC categories: `{json.dumps(drc_counts, sort_keys=True)}`
 
 `ROUTING_INCOMPLETE`
 
-Do not modify routing or release fabrication outputs from this static audit. A fresh native DRC and ERC, zone refill, visual review, and all documented electrical/mechanical qualification gates remain required.
+Do not release fabrication outputs from this baseline. DRC repair, post-repair native validation, visual review, and all documented electrical/mechanical qualification gates remain required.
 """
     (OUTPUT / "BASELINE_AUDIT.md").write_text(markdown, encoding="utf-8")
 
@@ -374,6 +496,17 @@ Do not modify routing or release fabrication outputs from this static audit. A f
 The native board contains **{counts['locked_segments']} locked segments** and **{counts['locked_vias']} locked vias**. `LOCKED_COPPER_AUDIT.csv` groups them by net and layer/span. This is an inventory only: route purpose and justification still require engineering review before any lock is removed.
 """
     (OUTPUT / "LOCKED_COPPER_AUDIT.md").write_text(locked_md, encoding="utf-8")
+    if native_erc_summary:
+        ignored_erc = ", ".join(check["key"] for check in native_erc_summary["ignored_checks"])
+        erc_md = f"""# ERC disposition
+
+KiCad {native_erc_summary['kicad_version']} reported **{native_erc_summary['violation_count']} ERC violations** on the current R10 schematic hierarchy under the configured project profile.
+
+The configured profile ignores: {ignored_erc}. A strict audit copy enabled those categories as warnings and reported **{strict_erc_summary['violation_count'] if strict_erc_summary else 'NOT RUN'} violations with {len(strict_erc_summary['ignored_checks']) if strict_erc_summary else 'unknown'} ignored checks**. This is a native strict-profile ERC pass.
+
+The strict rule changes were applied only to an isolated Git worktree. No active schematic or project file was modified or converted by either run.
+"""
+        (OUTPUT / "ERC_DISPOSITION.md").write_text(erc_md, encoding="utf-8")
     print(json.dumps({"counts": counts, "mapping_differences": len(mapping_differences)}, indent=2))
 
 

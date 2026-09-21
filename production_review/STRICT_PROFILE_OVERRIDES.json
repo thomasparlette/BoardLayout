@@ -1,0 +1,21 @@
+{
+  "kicad_version": "10.0.6",
+  "audit_copy": "isolated detached Git worktree at commit d522196",
+  "active_project_modified": false,
+  "erc_default_profile_source": "KiCad 10.0.6 bundled Arduino_Uno project template; required because the legacy active project has no top-level ERC settings object",
+  "board_rule_severity_overrides": {
+    "missing_courtyard": "warning",
+    "track_not_centered_on_via": "warning",
+    "tuning_profile_track_geometries": "warning",
+    "footprint_filters_mismatch": "warning",
+    "pth_inside_courtyard": "warning",
+    "npth_inside_courtyard": "warning",
+    "footprint_type_mismatch": "warning"
+  },
+  "erc_rule_severity_overrides": {
+    "single_global_label": "warning",
+    "four_way_junction": "warning",
+    "simulation_model_issue": "warning",
+    "footprint_filter": "warning"
+  }
+}
