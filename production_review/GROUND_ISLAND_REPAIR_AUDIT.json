@@ -1,0 +1,591 @@
+{
+  "schema": 1,
+  "method": "pcbnew selected and validated reviewed native objects; only their legacy one-line records were removed or inserted; the staged candidate was reloaded without saving through KiCad 10.",
+  "kicad_version": "10.0.6",
+  "board_format": "20221018",
+  "board": "GrandMarquis97_RevA.kicad_pcb",
+  "source_board": "GrandMarquis97_RevA.kicad_pcb",
+  "before_sha256": "c966048e0f67053e0a134014238e44e650af64feaa7190df28e5168dbafec98f",
+  "candidate_sha256": "1b387eafbcfb576f3ef0c462b303d157d2e03def681219a8f3fcaa12acb7f529",
+  "before": {
+    "segments": 42867,
+    "vias": 2230,
+    "locked_segments": 3339,
+    "locked_vias": 89,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190,
+    "zones": 17
+  },
+  "after": {
+    "segments": 42770,
+    "vias": 2235,
+    "locked_segments": 3339,
+    "locked_vias": 89,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190,
+    "zones": 17
+  },
+  "pad_net_assignments_unchanged": true,
+  "zero_length_segments_after": 0,
+  "exact_duplicate_extras_after": 0,
+  "removed_padless_dgnd_segments": [
+    "001c058b-d586-4aba-966e-8318a86a19ac",
+    "06acebed-f695-406c-a776-7f68949713a3",
+    "07ab3964-2847-481f-a03f-1521c9290295",
+    "0812ed52-9df2-466d-ba6c-6af1d87ab5f2",
+    "0a56d20a-c99e-43e6-97d0-5110f9add0d4",
+    "0bdfd8c5-44b0-4adf-ab99-cf1f161fa6d6",
+    "13114bef-9a0c-4cfb-b12f-2fed95f5bdc8",
+    "172c67aa-85fb-44ca-bbc3-01216916acdb",
+    "1784fc09-7ebb-4e99-bf23-aa8047deb15d",
+    "20e7daeb-e7d6-490f-8dcf-e509f724fd09",
+    "28101816-986c-4506-849e-f19d9a3fc86d",
+    "2a1d64f4-fe96-4cad-b6da-63d3c852924d",
+    "2b3aaddc-b440-44f3-bf0d-81a17e2f761e",
+    "2e487752-e928-4c2b-8cf4-1d803c6a4a98",
+    "31bae2e2-cad7-4866-b090-32b1130ec931",
+    "3375714b-3244-4d5d-8a46-a37b5cca3d05",
+    "347fa2c3-1c0b-408f-ba6a-a122bc6708d6",
+    "35e05a89-3994-4dd3-a1ec-c97c08600bcc",
+    "3adffa71-a44c-431c-a78f-d9b4216d1044",
+    "3e6f0573-e62a-41eb-ae6a-f9328cf18071",
+    "42d8bb8e-140c-43ca-b18a-6acdca771706",
+    "42f74814-cf4f-42f4-a5ba-62cdd20a664a",
+    "450f70dc-e9b3-475c-99e1-a12fc04d932f",
+    "48a0c303-99f9-4661-9c4f-2043e59b84dd",
+    "4b884cbf-ce66-4cf3-940e-dcb381619d5f",
+    "4db38767-fdf4-4b8e-974c-34eba89d908f",
+    "4e50c616-5549-4987-b102-4da1babb503d",
+    "4f17ea61-6e67-4abf-bec8-f34e4d4cf51b",
+    "51ca364a-5c47-4c05-b400-4bf8412b6e33",
+    "5af070e6-a20f-4d3d-b062-8a581e6b7e11",
+    "5b3750fa-5633-44e2-b18a-01b253eda232",
+    "5bf0c76a-c9e3-41a3-ac0d-0cd2d184c9df",
+    "5c0fadae-3768-4cd2-b7db-7ccc8674c37f",
+    "5c22ca43-6b84-4b12-9733-6375736b5aac",
+    "5f432865-92b8-497d-bb13-b8e5bc3ba0ba",
+    "5f6a7bff-cb4d-479f-8d06-bfcb091059a1",
+    "5f8bb9b7-e302-4d72-a489-792b4a869d18",
+    "63e1a1f3-a30c-4d78-afbc-d1327fed57d9",
+    "674f2925-707b-4191-a74b-29ea756f0060",
+    "6a6a23c0-a038-4396-b88a-34fe3f56b264",
+    "6b1b0b9c-a3b5-47a3-962d-9d0c65dce906",
+    "6d5c008e-49b9-4c61-90e9-ab8f1bf7c2b6",
+    "6f2d9c8c-6770-4f37-ad24-48df90cb8aa7",
+    "71a9e33f-42e0-4059-b994-22631782d7e9",
+    "71ea2942-ff3b-4665-9de2-ce43aa1f3a6b",
+    "7886da5e-60e3-4a18-bf2e-31ed199588dc",
+    "7eea9a87-2af2-4541-a173-0a3619f660c1",
+    "7fb7cf7c-a7a1-416b-9215-2f3761482676",
+    "80d552d3-31ad-49db-a797-a4e7ad881575",
+    "84a3aced-29ba-4dff-a183-cf196459acfc",
+    "851f4c48-25a3-4665-a93b-c599e8b16e8c",
+    "85355354-8e45-4641-a8ea-dd50cc5db7f2",
+    "885913a8-06c2-44a6-8592-85b9b1467921",
+    "88a0fcd5-6943-46fb-b64d-3e6299b8511d",
+    "8a2a5097-1ca5-4052-aeec-aa8100327f82",
+    "8a517d81-5ddf-479f-9bd2-e4ef26ffa0a7",
+    "8e67a9e8-10a8-41a8-8c5f-cabc6d07aab6",
+    "970a4ab3-a95d-4fda-a708-2da565d729bf",
+    "9c8a9aa3-0a2e-42f0-a083-080a41573826",
+    "a3079c41-a536-401d-a5c6-cd5b23b1ba77",
+    "a6a040f5-9a8a-413a-861a-ff08bc667d01",
+    "a6a731d7-9105-4b03-867d-87975a9a59c6",
+    "a91860cc-332a-4f05-94e3-13a63325d982",
+    "acaaea5c-7aa7-41dc-bbf3-8bbc21cbdef9",
+    "ad86b0db-a9d7-4c2a-9bf9-0a110dddcfb4",
+    "ae32359d-45c3-4194-9de0-bef952f58903",
+    "b1a0088d-4223-4d9d-8ac7-56c5499beb34",
+    "b2789a06-2f3c-4b2e-8cab-bc67aa43ea5d",
+    "b508d254-fcd1-4e58-adfa-a10b39e1f173",
+    "b62e6b74-d032-4744-a87f-7c6a6a9a2045",
+    "bb59f5fc-d90d-451f-9256-5aa021f1e9e9",
+    "c30e0ef5-52d8-4b51-8de5-d6811004c47b",
+    "c44b8478-ee8e-415a-be38-1ef151744c3f",
+    "c54fe935-9f19-4cbd-a8a9-84aab48253e4",
+    "c5eae6ad-fbed-43ff-bbd9-44de492ba031",
+    "c85aee73-8640-442d-8369-52f2cc74a81c",
+    "cb19f6cd-3108-4ba3-8999-25e8261c7a9a",
+    "cf784d86-799a-43f9-80af-b54daaf4b2f1",
+    "d0cab473-42f6-4c39-8c88-bb826b0c560b",
+    "d44520bb-2631-42ae-a238-483b98870676",
+    "d480ea3d-2aec-4f3a-af1a-91cb8332e4d5",
+    "d99948f8-502f-46db-be28-b90144ffb121",
+    "e2561e31-5cf2-44c5-a9b5-d625d1608f4e",
+    "e32e5f00-6da0-48bb-a985-90e281624a22",
+    "e657377b-efbe-4111-909f-5a4ee5e6b3da",
+    "e75bdcd2-c1fe-441c-87b3-b8d04a21b790",
+    "f171b81f-26b7-428c-a271-6121f2dd4710",
+    "f2dbdd74-b7ec-47d3-be3a-b421482defca",
+    "f53e847e-1633-47a0-82c3-2471d061c678",
+    "f769f0b4-b4b6-4aee-82a0-1c6622dcaa7d",
+    "f77cdc80-7c24-4b96-a0f9-6becafc970c2",
+    "f93d079e-93b1-4af6-b7c9-ebb9eef7f2f0",
+    "f98e9a8f-fc93-461e-9a99-f63285714e61",
+    "fa7674c5-9e4e-4447-b66b-5ffeeae3b9bf",
+    "fc6f9f2c-8aa0-4d15-a7e7-b1623d47fb3e"
+  ],
+  "removed_dead_dgnd_tail_segments": [
+    "42f5d742-cc88-4e8a-bf8a-9593378a8c37",
+    "4e2997e2-9bf9-4d64-b40e-41b35532f6b7",
+    "6de335b7-720f-4110-9df3-a124326979f3",
+    "7047c514-955f-4f35-909a-cb70565878d3",
+    "70ce569b-f739-4852-9a75-e874ea7b59c8",
+    "86d5cc56-0cdf-4f62-b5b9-2cf05fac3863",
+    "881419c4-25e4-48cf-bf98-9fc0e2c7c0c0",
+    "8af732c9-26aa-4733-bd09-5a7639dd2376",
+    "97283933-d492-4e10-936f-35d173df9893",
+    "a439a729-c400-4bee-b738-3d65e471903d",
+    "ba944cf3-9995-431c-80ed-5331926f89b0",
+    "c5ef23d3-1727-457d-b3d5-7f30370684d5",
+    "d182c624-39ef-4391-91ff-f3e34f9c64d2"
+  ],
+  "added": [
+    {
+      "uuid": "1b3bd356-2786-522f-b9b2-736b3554e47e",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_mm": [
+        79.0625,
+        117.95
+      ],
+      "end_mm": [
+        72.1,
+        108.1
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d28-plane",
+      "target": "D28.1",
+      "finding_ids": [
+        "NATIVE-017",
+        "NATIVE-018"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "0b7b788b-628f-5be3-933d-2df171fd3a1b",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_mm": [
+        72.1,
+        108.1
+      ],
+      "end_mm": [
+        70.7,
+        106.4
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d28-plane",
+      "target": "D28.1",
+      "finding_ids": [
+        "NATIVE-017",
+        "NATIVE-018"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "b61a4501-23e2-5d97-91f9-018bfc183e8d",
+      "kind": "via",
+      "net": "DGND",
+      "position_mm": [
+        70.7,
+        106.4
+      ],
+      "size_mm": 0.6,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "route_id": "dgnd-d28-plane",
+      "target": "D28.1",
+      "finding_ids": [
+        "NATIVE-017",
+        "NATIVE-018"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "32eda5c8-98b5-5b95-a222-f82661014019",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_mm": [
+        91.65,
+        131.0
+      ],
+      "end_mm": [
+        92.7,
+        132.0
+      ],
+      "width_mm": 0.6,
+      "route_id": "dgnd-d30-plane",
+      "target": "D30.2",
+      "finding_ids": [
+        "NATIVE-021"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "4fd40805-094c-5fbf-8b1a-428437b97538",
+      "kind": "via",
+      "net": "DGND",
+      "position_mm": [
+        92.7,
+        132.0
+      ],
+      "size_mm": 0.8,
+      "drill_mm": 0.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "route_id": "dgnd-d30-plane",
+      "target": "D30.2",
+      "finding_ids": [
+        "NATIVE-021"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "79ae3b65-1113-5e23-b1e6-a530f551c7be",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "In1.Cu",
+      "start_mm": [
+        92.7,
+        132.0
+      ],
+      "end_mm": [
+        95.0,
+        134.4
+      ],
+      "width_mm": 0.6,
+      "route_id": "dgnd-d30-plane",
+      "target": "D30.2",
+      "finding_ids": [
+        "NATIVE-021"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "cf94d412-6135-5893-a66e-584128de473d",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_mm": [
+        88.0625,
+        120.95
+      ],
+      "end_mm": [
+        88.6,
+        123.4
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d26-plane",
+      "target": "D26.1",
+      "finding_ids": [
+        "NATIVE-019"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "8ad14e9e-721f-5f21-bd5f-74807cec21e9",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_mm": [
+        88.6,
+        123.4
+      ],
+      "end_mm": [
+        88.0,
+        125.9
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d26-plane",
+      "target": "D26.1",
+      "finding_ids": [
+        "NATIVE-019"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "9a8fed13-d1c3-5cdc-930d-3cf82056440f",
+      "kind": "via",
+      "net": "DGND",
+      "position_mm": [
+        88.0,
+        125.9
+      ],
+      "size_mm": 0.6,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "route_id": "dgnd-d26-plane",
+      "target": "D26.1",
+      "finding_ids": [
+        "NATIVE-019"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "bfc85662-9008-571e-b737-27e98aab177a",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "In1.Cu",
+      "start_mm": [
+        88.0,
+        125.9
+      ],
+      "end_mm": [
+        87.9,
+        126.0
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d26-plane",
+      "target": "D26.1",
+      "finding_ids": [
+        "NATIVE-019"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "ae26dfd9-34a2-56a8-a743-1a7d28ce4df1",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "F.Cu",
+      "start_mm": [
+        107.553,
+        40.8833
+      ],
+      "end_mm": [
+        107.418,
+        43.575
+      ],
+      "width_mm": 0.6,
+      "route_id": "dgnd-c42-c43-plane",
+      "target": "C42.2+C43.2",
+      "finding_ids": [
+        "NATIVE-023"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "8d2eb1c0-3144-599d-93e0-96fd0b7d1977",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "F.Cu",
+      "start_mm": [
+        107.67,
+        27.448
+      ],
+      "end_mm": [
+        106.8,
+        26.7
+      ],
+      "width_mm": 0.6,
+      "route_id": "dgnd-d31-nt1-plane",
+      "target": "D31.2+NT1.2",
+      "finding_ids": [
+        "NATIVE-024",
+        "NATIVE-025"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "ff1cd487-2c4f-544d-b4d6-5d7375a29d4d",
+      "kind": "via",
+      "net": "DGND",
+      "position_mm": [
+        106.8,
+        26.7
+      ],
+      "size_mm": 0.8,
+      "drill_mm": 0.4,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "route_id": "dgnd-d31-nt1-plane",
+      "target": "D31.2+NT1.2",
+      "finding_ids": [
+        "NATIVE-024",
+        "NATIVE-025"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "dc426cdc-ce76-54a8-9e41-4ed1ff12d726",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "F.Cu",
+      "start_mm": [
+        116.6075,
+        30.55
+      ],
+      "end_mm": [
+        118.9,
+        30.2
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d29-d32-plane",
+      "target": "D29.1+D32.1",
+      "finding_ids": [
+        "NATIVE-026",
+        "NATIVE-027",
+        "NATIVE-028"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "4ff66746-79fa-5a43-84e6-1bee3422c939",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "F.Cu",
+      "start_mm": [
+        118.9,
+        30.2
+      ],
+      "end_mm": [
+        122.6075,
+        32.45
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d29-d32-plane",
+      "target": "D29.1+D32.1",
+      "finding_ids": [
+        "NATIVE-026",
+        "NATIVE-027",
+        "NATIVE-028"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "6c0b71e6-d732-5ec3-b80b-68763f6fe7b5",
+      "kind": "via",
+      "net": "PGND",
+      "position_mm": [
+        101.5,
+        12.8
+      ],
+      "size_mm": 0.6,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "route_id": "pgnd-nt1-zone-plane",
+      "target": "NT1.1 F.Cu zone island",
+      "finding_ids": [
+        "NATIVE-037"
+      ],
+      "locked": false
+    }
+  ],
+  "repaired_targets": [
+    "D28.1",
+    "D30.2",
+    "D26.1",
+    "C42.2+C43.2",
+    "D31.2+NT1.2",
+    "D29.1+D32.1",
+    "NT1.1 F.Cu zone island"
+  ],
+  "remaining_ground_blocks": [
+    {
+      "target": "D27.1",
+      "net": "DGND",
+      "reason": "no 0.25 mm escape and legal 0.60/0.30 mm through-via path without rerouting adjacent signals"
+    },
+    {
+      "target": "R80.2 F.Cu zone island",
+      "net": "PGND",
+      "reason": "no legal through-via or F.Cu escape without rerouting existing coil/control copper"
+    }
+  ],
+  "preferred_sizing_review": {
+    "DGND": {
+      "netclass": "Rails_unverified",
+      "preferred_track_width_mm": 0.6,
+      "preferred_via_size_mm": 0.8,
+      "preferred_via_drill_mm": 0.4
+    },
+    "PGND": {
+      "netclass": "Shared_power_unverified",
+      "preferred_track_width_mm": 4.0,
+      "preferred_via_size_mm": 0.8,
+      "preferred_via_drill_mm": 0.4
+    },
+    "installed_summary": {
+      "DGND_segments_at_preferred": 4,
+      "DGND_geometry_limited_segments_0_25_mm": 7,
+      "DGND_vias_at_preferred": 2,
+      "DGND_geometry_limited_vias_0_60_0_30_mm": 2,
+      "PGND_geometry_limited_vias_0_60_0_30_mm": 1
+    },
+    "exceptions": [
+      {
+        "target": "D28.1",
+        "installed": "two 0.25 mm B.Cu segments and one 0.60/0.30 mm via",
+        "preferred": "0.60 mm segments and 0.80/0.40 mm via",
+        "collision_boundaries_mm": [
+          0.258745,
+          0.560741
+        ],
+        "via_preferred_nominal_headroom_mm": 0.004,
+        "via_disposition": "The preferred via passes nominal DRC but is retained at the existing standard size because fabricator tolerances are unselected.",
+        "blockers": [
+          "D28.2 VCC_5 pad 03a14690-9dd1-498c-92f6-8434aa00c99c",
+          "TRANS_SS2 track 5d9e4ea2-3c51-494e-99e2-2fdd507558f5"
+        ]
+      },
+      {
+        "target": "D26.1",
+        "installed": "three 0.25 mm segments and one 0.60/0.30 mm via",
+        "preferred": "0.60 mm segments and 0.80/0.40 mm via",
+        "collision_boundaries_mm": [
+          0.547244,
+          0.360472,
+          0.736478
+        ],
+        "partial_upgrade_disposition": "The short In1.Cu plane landing accepts 0.60 mm, but partial widening would not remove the B.Cu/via bottleneck.",
+        "blockers": [
+          "SPARE_PE0 via 8fb3f187-fad0-4d71-a691-014c3fd0a2ec",
+          "VCC_5 track 09186073-4b16-481d-92f7-98f24ab01a0e"
+        ]
+      },
+      {
+        "target": "D29.1+D32.1",
+        "installed": "two 0.25 mm F.Cu segments",
+        "preferred": "0.60 mm",
+        "collision_boundaries_mm": [
+          0.454071,
+          0.427629
+        ],
+        "blockers": [
+          "FLEX_LOGIC track 54b337e3-30f3-44df-b741-de0b0fcab178"
+        ]
+      },
+      {
+        "target": "NT1.1 F.Cu zone island",
+        "installed": "one 0.60/0.30 mm PGND via",
+        "preferred": "0.80/0.40 mm via",
+        "collision_boundary_mm": 0.698002,
+        "blockers": [
+          "INJECTOR_2 track c58a6895-ee1e-42d0-926e-ac22330cb888",
+          "INJECTOR_2 track f8017d3c-a1af-4643-af6a-1cf9bc56ec76"
+        ]
+      }
+    ],
+    "qualification_status": "Geometry-limited sub-class ground neckdowns remain unqualified and release-held pending current/return-path review or local rerouting."
+  },
+  "installation_guard_active_sha256": "c966048e0f67053e0a134014238e44e650af64feaa7190df28e5168dbafec98f",
+  "installed_sha256": "1b387eafbcfb576f3ef0c462b303d157d2e03def681219a8f3fcaa12acb7f529"
+}
