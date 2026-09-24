@@ -11,7 +11,7 @@ The current native-board audit reports:
 - 246 footprints and 888 pads;
 - 737 assigned pad/net pairs matching `source/input_netlist.xml`, excluding the intentionally off-board J121 entry;
 - eight copper layers (`F.Cu`, `In1.Cu`–`In6.Cu`, `B.Cu`);
-- 42,770 segments and 2,235 through vias;
+- 42,774 segments and 2,236 through vias;
 - zero zero-length segments and zero exact duplicate copper extras;
 - 3,339 locked segments and 89 locked vias.
 
@@ -21,11 +21,11 @@ The immutable supplied-state inventory remains in `production_review/BASELINE_AU
 
 `reports/Routing_validation.json` and `reports/After_routing_DRC.txt` are historical checkpoints, not current native results. Use the dated reports in `production_review` for the configured and strict post-repair evidence.
 
-KiCad 10.0.6 has validated the current board under both the configured and isolated strict profiles with zone refill. The ground-island repair reduces unconnected-item findings from 42 to 30. Strict DRC reports 287 rule violations with unchanged category totals and no added repair object cited by a rule violation, plus 286 schematic-parity warnings; strict ERC passes with zero violations and zero ignored checks. See `production_review/GROUND_ISLAND_REPAIR_VALIDATION.md` and `production_review/STRICT_PROFILE.md`.
+KiCad 10.0.6 has validated the current board under both the configured and isolated strict profiles with zone refill. The ground-island and D27 repairs reduce unconnected-item findings from 42 to 29 and close every DGND open. Strict DRC reports 287 rule violations with unchanged category totals and no added repair object cited by a rule violation, plus 286 schematic-parity warnings; strict ERC passes with zero violations and zero ignored checks. See `production_review/D27_GROUND_REPAIR_VALIDATION.md`, `production_review/GROUND_ISLAND_REPAIR_VALIDATION.md`, and `production_review/STRICT_PROFILE.md`.
 
 ## Release blockers
 
-- The remaining 30 native unconnected-item findings, unintended dangling objects, and unexplained zone islands must be resolved without weakening rules.
+- The remaining 29 native unconnected-item findings, unintended dangling objects, and unexplained zone islands must be resolved without weakening rules. R80 is the only remaining ground-specific open.
 - The 0.20 mm Default class conflicts with the 0.25 mm signal target in `REQUIREMENTS_CURRENT.md`.
 - The nominal copper basis is 1 oz outer/0.5 oz inner, but the fabricator-specific eight-layer dielectric stackup and finished-copper tolerances are not selected.
 - Footprints, procurement BOM, functional pin mapping, current paths, via arrays, thermal interfaces, mechanical fit, and automotive protection remain incompletely qualified.
