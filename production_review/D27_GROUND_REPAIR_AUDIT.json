@@ -1,0 +1,231 @@
+{
+  "schema": 1,
+  "method": "pcbnew validated native objects, pad connectivity, and plane overlap; only two reviewed legacy segment records were removed and deterministic copper records inserted; the candidate was reloaded without a KiCad 10 save",
+  "kicad_version": "10.0.6",
+  "board_format": "20221018",
+  "board": "GrandMarquis97_RevA.kicad_pcb",
+  "source_sha256": "1b387eafbcfb576f3ef0c462b303d157d2e03def681219a8f3fcaa12acb7f529",
+  "candidate_sha256": "812efbeb56429a5944ccdd86b9af773ec80edf383730570cbbbdbac23a657999",
+  "before": {
+    "segments": 42770,
+    "vias": 2235,
+    "locked_segments": 3339,
+    "locked_vias": 89,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190,
+    "zones": 17
+  },
+  "after": {
+    "segments": 42774,
+    "vias": 2236,
+    "locked_segments": 3339,
+    "locked_vias": 89,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190,
+    "zones": 17
+  },
+  "pad_net_assignments_unchanged": true,
+  "preserved_pad_connectivity": [
+    "HEATER_G1",
+    "SPARE_PM2"
+  ],
+  "removed": [
+    {
+      "uuid": "bdacaac7-4d84-448b-b9d1-f5508d5000eb",
+      "net": "SPARE_PM2",
+      "layer": "In2.Cu",
+      "start_end_mm": [
+        [
+          78.7,
+          128.8
+        ],
+        [
+          77.2,
+          125.1
+        ]
+      ],
+      "width_mm": 0.2
+    },
+    {
+      "uuid": "9fa0850f-16d9-4b70-b5bd-01a0172e1459",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_end_mm": [
+        [
+          78.7,
+          125.3
+        ],
+        [
+          78.7,
+          128.1
+        ]
+      ],
+      "width_mm": 0.2
+    }
+  ],
+  "added": [
+    {
+      "uuid": "99794746-3668-5e27-a438-eaa7b0dc198b",
+      "kind": "segment",
+      "net": "SPARE_PM2",
+      "layer": "In2.Cu",
+      "start_mm": [
+        78.7,
+        128.8
+      ],
+      "end_mm": [
+        77.9,
+        127.8
+      ],
+      "width_mm": 0.25,
+      "route_id": "spare-pm2-d27-clearance",
+      "target": "preserve J101.27 to J130.18",
+      "finding_ids": [],
+      "locked": false
+    },
+    {
+      "uuid": "b0dc8dd0-90db-5c2e-be3e-4e9d84907dc1",
+      "kind": "segment",
+      "net": "SPARE_PM2",
+      "layer": "In2.Cu",
+      "start_mm": [
+        77.9,
+        127.8
+      ],
+      "end_mm": [
+        77.2,
+        125.1
+      ],
+      "width_mm": 0.25,
+      "route_id": "spare-pm2-d27-clearance",
+      "target": "preserve J101.27 to J130.18",
+      "finding_ids": [],
+      "locked": false
+    },
+    {
+      "uuid": "03ebb12e-c938-5d66-a863-ad574af7d876",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_mm": [
+        78.7,
+        125.3
+      ],
+      "end_mm": [
+        77.8,
+        127.0
+      ],
+      "width_mm": 0.25,
+      "route_id": "heater-g1-d27-clearance",
+      "target": "preserve Q26.1, R108.2, and R109.1 connectivity",
+      "finding_ids": [],
+      "locked": false
+    },
+    {
+      "uuid": "8854b4af-2d2f-5f07-a671-90a3d518b5c0",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_mm": [
+        77.8,
+        127.0
+      ],
+      "end_mm": [
+        78.0,
+        128.15
+      ],
+      "width_mm": 0.25,
+      "route_id": "heater-g1-d27-clearance",
+      "target": "preserve Q26.1, R108.2, and R109.1 connectivity",
+      "finding_ids": [],
+      "locked": false
+    },
+    {
+      "uuid": "9231463b-c692-5143-9722-c3736261e30e",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_mm": [
+        78.0,
+        128.15
+      ],
+      "end_mm": [
+        78.7,
+        128.1
+      ],
+      "width_mm": 0.25,
+      "route_id": "heater-g1-d27-clearance",
+      "target": "preserve Q26.1, R108.2, and R109.1 connectivity",
+      "finding_ids": [],
+      "locked": false
+    },
+    {
+      "uuid": "027928f8-3419-55bb-8db7-76c5ae338d97",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_mm": [
+        79.0625,
+        126.95
+      ],
+      "end_mm": [
+        78.65,
+        127.4
+      ],
+      "width_mm": 0.25,
+      "route_id": "dgnd-d27-plane",
+      "target": "D27.1",
+      "finding_ids": [
+        "NATIVE-018"
+      ],
+      "locked": false
+    },
+    {
+      "uuid": "60bd5d23-d56a-596f-acb4-8d2bd59c5329",
+      "kind": "via",
+      "net": "DGND",
+      "position_mm": [
+        78.65,
+        127.4
+      ],
+      "size_mm": 0.6,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "route_id": "dgnd-d27-plane",
+      "target": "D27.1",
+      "finding_ids": [
+        "NATIVE-018"
+      ],
+      "locked": false
+    }
+  ],
+  "repaired_target": "D27.1",
+  "finding_id": "NATIVE-018",
+  "via_dgnd_plane_layers": [
+    "In1.Cu",
+    "In4.Cu",
+    "In6.Cu"
+  ],
+  "sizing_disposition": {
+    "signal_reroutes": "0.25 mm current signal target",
+    "D27_function": "BAT54S DATALOG_LOGIC transient clamp return; not an injector, ignition, or other load-current path",
+    "D27_installed": "0.25 mm B.Cu segment and 0.60/0.30 mm through via",
+    "preferred_DGND_class": "0.60 mm segment and 0.80/0.40 mm via",
+    "D27_exception": "geometry-limited local neckdown matching the reviewed D26/D28 clamp-return precedent; release-held pending transient and component qualification",
+    "fabrication_margin_hold": "the 0.60 mm via is nominally at the 0.250 mm clearance boundary to existing F.Cu SPARE_PM2 track dead8b89-46fc-4819-b211-3673a6696172; retain the stackup/fabricator-tolerance hold"
+  },
+  "remaining_ground_block": {
+    "target": "R80.2 F.Cu zone island",
+    "net": "PGND",
+    "reason": "requires a separate local reroute around coil/control copper"
+  },
+  "zero_length_segments_after": 0,
+  "exact_duplicate_extras_after": 0,
+  "installation_guard_active_sha256": "1b387eafbcfb576f3ef0c462b303d157d2e03def681219a8f3fcaa12acb7f529",
+  "installed_sha256": "812efbeb56429a5944ccdd86b9af773ec80edf383730570cbbbdbac23a657999"
+}

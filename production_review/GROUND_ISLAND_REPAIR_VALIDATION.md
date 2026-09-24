@@ -1,5 +1,9 @@
 # R10 ground-island repair validation
 
+> Historical checkpoint: the later D27 local reroute closes the D27.1 finding
+> described below. See `D27_GROUND_REPAIR_VALIDATION.md` for the current
+> 29-open state; R80 is now the only remaining ground-specific open.
+
 ## Result
 
 This repair reduces native KiCad unconnected-item findings from **42 to 30**

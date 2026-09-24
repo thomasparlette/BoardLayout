@@ -14,11 +14,17 @@ KiCad 10.0.6 identified 102 zero-length segments and 208 exact duplicate extras.
 
 ## Ground-island repair boundary
 
-The 12 baseline DGND rows represented a connectivity tree over live islands and obsolete floating copper, not 12 literal point-to-point routes. The reviewed repair therefore removes 95 padless DGND remnants and 13 dead tails, then connects the seven safely reachable live DGND/PGND targets. Native configured and strict DRC reduce from 42 to 30 unconnected-item findings while their rule-category totals remain unchanged. The board now contains 42,770 segments and 2,235 vias.
+The 12 baseline DGND rows represented a connectivity tree over live islands and obsolete floating copper, not 12 literal point-to-point routes. The reviewed repair therefore removes 95 padless DGND remnants and 13 dead tails, then connects the seven safely reachable live DGND/PGND targets. Native configured and strict DRC reduce from 42 to 30 unconnected-item findings while their rule-category totals remain unchanged. At that checkpoint the board contained 42,770 segments and 2,235 vias.
 
-D27.1 and the R80 PGND island remain open. D27 has no legal standard through-via escape without rerouting adjacent signals; R80 has no legal through-via site or F.Cu escape without rerouting coil/control copper. Blind or buried vias were rejected because the current project is through-via-only and lacks an approved fabricator stackup. See `GROUND_ISLAND_REPAIR_VALIDATION.md` and `GROUND_ISLAND_REPAIR_AUDIT.json`.
+D27.1 required a dedicated local reroute and is now closed; the R80 PGND island remains open. R80 has no legal through-via site or F.Cu escape without rerouting coil/control copper. Blind or buried vias remain rejected because the current project is through-via-only and lacks an approved fabricator stackup. See `GROUND_ISLAND_REPAIR_VALIDATION.md`, `GROUND_ISLAND_REPAIR_AUDIT.json`, and the D27 follow-on evidence.
 
 The complete D30, C42/C43, and D31/NT1 DGND repairs use the assigned 0.60 mm trace and 0.80/0.40 mm via preferences. D28, D26, and D29/D32 require documented 0.25 mm neckdowns, and the NT1 PGND stitch requires a 0.60/0.30 mm via, because preferred sizes collide with adjacent copper or leave inadequate unqualified fabrication margin. These exceptions are routing progress, not current-path qualification, and remain release-held.
+
+## D27 local reroute
+
+The D27 follow-on removes one legacy 0.20 mm `SPARE_PM2` segment and one legacy 0.20 mm `HEATER_G1` segment, replacing them with reviewed 0.25 mm detours. A 0.25 mm B.Cu DGND segment and 0.60/0.30 mm through via then connect D27.1 to DGND fills on In1, In4, and In6. Native configured and strict DRC reduce from 30 to 29 unconnected items with exact rule-violation UUID sets unchanged; the remaining per-net delta is only removal of DGND. The board now contains 42,774 segments and 2,236 vias.
+
+D27 is a series-limited `DATALOG_LOGIC` transient clamp, not a load-current return, but its sub-class trace/via geometry is not fabrication-qualified. The via nominally reaches the 0.250 mm clearance boundary to an existing F.Cu `SPARE_PM2` trace, so the ground-neckdown and stackup holds remain. See `D27_GROUND_REPAIR_VALIDATION.md` and `D27_GROUND_REPAIR_AUDIT.json`.
 
 ## Signal-width conflict
 
