@@ -1,0 +1,323 @@
+{
+  "schema": 1,
+  "method": "pcbnew validated native objects, pad connectivity, DGND plane overlap, and native-shape copper clearances; only reviewed legacy copper records changed",
+  "kicad_version": "10.0.6",
+  "board_format": "20221018",
+  "board": "GrandMarquis97_RevA.kicad_pcb",
+  "source_sha256": "812efbeb56429a5944ccdd86b9af773ec80edf383730570cbbbdbac23a657999",
+  "candidate_sha256": "b1b8caa84cc4fc4244a08e210aef1ae3a51cb8fe917399a7fb6356737368066d",
+  "before": {
+    "segments": 42774,
+    "vias": 2236,
+    "locked_segments": 3339,
+    "locked_vias": 89,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190,
+    "zones": 17
+  },
+  "after": {
+    "segments": 42772,
+    "vias": 2236,
+    "locked_segments": 3339,
+    "locked_vias": 89,
+    "footprints": 246,
+    "pads": 888,
+    "nets": 190,
+    "zones": 17
+  },
+  "pad_net_assignments_unchanged": true,
+  "preserved_pad_connectivity": [
+    "HEATER_G1",
+    "SPARE_PM2"
+  ],
+  "removed": [
+    {
+      "uuid": "027928f8-3419-55bb-8db7-76c5ae338d97",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_end_mm": [
+        [
+          79.0625,
+          126.95
+        ],
+        [
+          78.65,
+          127.4
+        ]
+      ],
+      "width_mm": 0.25
+    },
+    {
+      "uuid": "60bd5d23-d56a-596f-acb4-8d2bd59c5329",
+      "kind": "via",
+      "net": "DGND",
+      "position_mm": [
+        78.65,
+        127.4
+      ],
+      "size_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "03ebb12e-c938-5d66-a863-ad574af7d876",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_end_mm": [
+        [
+          78.7,
+          125.3
+        ],
+        [
+          77.8,
+          127.0
+        ]
+      ],
+      "width_mm": 0.25
+    },
+    {
+      "uuid": "8854b4af-2d2f-5f07-a671-90a3d518b5c0",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_end_mm": [
+        [
+          77.8,
+          127.0
+        ],
+        [
+          78.0,
+          128.15
+        ]
+      ],
+      "width_mm": 0.25
+    },
+    {
+      "uuid": "9231463b-c692-5143-9722-c3736261e30e",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_end_mm": [
+        [
+          78.0,
+          128.15
+        ],
+        [
+          78.7,
+          128.1
+        ]
+      ],
+      "width_mm": 0.25
+    },
+    {
+      "uuid": "ca2896ea-adad-436d-822d-914d3dc9cdb6",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_end_mm": [
+        [
+          78.7,
+          128.1
+        ],
+        [
+          78.6,
+          128.2
+        ]
+      ],
+      "width_mm": 0.2
+    },
+    {
+      "uuid": "a425f412-fdb6-4eab-af62-1bbdf97ec27b",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_end_mm": [
+        [
+          78.6,
+          128.2
+        ],
+        [
+          78.6,
+          129.6
+        ]
+      ],
+      "width_mm": 0.2
+    }
+  ],
+  "added": [
+    {
+      "uuid": "f31712c3-5545-564d-9eab-d68837580d59",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_mm": [
+        78.7,
+        125.3
+      ],
+      "end_mm": [
+        77.5,
+        126.5
+      ],
+      "width_mm": 0.25,
+      "route_id": "heater-g1-d27-via-margin"
+    },
+    {
+      "uuid": "b28f999d-18cb-5065-94cd-9f4fbcd0f211",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_mm": [
+        77.5,
+        126.5
+      ],
+      "end_mm": [
+        77.5,
+        128.5
+      ],
+      "width_mm": 0.25,
+      "route_id": "heater-g1-d27-via-margin"
+    },
+    {
+      "uuid": "fb1eb763-b336-5007-bd50-ac36e536861e",
+      "kind": "segment",
+      "net": "HEATER_G1",
+      "layer": "In5.Cu",
+      "start_mm": [
+        77.5,
+        128.5
+      ],
+      "end_mm": [
+        78.6,
+        129.6
+      ],
+      "width_mm": 0.25,
+      "route_id": "heater-g1-d27-via-margin"
+    },
+    {
+      "uuid": "744e5601-cda5-5f4a-8554-33b7cfdfc230",
+      "kind": "segment",
+      "net": "DGND",
+      "layer": "B.Cu",
+      "start_mm": [
+        79.0625,
+        126.95
+      ],
+      "end_mm": [
+        78.735,
+        127.575
+      ],
+      "width_mm": 0.6,
+      "route_id": "dgnd-d27-via-margin"
+    },
+    {
+      "uuid": "11d82c0e-fa6b-56b7-ba61-79a3d4f3623e",
+      "kind": "via",
+      "net": "DGND",
+      "position_mm": [
+        78.735,
+        127.575
+      ],
+      "size_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "route_id": "dgnd-d27-via-margin"
+    }
+  ],
+  "via_dgnd_plane_layers": [
+    "In1.Cu",
+    "In4.Cu",
+    "In6.Cu"
+  ],
+  "geometry": {
+    "previous_via": {
+      "position_mm": [
+        78.65,
+        127.4
+      ],
+      "size_drill_mm": [
+        0.6,
+        0.3
+      ],
+      "annular_ring_mm": 0.15,
+      "nominal_aspect_ratio_at_1_6_mm": 5.333333,
+      "minimum_routed_copper_clearance_mm": 0.250002
+    },
+    "installed_via": {
+      "position_mm": [
+        78.735,
+        127.575
+      ],
+      "size_drill_mm": [
+        0.65,
+        0.3
+      ],
+      "annular_ring_mm": 0.175,
+      "nominal_aspect_ratio_at_1_6_mm": 5.333333,
+      "minimum_routed_copper_clearance": {
+        "clearance_mm": 0.31,
+        "layer": "F.Cu",
+        "net": "SPARE_PM2",
+        "kind": "segment",
+        "uuid": "dead8b89-46fc-4819-b211-3673a6696172"
+      },
+      "next_routed_copper_clearances": [
+        {
+          "clearance_mm": 0.3103901784560845,
+          "layer": "F.Cu",
+          "net": "CAN_L",
+          "kind": "segment",
+          "uuid": "20ae63a9-af2c-4b5d-83e4-71bd2312b546"
+        },
+        {
+          "clearance_mm": 0.3185383313825826,
+          "layer": "In1.Cu",
+          "net": "STOCK_D_G",
+          "kind": "segment",
+          "uuid": "3aab50cc-6f99-4d7d-8469-b094e5a0c6b9"
+        },
+        {
+          "clearance_mm": 0.3185383313825826,
+          "layer": "In1.Cu",
+          "net": "STOCK_D_G",
+          "kind": "segment",
+          "uuid": "cdc50c0c-c4a8-4d51-a939-05a89e0bb95f"
+        }
+      ]
+    },
+    "installed_return": {
+      "width_mm": 0.6,
+      "minimum_routed_copper_clearance": {
+        "clearance_mm": 0.4323759977057006,
+        "layer": "B.Cu",
+        "net": "VCC_5",
+        "kind": "segment",
+        "uuid": "8ef1722e-f440-4c3f-97d0-d667cb237c1d"
+      }
+    }
+  },
+  "fabrication_basis": {
+    "fabricator": "JLCPCB",
+    "capability_urls": {
+      "rigid_pcb": "https://jlcpcb.com/capabilities/Capab",
+      "via_aspect_ratio": "https://jlcpcb.com/blog/via-aspect-ratio-critical-pcb-reliability"
+    },
+    "published_via_guidance": "0.30 mm and larger drill is a standard process; via diameter should be at least 0.10 mm larger than the hole and 0.15 mm larger is preferred",
+    "design_pad_minus_hole_mm": 0.35,
+    "trade_study": "the preferred 0.80/0.40 mm class via required three signal reroutes and remained pinched near 0.284 mm; 0.65/0.30 mm provides 0.310 mm minimum routed-copper clearance with only the HEATER_G1 reroute",
+    "disposition": "the D27 via-specific zero-margin hold is closed at layout level; final stackup/fabricator review and D27 transient/component qualification remain"
+  },
+  "remaining_ground_block": {
+    "target": "R80.2 F.Cu zone island",
+    "net": "PGND",
+    "reason": "requires a separate local reroute around coil/control copper"
+  },
+  "zero_length_segments_after": 0,
+  "exact_duplicate_extras_after": 0,
+  "installation_guard_active_sha256": "812efbeb56429a5944ccdd86b9af773ec80edf383730570cbbbdbac23a657999",
+  "installed_sha256": "b1b8caa84cc4fc4244a08e210aef1ae3a51cb8fe917399a7fb6356737368066d"
+}

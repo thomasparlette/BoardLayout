@@ -20,11 +20,13 @@ D27.1 required a dedicated local reroute and is now closed; the R80 PGND island 
 
 The complete D30, C42/C43, and D31/NT1 DGND repairs use the assigned 0.60 mm trace and 0.80/0.40 mm via preferences. D28, D26, and D29/D32 require documented 0.25 mm neckdowns, and the NT1 PGND stitch requires a 0.60/0.30 mm via, because preferred sizes collide with adjacent copper or leave inadequate unqualified fabrication margin. These exceptions are routing progress, not current-path qualification, and remain release-held.
 
-## D27 local reroute
+## D27 local reroute and via margin
 
 The D27 follow-on removes one legacy 0.20 mm `SPARE_PM2` segment and one legacy 0.20 mm `HEATER_G1` segment, replacing them with reviewed 0.25 mm detours. A 0.25 mm B.Cu DGND segment and 0.60/0.30 mm through via then connect D27.1 to DGND fills on In1, In4, and In6. Native configured and strict DRC reduce from 30 to 29 unconnected items with exact rule-violation UUID sets unchanged; the remaining per-net delta is only removal of DGND. The board now contains 42,774 segments and 2,236 vias.
 
-D27 is a series-limited `DATALOG_LOGIC` transient clamp, not a load-current return, but its sub-class trace/via geometry is not fabrication-qualified. The via nominally reaches the 0.250 mm clearance boundary to an existing F.Cu `SPARE_PM2` trace, so the ground-neckdown and stackup holds remain. See `D27_GROUND_REPAIR_VALIDATION.md` and `D27_GROUND_REPAIR_AUDIT.json`.
+D27 is a series-limited `DATALOG_LOGIC` transient clamp, not a load-current return. A second reviewed follow-on supersedes the initial rule-boundary geometry: it reroutes only the obstructing In5.Cu `HEATER_G1` tail, restores the B.Cu return to the assigned 0.60 mm width, and moves/enlarges the via to 0.65/0.30 mm at (78.735,127.575). Minimum routed-copper clearance rises from 0.250002 mm to 0.310000 mm, nominal annular ring rises from 0.150 mm to 0.175 mm, and the via continues to land DGND on In1, In4, and In6. The board now contains 42,772 segments and 2,236 vias.
+
+Configured and strict DRC category totals and the per-net open distribution remain unchanged, and no new object is cited. This closes the D27-specific zero-margin and ground-neckdown layout exception, but not the project-wide stackup, component/transient, DRC, or physical-test holds. See `D27_VIA_MARGIN_VALIDATION.md`, `D27_VIA_MARGIN_AUDIT.json`, and the historical `D27_GROUND_REPAIR_VALIDATION.md`.
 
 ## Signal-width conflict
 
