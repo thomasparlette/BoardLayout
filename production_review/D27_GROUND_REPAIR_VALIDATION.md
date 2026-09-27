@@ -1,5 +1,9 @@
 # R10 D27 ground repair validation
 
+> Historical checkpoint: the later D27 via-margin upgrade replaces the
+> rule-boundary via and 0.25 mm return described below. See
+> `D27_VIA_MARGIN_VALIDATION.md` for the current geometry and DRC evidence.
+
 ## Result
 
 The reviewed local reroute closes D27.1, the last DGND unconnected finding,

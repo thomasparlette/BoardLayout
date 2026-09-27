@@ -4,7 +4,7 @@
 
 `ROUTING_INCOMPLETE`
 
-Exact zero-length/duplicate cleanup, the first ground-island repair, and the D27 local reroute are complete, but 29 native unconnected-item findings and the remaining DRC violations are unresolved. No fabrication package is authorized.
+Exact zero-length/duplicate cleanup, the first ground-island repair, the D27 local reroute, and its via-margin follow-on are complete, but 29 native unconnected-item findings and the remaining DRC violations are unresolved. No fabrication package is authorized.
 
 ## Evidence available
 
@@ -12,6 +12,7 @@ Exact zero-length/duplicate cleanup, the first ground-island repair, and the D27
 - UUID-level exact-copper cleanup and native regression evidence in `EXACT_COPPER_CLEANUP_VALIDATION.md`, `TRACK_CLEANUP_AUDIT.json`, and the post-cleanup DRC reports.
 - UUID-level ground-remnant cleanup and seven live-island repairs in `GROUND_ISLAND_REPAIR_VALIDATION.md`, `GROUND_ISLAND_REPAIR_AUDIT.json`, and their post-repair DRC reports.
 - The D27 signal-clearance reroute and DGND plane fanout in `D27_GROUND_REPAIR_VALIDATION.md`, `D27_GROUND_REPAIR_AUDIT.json`, and the post-D27 DRC reports. Native unconnected-item findings are reduced from 42 to 29; every DGND open is closed, and the R80 PGND island is the sole remaining ground-specific open.
+- The D27 fabrication-margin follow-on in `D27_VIA_MARGIN_VALIDATION.md`, `D27_VIA_MARGIN_AUDIT.json`, and its configured/strict DRC reports. Its return is restored to 0.60 mm, its via is 0.65/0.30 mm, and minimum routed-copper clearance is 0.310 mm without moving CAN or power copper.
 - User-supplied injector/ignition branch loads and nominal 1 oz outer/0.5 oz inner copper basis in `BRANCH_CURRENT_BASIS.md`.
 - 737 assigned PCB pad/net pairs match the stored source netlist, excluding J121.
 - Checked-in saved DRC from 2026-09-14, retained only as a checkpoint.
